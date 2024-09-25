@@ -1,7 +1,7 @@
 <!-- Navigation -->
 <nav id="nav">
   <ul>
-    <li {% if page.url == '/' %}class="current"{% endif %}><a href="index.html">Home</a></li>
+    <li {% if page.url == '/' %}class="current"{% endif %}><a href="/">Home</a></li>
     {% for group in site.data.navigation %}
     <li>
       <a href="#">{{ group.name }}</a>
