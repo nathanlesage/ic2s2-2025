@@ -35,7 +35,7 @@ title: Tutorials
 				{% for tutorial in site.data.tutorials.items %}
 				<tr>
 					<td>{{ forloop.index }}</td>
-					<td><b><a href="#{{ tutorial.title | slugify }}" style="color:#000000">{{ tutorial.title }}</a></b></td>
+					<td><strong><a href="#{{ tutorial.title | slugify }}" style="color:#000000">{{ tutorial.title }}</a></strong></td>
 					<td>{{ tutorial.room }}</td>
 					<td>{{ tutorial.time }}</td>
 				</tr>
@@ -76,7 +76,7 @@ title: Tutorials
 				<h5>Teachers</h5>
 				<ul>
 					{% for tutor in tutorial.tutors %}
-					<li><b><a href="{{ tutor.url }}">{{ tutor.name }}</a></b>, {{ tutor.affiliation }}</li>
+					<li><strong><a href="{{ tutor.url }}">{{ tutor.name }}</a></strong>, {{ tutor.affiliation }}</li>
 					{% endfor %}
 				</ul>
 
