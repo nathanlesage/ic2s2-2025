@@ -1,0 +1,84 @@
+---
+title: Register
+---
+
+<section id="main" class="wrapper style3">
+	<div class="title">Registration</div>
+	<div class="container">
+
+		<div id="content">
+			<article class="box post">
+				<div class="row aln-center">
+					<div class="col-6 col-12-medium">
+
+						<table class="prices">
+							<tr>
+								<th></th>
+								<th><b style="color:#ffffff">Early bird</s></b><br />(until {{ site.data.registration.early_bird.deadline }})</s></th>
+								<th><b style="color:#ffffff">Standard</b><br />(after {{ site.data.registration.early_bird.deadline }})</th>
+							</tr>
+							<tr>
+								<td><b>Student</b></td>
+								<td>
+									{{ site.data.registration.early_bird.student }} {{ site.data.registration.currency }}
+								</td>
+								<td>{{ site.data.registration.regular.student }} {{ site.data.registration.currency }}</td>
+							</tr>
+							<tr>
+								<td><b>Regular</b></td>
+								<td>
+									{{ site.data.registration.early_bird.regular }} {{ site.data.registration.currency }}
+								</td>
+								<td>
+									{{ site.data.registration.regular.regular }} {{ site.data.registration.currency }}
+								</td>
+							</tr>
+							<tr>
+								<td><b>Tutorials</b></td>
+								<td>
+									{{ site.data.registration.tutorials }} {{ site.data.registration.currency }}
+								</td>
+								<td>
+									{{ site.data.registration.tutorials }} {{ site.data.registration.currency }}
+								</td>
+							</tr>
+						</table>
+
+						{% if site.data.registration.registration_open and site.data.registration.registration_link %}
+						<ul class="actions special">
+							<li>
+								<b>
+									<a href="{{ site.data.registration.registration_link }}">
+										Click here to register
+									</a>
+								</b>
+							</li>
+						</ul>
+						{% else %}
+						<center>
+							<strong>
+								Registration is currently not possible.
+							</strong>
+						</center>
+						{% endif %}
+					</div>
+				</div>
+				<hr>
+
+				<div class="row aln-center">
+					<div class="col-8">
+						<h2> Visa Information </h2>
+						<p class="style1">
+							For visa purposes, after registering, please download the invitation form (<a
+								href="files/vu3_en_w.doc">.doc format</a> | <a href="files/vu3_en_w.pdf">.pdf format</a>), fill out all
+							the empty fields in sections 3 to 7, and send it back via email to <b>ic2s2.2024@gmail.com</b>, with
+							subject <b>"IC2S2 visa form <i>[YOUR_LAST_NAME]</i>"</b>. We will send you back a signed version of the
+							form. Please feel free to contact us if you have any special requests concerning visa.
+
+						</p>
+					</div>
+				</div>
+			</article>
+		</div>
+	</div>
+</section>

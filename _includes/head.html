@@ -1,0 +1,20 @@
+<!-- Includes into the <head> tag -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_path }}" />
+
+<!-- Scripts -->
+<!--
+  NOTE: We have to `defer` all script loadings so that we can have them load
+  after the DOM has been loaded, but still keep them in the header (where they
+  belong).
+-->
+<script src="{{ 'assets/js/jquery.min.js' | relative_path }}" defer></script>
+<script src="{{ 'assets/js/jquery.dropotron.min.js' | relative_path }}" defer></script>
+<script src="{{ 'assets/js/browser.min.js' | relative_path }}" defer></script>
+<script src="{{ 'assets/js/breakpoints.min.js' | relative_path }}" defer></script>
+<script src="{{ 'assets/js/util.js' | relative_path }}" defer></script>
+<script src="{{ 'assets/js/main.js' | relative_path }}" defer></script>

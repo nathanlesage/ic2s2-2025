@@ -1,0 +1,112 @@
+# This file contains all people involved in organizing IC2S2 in one big list,
+# sorted into groups. Each group has a "title" and a list of "people".
+# NOTE: If you already know certain groups of people (such as certain types of
+# chairs) but you don't yet know who will be part of it, you can leave out (or
+# empty) the list of people. Then the engine won't generate that entire section.
+#
+# Data format:
+# name: The full name
+# affiliation: The university/affiliation of the person
+# field: The person's field (will be second line below affiliation)
+# image: Link to an image in the images folder
+# url: A link to, e.g, the person's personal homepage.
+
+# GENERAL CHAIRS
+- title: General Chairs
+  people:
+  - name: Peter Hedström
+    affiliation: Institute for Analytical Sociology, Linköping University
+    field: Social Sciences
+    image: images/people/hedstrom_peter.jpg
+    url: # TODO
+  - name: Sonia Yeh
+    affiliation: Department of Space, Earth and Environment, Chalmers University of Technology
+    field: Transport and Energy Systems
+    image: images/people/yeh_sonia.jpg
+    url: # TODO
+  - name: Nina Tahmasebi
+    affiliation: Department of Philosophy, Linguistics and Theory of Science, Gothenburg University
+    field: NLP and Linguistics
+    image: images/people/tahmasebi_nina.jpg
+    url: # TODO
+  - name: Marc Keuschnigg
+    affiliation: Institute for Analytical Sociology, Linköping University
+    field: Social Sciences
+    image: images/people/keuschnigg_marc.png
+    url: # TODO
+
+# PROGRAM CHAIRS
+- title: Program Chairs
+  people:
+  - name: Petter Holme
+    affiliation: Aalto University, Finland
+    field: Network Science
+    image: images/people/holme_petter.jpg
+    url: # TODO
+  - name: Denise Pumain
+    affiliation: Université Paris | Panthéon Sorbonne, France
+    field: Urban Science
+    image: images/people/pumain_denise.png
+    url: # TODO
+  - name: Yang Yue
+    affiliation: Shenzhen University, China
+    field: Urban Informatics
+    image: images/people/yue_yang.png
+    url: # TODO
+  - name: David Garcia
+    affiliation: Konstanz University, Germany
+    field: Computer Science and Complexity
+    image: images/people/garcia_david.jpg
+    url: # TODO
+  - name: Mirta Galesic
+    affiliation: Santa Fe Institute
+    field: Psychology, Cognitive Science
+    image: images/people/galesic_mirta.jpg
+    url: # TODO
+  - name: Elliot Ash
+    affiliation: ETH Zurich, Switzerland
+    field: Economics
+    image: images/people/ash_elliot.jpg
+    url: # TODO
+  - name: Andreas Jungherr
+    affiliation: Bamberg University, Germany
+    field: Political Science and Communication
+    image: images/people/jungherr_andreas.png
+    url: # TODO
+  - name: Giulia Andrighetto
+    affiliation: Institute of Cognitive Sciences and Technologies, Rome, Italy
+    field: Social Experiments
+    image: images/people/andrighetto_giulia.jpg
+    url: # TODO
+  - name: Jacob Habinek
+    affiliation: Linköping University, Sweden
+    field: Science of Science
+    image: images/people/habinek_jacob.jpg
+    url: # TODO
+  - name: Juhi Kulshrestha
+    affiliation: Aalto University, Finland
+    field: Algorithmic Bias, Transparency, and Ethics
+    image: images/people/kulshrestha_juhi.png
+    url: # TODO
+
+# TUTORIAL CHAIRS
+- title: Tutorial Chairs
+  people:
+  - name: Martin Arvidsson
+    affiliation: Institute for Analytical Sociology, Linköping University
+    field: Social SCiences
+    image: images/people/arvidsson_martin.png
+    url: # TODO
+  - name: Yuan Liau
+    affiliation: Department of Space, Earth and Environment, Chalmers
+    field: Transport and Urban Sciences
+    image: images/people/liau_yuan.jpg
+    url: # TODO
+
+# POSTER SESSION CHAIRS
+- title: Poster Chairs
+  people:
+
+# WEBSITE AND SOCIAL MEDIA CHAIRS
+- title: "Website & Social Media Chairs"
+  people:

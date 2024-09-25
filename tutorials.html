@@ -1,0 +1,94 @@
+---
+title: Tutorials
+---
+<!-- Overview-->
+<section id="highlights" class="wrapper style1">
+	<div class="title">Tutorial summary</div>
+	<div class="row aln-center">
+		<div class="col-7 col-12-medium">
+
+			<table id="summary" class="tutorials" style="width:50%;margin-left:auto;margin-right:auto;">
+				<tr>
+					<th colspan="2"><b style="color:#ffffff">Tuorial Day Schedule ({{ site.data.tutorials.schedule.day }})</b>
+					</th>
+				</tr>
+				{% for item in site.data.tutorials.schedule.items %}
+				<tr>
+					<td><b style="color: black;">{{ item.time }}</b></td>
+					<td>{{ item.description }}</b></td>
+				</tr>
+				{% endfor %}
+			</table>
+
+			<!-- Tutorial list -->
+			<table id="summary" class="tutorials">
+				<tr>
+					<th colspan="4"><b style="color:#ffffff">List of Tutorials</b></th>
+				</tr>
+
+				<tr>
+					<th><b style="color:#ffffff">ID</b></th>
+					<th><b style="color:#ffffff">Title</b></th>
+					<th><b style="color:#ffffff">Room</b></th>
+					<th><b style="color:#ffffff">Time</b></th>
+				</tr>
+				{% for tutorial in site.data.tutorials.items %}
+				<tr>
+					<td>{{ forloop.index }}</td>
+					<td><b><a href="#{{ tutorial.title | slugify }}" style="color:#000000">{{ tutorial.title }}</a></b></td>
+					<td>{{ tutorial.room }}</td>
+					<td>{{ tutorial.time }}</td>
+				</tr>
+				{% endfor %}
+			</table>
+
+
+
+
+		</div>
+	</div>
+</section>
+
+<!-- Details -->
+<section id="highlights" class="wrapper style3">
+	<div class="title">Tutorial details</div>
+	<div class="container">
+		{% for tutorial in site.data.tutorials.items %}
+		<div class="row aln-left">
+			<h6 id="{{ tutorial.title | slugify }}">
+				{{ tutorial.title }}
+				<a href="#summary">[↑]</a>
+			</h6>
+		</div>
+
+		<div class="row aln-left" style="padding: 20px;">
+			{% for tutor in tutorial.tutors %}
+			<div class="col-3 col-12-medium">
+				<img class="image featured" src="{{ tutor.image }}" width=200 alt="{{ tutor.name }}">
+			</div>
+			{% endfor %}
+		</div>
+
+		<div class="row aln-left">
+			<div class="col-5 col-12-medium">
+				<h5>Time and location</h5>
+				{{ tutorial.time }}, {{ tutorial.room }}
+				<h5>Teachers</h5>
+				<ul>
+					{% for tutor in tutorial.tutors %}
+					<li><b><a href="{{ tutor.url }}">{{ tutor.name }}</a></b>, {{ tutor.affiliation }}</li>
+					{% endfor %}
+				</ul>
+
+				<a href="{{ tutorial.website  }}" class="button style3 small">Tutorial website</a>
+
+			</div>
+			<div class="col-7 col-12-medium">
+				<h5>Description</h5>
+				{{ tutorial.abstract }}
+			</div>
+		</div>
+		<hr>
+		{% endfor %}
+	</div>
+</section>

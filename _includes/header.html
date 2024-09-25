@@ -1,0 +1,19 @@
+<!-- Header section -->
+<section id="header" class="wrapper" style="background: url('images/bg_2_2024.png')">
+  <!-- Background video -->
+  <video autoplay muted loop style="position: absolute; width: 100vw;">
+    <source src="/images/ic2s2_2025_backdrop.webm" type="video/webm" />
+  </video>
+  
+  <!-- Logo -->
+  <div id="logo">
+    {% if page.url == '/' %}
+    <img a href="index.html", src="images/ic2s2_logo_white.png" alt="IC2S2 logo" style="max-width: 100%;">
+    <h1>{{ site.location }}</h1>
+    {% else %}
+    <h1>{{ page.title }}</h1>
+    {% endif %}
+  </div>
+
+  {% include nav.html %}
+</section>

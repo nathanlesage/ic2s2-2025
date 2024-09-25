@@ -1,0 +1,16 @@
+# Sponsor information
+# You can add various groups of sponsors that will be
+# added. If you are planning on having sponsors, but have
+# not signed a deal yet, leave the "sponsors" list of
+# the various groups empty. The framework won't generate it then.
+#
+# DATA FORMAT
+# name: The name of the sponsor
+# url: A Link to the sponsor's website
+# image: A link to the sponsor logo in the images folder
+- title: Academic Sponsors
+  sponsors:
+- title: Gold Sponsors
+  sponsors:
+- title: Bronze Sponsors
+  sponsors:

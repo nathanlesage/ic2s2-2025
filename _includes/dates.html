@@ -1,0 +1,11 @@
+<h6 id="augmented">Important dates</h6>
+<ul style="list-style: none;">
+  {% for date in site.data.dates %}
+  <li style="{% if date.done %}text-decoration: line-through; {% endif %} margin: 10px auto">
+    <input type="checkbox" disabled{% if date.done %}  checked{% endif %} style="appearance: auto;">
+    {% if date.done %}
+    <s>{{ date.text }}</s>
+    {% else %} {{ date.text }} {% endif %}
+  </li>
+  {% endfor %}
+</ul>

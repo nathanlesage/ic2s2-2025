@@ -1,0 +1,207 @@
+---
+title: Submit Tutorial Proposal
+---
+
+<section id="main" class="wrapper style3">
+	<div class="title">Call for Tutorials</div>
+	<div class="container">
+		<center>
+			<ul class="actions special">
+				<li>
+					{% if site.data.submission.call4tutorials_link and site.data.submission.call4tutorials_open %}
+					<a href="{{ site.data.submission.call4tutorials_link }}" class="button style1 large">Submit Tutorial</a>
+					{% else %}
+					Submission is currently not available.
+					{% endif %}
+				</li>
+			</ul>
+		</center>
+
+		<div id="content">
+			<article class="box post">
+
+				{% include dates.html %}
+
+				<h6 id="augmented">Submission Instructions</h6>
+				<p>
+					Submissions for Tutorial proposals should be formatted according to the official <a
+						href="files/ic2s2_2025_latex_template_tutorials.zip"><b>LATEX template</b></a> or <a
+						href="files/ic2s2_2025_word_template_tutorials.docx"><b>MS WORD template</b></a> and should be no more than
+					<b>three pages</b> in length. The submission file must be submitted in PDF format and should be no larger than
+					20MB. Proposals should contain the following:
+				</p>
+
+				<ul>
+					<li><strong>Title</strong></li>
+					<li><strong>Presenters/organizers:</strong> Please provide names, affiliations, email addresses, and short
+						bios (up to
+						200 words) for each presenter. Bios should cover the presenters' expertise related to the topic of the
+						tutorial. If there are multiple presenters, please describe how the time will be divided between them.</li>
+					<li><strong>Topic:</strong> An abstract describing the topic (approximately 250 words)</li>
+					<li><strong>Rationale:</strong> What is the objective / learning outcome of the tutorial? What is the benefit
+						for the
+						attendees? Why is this tutorial important to the IC2S2 community?</li>
+					<li><strong>Format:</strong> A description of the proposed event format and a list of proposed activities,
+						with a
+						description of the hands-on component (tools, packages, methods etc). We encourage organizers to specify any
+						technique that they can offer to broaden the accessibility of the content (e.g., closed captioning of
+						slides).</li>
+					<li><strong>Equipment:</strong> A short note on equipment or features required for the tutorial.</li>
+					<li><strong>Audience:</strong> A short statement about the expected target audience. What prior knowledge, if
+						any, do
+						you expect from the audience?</li>
+					<li><strong>Proposed length:</strong> please choose from 3 hours (full session) or 6 hours (full day). If you
+						are
+						flexible, please indicate in the outline which parts will be included in the short/long versions.</li>
+					<li><strong>Preferred time slot:</strong> Please indicate your preference for the morning slot (from 9.15am)
+						or the
+						afternoon slot (from 1:45pm)</li>
+					<li><strong>Number of participants:</strong> Please specify the maximum number of participants that could
+						reasonably
+						attend and be instructed by the organizers.</li>
+					<li><strong>Previous tutorials:</strong> Has the tutorial been presented previously? If so, specify the
+						previous venues
+						and years in which the event was held, and provide either a short description or a link to the websites of
+						the previous editions.</li>
+				</ul>
+
+				<p>
+					The aim with tutorials is that participants can take home knowledge and skills on methods that they can apply
+					to their own research. <strong>Priority will be given to tutorials that include hands-on and active learning
+						components</strong>. Tutorials should be comprehensive and should not focus only on the presenter’s previous
+					work. We also welcome proposals for tutorials on "disciplinary state of the art sessions" that give a focused
+					overview on the latest developments, trends and perspectives in a specific discipline or research area and any
+					other topics at the intersection of the social sciences, computer science and/or statistics. Tutorials should
+					be of interest to a substantial portion of the community and should represent a sufficiently mature area of
+					research or practice. A regular tutorial slot is 3 hours long. However, we are also accepting proposals for
+					full-day tutorials (6 hours). <em>The full conference registration fee will be waived for one organizer per
+						tutorial.</em>
+				</p>
+
+				<h5>Topics</h5>
+				<p>
+					In addition to the given <a href="topics.html"> list of potential computational social science topics</a>,
+					themes of interest specific for tutorials includes
+				</p>
+
+				<ul>
+					<li>Application of large language models in CSS research </li>
+					<li>Visual communication and data visualizations</li>
+					<li>Combining digital trace data and additional data (e.g., surveys)</li>
+					<li>Using sensors for studying behavior</li>
+					<li>Assessing biases in data collection</li>
+					<li>Best practices for working with online communities (including crowdsourcing and participant recruitment)
+					</li>
+					<li>Legal and ethical dimensions of CSS research</li>
+					<li>Innovative mixed methods for research on socio-technical systems</li>
+					<li>Reproducibility in CSS research</li>
+					<li>Experimental design and development in CSS</li>
+					<li>Research Design and Causal Inference</li>
+					<li>Generative AI applications in social science research</li>
+				</ul>
+
+				<h5>Enquiries</h5>
+				<p>
+					For any questions regarding tutorial submissions, please write to:
+					<a href="mailto:{{ site.emails.general }}">{{ site.emails.general }}</a>
+				</p>
+
+			</article>
+		</div>
+	</div>
+</section>
+
+<section id="highlights" class="wrapper style1">
+	<div class="title">
+		<h6 id="augmented">Past Tutorials</h6>
+	</div>
+	<div class="container">
+		<div class="row aln-left">
+			<h5>
+				The Augmented Social Scientist. Using Recent Advances in NLP to Annotate Millions of Texts with a Human-Level
+				Accuracy
+			</h5>
+		</div>
+		<div class="row aln-left">
+			<div class="col-5 col-12-medium">
+				<h3>Teachers</h3>
+				<ul>
+					<li><strong>Étienne Ollion</strong>, Professor in Sociology at l'École Polytechnique, Paris, France</li>
+					<li><strong>Rubing Shen</strong>, PhD Candidate at Sciences Po (Médialab) and at l'Institut polytechnique de
+						Paris, France</li>
+				</ul>
+			</div>
+			<div class="col-7 col-12-medium">
+				<h3>Description</h3>
+				<p>
+					This tutorial aims to introduce its participants to the logic of transfer learning applied to text data,
+					in order to make them able to carry out their own text analysis projects. We show that a social
+					scientist can, in a limited amount of time, train an algorithm that correctly annotates hundreds of
+					thousands of texts. We will also show that when efficiently trained, the algorithm performs this task
+					better than most humans (who can get tired, bored, or inattentive). The second part will be fully
+					hands-on. We will demonstrate how to use a BERT algorithm on text data. We will use an online interface
+					to walk the participants through each step of the analysis. Finally, we will discuss practical questions
+					that emerge while carrying out the training phase, and we will conclude by briefly evoking the downsides
+					of this approach.
+				</p>
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="row aln-left">
+			<h5>Capturing Human Values during Controversies </h5>
+		</div>
+
+		<div class="row aln-left">
+			<div class="col-5 col-12-medium">
+				<h3>Teachers</h3>
+				<ul>
+					<li><strong>Yelena Mejova</strong>, Senior Research Scientist at the ISI Foundation, Turin, Italy</li>
+					<li><strong>Kyriaki Kalimeri</strong>, Researcher at the ISI Foundation, Turin, Italy</li>
+					<li><strong>Giovanni Da San Martino</strong>, Senior Assistant Professor, University of Padova</li>
+					<li><strong>Oscar Araque</strong>, Assistant Professor at Universidad Politécnica de Madrid (UPM)</li>
+				</ul>
+
+			</div>
+			<div class="col-7 col-12-medium">
+				<h3>Description</h3>
+				<p>
+					In this tutorial, we give an overview of how the basic human and moral values are interpreted and
+					quantified according to the psychological literature, how they can be assessed from user generated data,
+					and how they may be employed in persuasion and propaganda identification. We will lead a hands-on
+					demonstration of tools for (1) moral value extraction from text, (2) network analysis for opinion
+					clustering, and (3) persuasion techniques identification in two scenarios: the COVID-19 vaccination
+					debate and the recent Russian invasion of Ukraine.
+				</p>
+			</div>
+		</div>
+
+		<hr>
+		<div class="row aln-left">
+			<h5>Data access for researchers under the Digital Services Act</h5>
+		</div>
+		<div class="row aln-left">
+			<div class="col-5 col-12-medium">
+
+				<h3>Teachers</h3>
+				<ul>
+					<li><strong>Philipp Lorenz-Spreen</strong>, Research Scientist at the Max Planck Institute for Human
+						Development, Berlin, Germany</li>
+					<li><strong>Julian Jaursch</strong>, Project Director at Stiftung Neue Verantwortung, Berlin, Germany</li>
+				</ul>
+
+			</div>
+			<div class="col-7 col-12-medium">
+				<h3>Description</h3>
+				<p>
+					In this tutorial, participants will learn about the DSA’s Article 40 so they have a better understanding
+					of who can request data for what type of research, how this process works and what open questions might
+					be addressed in what way. They will also actively engage with one another to develop exemplary research
+					questions and data access requests. Taken together, the tutorial thus aims to enable the CSS community
+					to understand und utilize their data access rights under the DSA.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,86 @@
+# Tutorials at the Conference
+# The "schedule" will fill in a table on the tutorials page
+schedule:
+  day: "July 21st"
+  items:
+  - time: "8:00"
+    description: "Venue opens"
+  - time: "9:00"
+    description: "Workshops"
+  - time: "10:30"
+    description: "Coffee break"
+  - time: "14:30"
+    description: "Workshops"
+  - time: "16:00"
+    description: "Coffee break"
+# Here follow the actual tutorials
+items:
+- title: "Making Models We Can Understand: An Interactive Introduction to Interpretable Machine Learning"
+  room: Room D (+streaming in F)
+  time: "9:00-12:30"
+  website: https://sites.google.com/view/interpretableml
+  abstract: |
+    In many areas of social science, we would like to use machine learning models to make better decisions. However, many machine learning models are opaque or “black-box,” meaning that they do not explain their predictions in a way that humans can understand. This lack of transparency is problematic, leading to questions of possible model biases, and unclear accountability for incorrect decisions. Interpretable or “glass box” machine learning models give insight into model decisions and can be used to create more fair and accurate models. Interpretability in machine learning is crucial for high stakes decisions and troubleshooting. Interpretable machine learning started as far back as the 1970’s, but has gained momentum as a subfield only very recently. We will overview recent research in the area, provide fundamental principles for interpretable machine learning, and provide hands-on activities highlighting the use of the techniques on real world data. This tutorial will introduce the frontier of interpretable machine learning, and equip researchers and scientists with the knowledge and skills to apply interpretable machine learning in their research tasks for effective data analysis and responsible decision-making.
+  tutors:
+  - name: Chudi Zhong
+    affiliation:
+    url:
+    image: images/people/tutorial_chudi_zong.png
+  - name: Alina Jade Barnett
+    affiliation:
+    url:
+    image: images/people/tutorial_alina_barnett.png
+  - name: Harsh Parikh
+    affiliation:
+    url:
+    image: images/people/tutorial_harsh_parikh.png
+- title: New Approaches and Data Sources to Study Digital Media and Democracy
+  room: Room E (+streaming in G)
+  time: "9:00-12:30"
+  website: https://digidem-ic2s2.github.io/2024/
+  abstract: |
+    As we head into a crucial election year in the U.S. and Europe, political forces like populist and radical parties or movements or authoritarian governments abroad and societal processes such as polarization or declining trust in parliaments pose threats to the legitimacy of democratic institutions. Academic research on the role of digital media in shaping these processes and democracy at-large is striving. Nonetheless, our research areas and analysis potential are oftentimes confined to the data provided by platforms. For democracy research in particular, it is important to link digital behavioral data with individual-level information on demographics and variables like party identification, political trust or evaluations of other societal groups. While getting individual-level data has been an important issue ever since, platforms have restricted data access further. As potential remedies provided by the EU’s Digital Services Act are not yet foreseeable, researchers have to devise their own solutions for collecting relevant digital behavioral data in the “Post-API Age”. In many academic institutions, research software for data collection like web tracking via browser add-ons, mobile apps or data donations are being developed. Currently, there is the risk that these initiatives remain unconnected and work is duplicated. The workshop aims to bring together research groups working on new technical solutions and innovative approaches for studying digital democracy.
+  tutors:
+  - name: Sebastian Stier
+    affiliation:
+    url:
+    image: images/people/tutorial_sebastian_stier.png
+  - name: Philipp Lorenz-Spreen
+    affiliation:
+    url:
+    image: images/people/tutorial_philipp_spreen.png
+  - name: Lisa Oswald
+    affiliation:
+    url:
+    image: images/people/tutorial_lisa_oswald.png
+  - name: David Lazer
+    affiliation:
+    url:
+    image: images/people/tutorial_david_lazer.png
+- title: "Exploring Emerging Social Media: Acquiring, Processing, and Visualizing Data with Python and OSoMe Web Tools"
+  room: Room H
+  time: "13:30-17:00"
+  website: https://osome.iu.edu/events/ic2s2-2024-workshop
+  abstract: |
+    In the digital age, social media platforms have become crucial for societal interaction and communication. Computational social science, especially social media research, has shed light on crucial insights such as detecting bots, identifying suspicious activities, and uncovering narratives. Underlying these findings is the combination of large-scale data and network science techniques that reveal user connectivity and interactions.
+
+    There have been significant shifts in the landscape of computational social science research in recent years. New restrictions on data access policies of widely used platforms pose significant challenges to the types of research that can be conducted. On the other hand, emerging platforms that offer open data access, like Bluesky and Mastodon, have seen a surge in popularity, opening opportunities for investigation. Additionally, the rapid development of large language models (LLMs) provides new insights to represent and understand published content. The Observatory on Social Media (OSoMe) addresses these challenges and opportunities by focusing on developing data acquisition tools for emergent platforms, providing historical datasets, and synthetic data, and developing novel data analysis tools and techniques.
+
+    This tutorial aims to guide participants through these new developments, highlighting the current approaches for accessing social media data, including the use of OSoMe's infrastructure to acquire social media data or generate data from a model of a social media platform, and methodologies to understand this data. Attendees will learn to build various network types, extending beyond traditional interactions like replies and re-posts to include co-post and co-hashtag networks, enabling diverse data representations for different research needs. The tutorial will cover network science techniques, including basic network features, centrality measures, and community detection, along with techniques for building and analyzing text-based embeddings, such as those generated by the Sentence-BERT method. The tutorial will also cover techniques to extract narratives and attribute content-aware labels to communities.
+
+    Moreover, participants will be guided through advanced visualization tools like Helios-Web, be conducted in Python and utilize Jupyter notebooks preloaded with datasets and scripts. These materials will be open-source and available on GitHub, providing participants with a toolkit to kickstart or advance their social media research endeavors.
+  tutors:
+  - name: Filipi Nascimento Silva
+    affiliation:
+    url:
+    image: images/people/filipi_headshot.png
+  - name: Kaicheng Yang
+    affiliation:
+    url:
+    image: images/people/kai_headshot.png
+  - name: Bao Tran Truong
+    affiliation:
+    url:
+    image: images/people/bao_headshot.png
+  - name: Wanying Zhao
+    image: images/people/wanying_zhao.jpeg

@@ -1,0 +1,21 @@
+<!-- Navigation -->
+<nav id="nav">
+  <ul>
+    <li {% if page.url == '/' %}class="current"{% endif %}><a href="index.html">Home</a></li>
+    {% for group in site.data.navigation %}
+    <li>
+      <a href="#">{{ group.name }}</a>
+      <ul>
+        {% for item in group.items %}
+          {%  comment  %} This doesn't work just yet with assigning a current site name {% endcomment %}
+        <li
+          {% if page.name == item.page %}class="current"{% endif %}
+        >
+          <a href="{{ item.page }}">{{ item.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

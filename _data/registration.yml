@@ -1,0 +1,14 @@
+currency: SEK # Three-letter currency code or currency symbol (UTF-8)
+# Early Bird registration
+registration_open: true # Is registration possible right now?
+registration_link: # Link to registration form
+early_bird:
+  deadline: "May 9, 2025" # Until when is early bird possible?
+  student: "1,700"
+  regular: "2,900"
+# Regular registration costs
+regular:
+  student: "2,300"
+  regular: "3,500"
+# Tutorials-only attendance
+tutorials: "800"

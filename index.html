@@ -1,0 +1,118 @@
+---
+title: About
+---
+
+<section id="main" class="wrapper {{ page.wrapper_style }}">
+  <div class="container">
+    <div class="title">{{ page.title }}</div>
+    <header class="style1">
+      <h2>
+        11<sup>th</sup> International Conference on Computational Social Science
+      </h2>
+      <p>Norrköping, Sweden | July 21-24, 2025</p>
+    </header>
+
+    <!-- Image -->
+    <a class="image featured">
+      <img src="images/venue/LDG_mattiaslindh.jpg" alt="Louis de Geer Hall" />
+    </a>
+    <hr />
+
+    {%  include dates.html %}
+
+    <header class="style1">
+      <center>
+        <ul class="actions special">
+          {% if site.data.submission.call4abstracts_open and site.data.submission.call4abstracts_link %}
+          <li>
+            <a href="submit_abstract.html" class="button style1 large"
+              >Submit Abstract</a
+            >
+          </li>
+          {% endif %}
+          {% if site.data.submission.call4tutorials_open and site.data.submission.call4tutorials_link %}
+          <li>
+            <a href="submit_tutorial.html" class="button style3 large"
+              >Submit Tutorial</a
+            >
+          </li>
+          {% endif %}
+        </ul>
+      </center>
+    </header>
+
+    <hr />
+
+		<header class="style1">
+			<h5>
+        <center>
+          About the Conference: IC<sup>2</sup>S<sup>2</sup>
+          </center>
+      </h5>
+		</header>
+
+    <div id="content">
+      <article class="box post">
+        <p class="style1">
+          The International Conference for Computational Social Science (IC2S2)
+          will be held at the Institute for Analytical Sociology (IAS), Norrköping, Sweden, on July 22-24, 2025.
+          IC2S2 has emerged as the dominant conference at the intersection of
+          social and computational science, bringing together researchers from
+          around the world in economics, sociology, political science,
+          psychology, cognitive science, management, computer science,
+          statistics and the full range of natural and applied sciences
+          committed to understanding the social world through large-scale data
+          and computation. IC2S2 is the annual conference of the
+          <a href="https://iscss.org/">
+            International Society for Computational Social Science.
+          </a>
+        </p>
+
+        <p>
+          The full-scale three-day conference (July 22-24) will feature research
+          and researchers from around the world, across a broad range of
+          relevant fields, and working on all areas of computational social
+          science to advance its many frontiers.
+        </p>
+
+        <p>
+          The IC2S2 community actively balances and maintains a conversation
+          between social and computational scientists which integrates
+          technological advances and opportunities with social scientific rigor
+          and insight.
+        </p>
+      </article>
+    </div>
+
+    <hr />
+
+    <!-- Sponsors -->
+    <section id="sponsors">
+    {% for sponsors in site.data.sponsors %}
+      {% unless sponsors.sponsors %}
+        {% continue %}
+      {% endunless %}
+      <header class="style1">
+        <h6 id="{{ sponsors.title | slugify }}">
+          {{ sponsors.title }}
+        </h6>
+      </header>
+      <div class="container">
+        <div class="row aln-center">
+        {% for sponsor in sponsors.sponsors %}
+          <div class="col-4 col-12-medium">
+            <section class="highlight">
+              <a href="{{ sponsor.url }}">
+                <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" style="max-width: 300px"/>
+              </a>
+            </section>
+          </div>
+        {% endfor %}
+        </div>
+      </div>
+      {% if forloop.last == false %}
+        <hr />
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

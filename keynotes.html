@@ -1,0 +1,53 @@
+---
+title: Keynotes
+---
+<!-- Overview -->
+<section id="highlights" class="wrapper style1">
+	<div class="title">Invited Speakers</div>
+	<div class="container">
+		<div class="row aln-center">
+
+			{% for keynote in site.data.keynotes %}
+			<div class="col-4 col-12-medium">
+				<a href="#{{ keynote.name | slugify }}-{{ keynote.title | slugify }}" class="image featured"><img
+						src="{{ keynote.image }}" style="max-width: 100%;" alt="{{ keynote.name }}" /></a>
+				<center>
+					<h3><a href="{{ keynote.url }}">{{ keynote.name }}</a></h3>
+					<p>{{ keynote.affiliation }} &mdash; {{ keynote.field }}</p>
+				</center>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+<!-- Details -->
+<section id="highlights" class="wrapper style3">
+	<div class="title">Keynotes</div>
+	<div class="container">
+		{% for keynote in site.data.keynotes %}
+		<div class="row aln-left" style="padding: 20px;" id="{{ keynote.name | slugify }}-{{ keynote.title | slugify }}">
+			<div class="col-7 col-12-medium">
+				<h6 id="augmented">{{ keynote.name }} <a href="#highlights">[↑]</a></h6>
+				<h6 id="augmented"><i>{{ keynote.title }}</i></h6>
+				<h4>Chair: {{ keynote.chair_name }}</h4>
+				<h4>{{ keynote.date }}</h4>
+			</div>
+			<div class="col-3 col-12-medium">
+				<img class="image featured" src="{{ keynote.image }}" style="max-width: 300px;">
+			</div>
+		</div>
+		<div class="row aln-left">
+			<div class="col-7 col-12-medium">
+				<h5>Abstract</h5>
+				{{ keynote.abstract }}
+			</div>
+			<div class="col-5 col-12-medium">
+				<h5>Bio</h5>
+				{{ keynote.bio }}
+			</div>
+		</div>
+		<hr>
+		{% endfor %}
+	</div>
+</section>

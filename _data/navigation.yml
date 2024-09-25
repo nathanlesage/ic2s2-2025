@@ -1,0 +1,55 @@
+# Manually curated Navigation so that moving around pages becomes easier.
+# Groups == Sub-navigation menus
+# page must be the basename of the file without html or md
+# - name: Submit
+#   items:
+#   - name: Topics
+#     page: topics
+#   - name: Call for Abstracts
+#     page: submit_abstract
+#   - name: Call for Tutorials
+#     page: submit_tutorial
+# - name: Attend
+#   items:
+#   - name: Register
+#     page: register
+#   - name: Childcare
+#     page: childcare
+#   - name: Venue
+#     page: venue
+#   - name: Train to Airport
+#     page: train
+#   - name: Accommodation
+#     page: accommodation
+#   - name: Travel Grants
+#     page: travelgrant
+#   - name: Conduct
+#     page: conduct
+# - name: Program
+#   items:
+#   - name: Program
+#     page: program
+#   - name: Poster Details
+#     page: poster
+#   - name: Instructions
+#     page: instructions
+#   - name: Keynotes
+#     page: keynotes
+#   - name: Awards
+#     page: awards
+#   - name: Tutorials
+#     page: tutorials
+- name: Organization
+  items:
+  - name: Organizers
+    page: organization
+# - name: About
+#   items:
+#   - name: Sponsors
+#     page: sponsors
+#   - name: Previous Editions
+#     page: about
+#   - name: Impartiality Statement
+#     page: impartiality
+#   - name: Sponsor our Conference
+#     page: sponsors

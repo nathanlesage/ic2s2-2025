@@ -1,0 +1,9 @@
+# Submission options. Controls whether submissions for
+# abstracts or tutorials are open, and what the links
+# to, e.g., OpenReview are. NOTE: The system will display
+# the links only if both the link are set and the value
+# is true. Use this to steer when people can submit.
+call4abstracts_link:
+call4abstracts_open: false
+call4tutorials_link:
+call4tutorials_open: false

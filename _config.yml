@@ -1,0 +1,26 @@
+# IC2S2 CONFERENCES JEKYLL MASTER CONFIGURATION
+#
+# This file contains the main configuration to successfully run Jekyll over the
+# source code to generate a website.
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Global variables, can be accessed using the `site` variable.
+url: https://www.ic2s2-2025.org
+title: "IC2S2'25 Norrköping"
+location: "Norrköping 2025"
+locale: en-US
+emails:
+  general: "ic2s2-2025@liu.se" # General inquiries email
+
+# Instruct Jekyll to include an .htaccess-file if applicable
+# include: [".htaccess"]
+
+# Set Front matter default variables,
+# which can be overridden on a case-by-case basis.
+defaults:
+  - scope:
+      path: "" # No path scope -> every page
+    values:
+      layout: default
