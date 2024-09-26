@@ -30,7 +30,7 @@
     image: images/people/tahmasebi_nina.jpg
     url: # TODO
   - name: Marc Keuschnigg
-    affiliation: Institute for Analytical Sociology, Linköping University
+    affiliation: Institute for Analytical Sociology, Linköping University<br>Institute of Sociology, Leipzig University
     field: Social Sciences
     image: images/people/keuschnigg_marc.png
     url: # TODO
@@ -94,7 +94,7 @@
   people:
   - name: Martin Arvidsson
     affiliation: Institute for Analytical Sociology, Linköping University
-    field: Social SCiences
+    field: Social Sciences
     image: images/people/arvidsson_martin.png
     url: # TODO
   - name: Yuan Liau
@@ -110,3 +110,13 @@
 # WEBSITE AND SOCIAL MEDIA CHAIRS
 - title: "Website & Social Media Chairs"
   people:
+  - name: Hendrik Erz
+    affiliation: Institute for Analytical Sociology, Linköping University
+    field: Political and Economic Sociology
+    image: images/people/erz_hendrik.jpg
+    url: https://www.hendrik-erz.de/
+  - name: Yuan Liau
+    affiliation: Department of Space, Earth and Environment, Chalmers
+    field: Transport and Urban Sciences
+    image: images/people/liau_yuan.jpg
+    url: # TODO

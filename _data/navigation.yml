@@ -1,10 +1,10 @@
 # Manually curated Navigation so that moving around pages becomes easier.
 # Groups == Sub-navigation menus
 # page must be the basename of the file without html or md
-# - name: Submit
-#   items:
-#   - name: Topics
-#     page: topics
+- name: Submit
+  items:
+  - name: Topics
+    page: topics
 #   - name: Call for Abstracts
 #     page: submit_abstract
 #   - name: Call for Tutorials

@@ -3151,3 +3151,13 @@ footer .feature-list h3:before {
   width: 100%;
   height: 100%;
 }
+
+/* New utility classes for IC2S2 2025 */
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  opacity: 0.8;
+  font-style: italic;
+}

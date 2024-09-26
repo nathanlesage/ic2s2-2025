@@ -8,6 +8,7 @@
           <section>
             <h3 class="icon solid fa-home">Address</h3>
             <p>
+              <strong>Swedish Excellence Center for Computational Social Science</strong><br />
               Institute for Analytical Sociology<br />
               Linköping University<br />
               Norrköping, Sweden
@@ -17,12 +18,14 @@
 
         <div class="col-4 col-12-small">
           <section>
-            <h3 class="icon solid fa-comment">Social</h3>
-            <p>
-              <a href="https://twitter.com/ic2s2">Twitter</a><br />
-              <a href="https://mathstodon.xyz/@IC2S2">Mastodon</a><br />
-              <a href="https://www.linkedin.com/company/ic2s2">Linkedin</a>
-            </p>
+            {% if site.data.social_media.show %}
+              <h3 class="icon solid fa-comment">Social</h3>
+              <p>
+                {% for social_media in site.data.social_media.links %}
+                <a href="{{ social_media.link }}">{{ social_media.title }}</a><br />
+                {% endfor %}
+              </p>
+            {% endif %}
           </section>
         </div>
 

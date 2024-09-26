@@ -15,7 +15,7 @@ title: "General & Conference Chairs"
   <div class="container">
     <div class="row aln-center">
     {% for person in group.people %}
-      <div class="col-4 col-12-medium">
+      <div class="col-3 col-6-medium">
         <a href="{{ person.url }}" class="image featured">
           <img src="{{ person.image }}" alt="Image of {{ person.name }}" style="max-width: 100%; max-height: 100%;"/>
         </a>
@@ -25,7 +25,7 @@ title: "General & Conference Chairs"
           </h3>
           <p>
             {{ person.affiliation }}<br>
-            {{ person.field }}
+            <span class="text-muted">{{ person.field }}</span>
           </p>
         </center>
       </div>
@@ -35,9 +35,9 @@ title: "General & Conference Chairs"
 </section>
 {% endfor %}
 
+{% comment %} {% if site.data.people.reviewers.people %}
 <!-- Active Reviewers -->
 <!-- TODO -->
-{% comment %} {% if site.data.people.reviewers.people %}
   <div class="container">
     <p>
       We would like to thank the following program committed members who reviewed five or more submissions:

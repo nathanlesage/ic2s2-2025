@@ -1,0 +1,9 @@
+# A list of social media links
+show: false
+links:
+- title: Twitter
+  link: https://twitter.com/ic2s2
+- title: Mastodon
+  link: https://mathstodon.xyz/@IC2S2
+- title: LinkedIn
+  link: https://www.linkedin.com/company/ic2s2
