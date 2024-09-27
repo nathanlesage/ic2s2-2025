@@ -1,9 +1,23 @@
 <!-- Header section -->
-<section id="header" class="wrapper" style="background: url('images/ic2s2_2025_backdrop.png')">
-  <!-- Background video -->
-  <video autoplay muted loop style="position: absolute; width: 100vw;">
-    <source src="images/ic2s2_2025_backdrop.mp4" type="video/mp4" />
-    <source src="images/ic2s2_2025_backdrop.webm" type="video/webm" />
+<section
+  id="header"
+  class="wrapper"
+  {% if page.url == '/' %}
+    style="background: url('images/IC2S2_2025_teaser_NRK.png')"
+  {% else %}
+  style="background: url('images/ic2s2_2025_backdrop.png')"
+  {% endif %}
+>
+  <!-- Background video; the homepage video needs a reduced brightness -->
+  <video autoplay muted loop style="position: absolute; width: 100vw;{% if page.url == '/' %} filter: brightness(65%);{% endif %}">
+    {% if page.url == '/' %}
+      <!-- Drone video for homepage -->
+      <source src="images/IC2S2_2025_teaser_NRK.mp4" type="video/mp4" />
+      {% else %}
+      <!-- Network video for other pages -->
+      <source src="images/ic2s2_2025_backdrop.mp4" type="video/mp4" />
+      <source src="images/ic2s2_2025_backdrop.webm" type="video/webm" />
+    {% endif %}
   </video>
   
   <!-- Logo -->
