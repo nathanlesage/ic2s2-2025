@@ -18,7 +18,7 @@
     affiliation: Institute for Analytical Sociology, Linköping University
     field: Social Sciences
     image: images/people/hedstrom_peter.jpg
-    url: # TODO
+    url: https://liu.se/en/employee/pethe05
   - name: Sonia Yeh
     affiliation: Department of Space, Earth and Environment, Chalmers University of Technology
     field: Transport and Energy Systems
@@ -32,8 +32,8 @@
   - name: Marc Keuschnigg
     affiliation: Institute for Analytical Sociology, Linköping University<br>Institute of Sociology, Leipzig University
     field: Social Sciences
-    image: images/people/keuschnigg_marc.png
-    url: # TODO
+    image: images/people/keuschnigg_marc.jpg
+    url: https://keuschnigg.org/
 
 # PROGRAM CHAIRS
 - title: Program Chairs
