@@ -82,7 +82,7 @@
     affiliation: Linköping University, Sweden
     field: Science of Science
     image: images/people/habinek_jacob.jpg
-    url: # TODO
+    url: https://www.jacobhabinek.net/
   - name: Juhi Kulshrestha
     affiliation: Aalto University, Finland
     field: Algorithmic Bias, Transparency, and Ethics
@@ -97,11 +97,11 @@
     field: Social Sciences
     image: images/people/arvidsson_martin.png
     url: # TODO
-  - name: Yuan Liau
+  - name: Yuan Liao
     affiliation: Department of Space, Earth and Environment, Chalmers
     field: Transport and Urban Sciences
-    image: images/people/liau_yuan.jpg
-    url: # TODO
+    image: images/people/liao_yuan.jpg
+    url: https://www.chalmers.se/en/persons/yuanlia/
 
 # POSTER SESSION CHAIRS
 - title: Poster Chairs
@@ -115,8 +115,8 @@
     field: Political and Economic Sociology
     image: images/people/erz_hendrik.jpg
     url: https://www.hendrik-erz.de/
-  - name: Yuan Liau
+  - name: Yuan Liao
     affiliation: Department of Space, Earth and Environment, Chalmers
     field: Transport and Urban Sciences
-    image: images/people/liau_yuan.jpg
-    url: # TODO
+    image: images/people/liao_yuan.jpg
+    url: https://www.chalmers.se/en/persons/yuanlia/
