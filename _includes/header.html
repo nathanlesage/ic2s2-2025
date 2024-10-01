@@ -9,7 +9,26 @@
   {% endif %}
 >
   <!-- Background video; the homepage video needs a reduced brightness -->
-  <video autoplay muted loop style="position: absolute; width: 100vw;{% if page.url == '/' %} filter: brightness(65%);{% endif %}">
+  <!--
+    Attribute explainer:
+    * autplay: Video starts immediately with no user interaction
+    * playsinline: Required on iPhone to prevent the video from entering fullscreen while playing
+    * muted: Ensures iPhones play the video automatically because it doesn't have audio
+    * loop: Loop it infinitely
+    * style: Ensure the video covers the entire header's background always
+  -->
+  <video
+    autoplay
+    playsinline
+    muted
+    loop
+    style="position: absolute; min-height: 100%; min-width: 100vw;{% if page.url == '/' %} filter: brightness(65%);{% endif %}"
+    {% if page.url == '/' %}
+      cover="images/IC2S2_2025_teaser_NRK.png"
+    {% else %}
+      cover="images/ic2s2_2025_backdrop.png"
+    {% endif %}
+  >
     {% if page.url == '/' %}
       <!-- Drone video for homepage -->
       <source src="images/IC2S2_2025_teaser_NRK.mp4" type="video/mp4" />
