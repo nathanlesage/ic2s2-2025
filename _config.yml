@@ -2,20 +2,33 @@
 #
 # This file contains the main configuration to successfully run Jekyll over the
 # source code to generate a website.
+# HOW TO USE
+#
+# You will likely only have to adapt the "global variables" below the plugins.
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
 # Global variables, can be accessed using the `site` variable.
+
+# Set this to the Domain that the website will be served on
 url: https://www.ic2s2-2025.org
+# Primary page title (displayed on the browser tab, not the headers)
 title: "IC2S2'25 Norrköping"
+# Location tag (main page)
 location: "Norrköping 2025"
+# Locale, should probably be kept as is
 locale: en-US
+# Support emails
 emails:
   general: "ic2s2-2025@liu.se" # General inquiries email
-
-# Instruct Jekyll to include an .htaccess-file if applicable
-# include: [".htaccess"]
+# Post address for the conference
+address: # Each list item becomes its own line. Add as many as needed
+- "Swedish Excellence Center for Computational Social Science"
+- "Institute for Analytical Sociology"
+- "Linköping University"
+- "Norrköping, Sweden"
 
 # Set Front matter default variables,
 # which can be overridden on a case-by-case basis.

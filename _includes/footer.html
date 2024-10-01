@@ -8,10 +8,9 @@
           <section>
             <h3 class="icon solid fa-home">Address</h3>
             <p>
-              <strong>Swedish Excellence Center for Computational Social Science</strong><br />
-              Institute for Analytical Sociology<br />
-              Linköping University<br />
-              Norrköping, Sweden
+              {% for line in site.address %}
+                {{ line }}<br />
+              {% endfor %}
             </p>
           </section>
         </div>
