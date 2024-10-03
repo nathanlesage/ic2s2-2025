@@ -2,6 +2,16 @@
   <h6 id="augmented">Important dates</h6>
   <ul style="list-style: none; font-weight: bold;">
     {% for date in site.data.dates %}
+    {% comment  %} Filter out dates if requested {% endcomment %}
+    {% if include.category == 'tutorial' %}
+      {% unless date.category == 'tutorial' %}
+        {% continue %}
+      {% endunless %}
+    {% elsif include.category == 'conference' %}
+      {% unless date.category == 'conference' %}
+        {% continue %}
+      {% endunless %}
+    {% endif %}
     <li style="{% if date.done %}text-decoration: line-through; {% endif %}margin: 10px auto">
       {% if date.done %}
       <s>{{ date.text }}</s>

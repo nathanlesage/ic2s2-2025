@@ -1,16 +1,27 @@
 # "Important dates" section on homepage.
 # Change any "done" to say "true" instead of false to mark it as strikethrough
+# The "category" property denotes whether it is a deadline for the general
+# conference OR the tutorials. This will be used across the website to only show
+# the correct dates (e.g. only the tutorial deadlines on the tutorial submission
+# page). It can be "tutorial" or "conference".
 - text: "Tutorial proposal submission deadline: January 17, 2025"
   done: false
+  category: tutorial
 - text: "Notification of tutorial acceptance: January 31, 2025"
   done: false
+  category: tutorial
 - text: "Abstract submission deadline: February 24, 2025"
   done: false
+  category: conference
 - text: "Notification of abstract acceptance: April 18, 2025"
   done: false
+  category: conference
 - text: "Early-bird registration deadline: May 9, 2025"
   done: false
+  category: conference
 - text: "Tutorial day: July 21, 2025"
   done: false
+  category: tutorial
 - text: "Conference days: July 22-24, 2025"
   done: false
+  category: conference
