@@ -1,13 +1,61 @@
 # Keynote Information
-- name: Matthew Gentzkow
-  affiliation: Stanford University
-  field: 
-  title: Keynote Title
-  chair_name: Chair person
-  date: July 20, 19:00
+- name: Brandon Stewart
+  affiliation: Princeton University
+  field: Sociology
+  title: TBA
+  chair_name: TBA
+  date: TBA
   abstract: |
-    Lorem ipsum dolor ...
+    TBA
   bio: |
-    Lorem ipsum dolor ...
-  image: images/people/gentzkow - 2.jpg
-  url: https://www.matthewgentzkow.com/
+    TBA
+  image: images/keynotes/stewart_brandon.jpg
+  url: https://bstewart.scholar.princeton.edu/
+- name: Arnout van de Rijt
+  affiliation: European University Institute
+  field: Sociology
+  title: TBA
+  chair_name: TBA
+  date: TBA
+  abstract: |
+    TBA
+  bio: |
+    TBA
+  image: images/keynotes/vanderijt_arnout.jpg
+  url: https://arnoutvanderijt.com/
+- name: Amir Goldberg
+  affiliation: Stanford University
+  field: Behavioral Science
+  title: TBA
+  chair_name: TBA
+  date: TBA
+  abstract: |
+    TBA
+  bio: |
+    TBA
+  image: images/keynotes/goldberg_amir.jpg
+  url: https://www.gsb.stanford.edu/faculty-research/faculty/amir-goldberg
+- name: Jennie E. Brand
+  affiliation: University of California, Los Angeles (UCLA)
+  field: Sociology
+  title: TBA
+  chair_name: TBA
+  date: TBA
+  abstract: |
+    TBA
+  bio: |
+    TBA
+  image: images/keynotes/brand_jennie.jpg
+  url: https://www.profjenniebrand.com/
+- name: Laura Nelson
+  affiliation: University of British Columbia
+  field: Sociology
+  title: TBA
+  chair_name: TBA
+  date: TBA
+  abstract: |
+    TBA
+  bio: |
+    TBA
+  image: images/keynotes/nelson_laura.jpg
+  url: https://www.lauraknelson.com/
