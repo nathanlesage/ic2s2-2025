@@ -4,63 +4,84 @@ title: Submit abstract
 <section id="main" class="wrapper style3">
 	<div class="title">Call for Abstracts</div>
 	<div class="container">
-		<center>
-			<ul class="actions special">
-				<li>
-					{% if site.data.submission.call4abstracts_link and site.data.submission.call4abstracts_open %}
-					<a href="{{ site.data.submission.call4abstracts_link }}" class="button style1 large">Submit Abstract</a>
-					{% else %}
-					Submission is currently not available.
-					{% endif %}
-				</li>
-			</ul>
-		</center>
 		<div id="content">
+			<article class="box post">
+				<center>
+					<ul class="actions special">
+						<li>
+							{% if site.data.submission.call4abstracts_link and site.data.submission.call4abstracts_open %}
+							<a href="{{ site.data.submission.call4abstracts_link }}" class="button style1 large">Submit Abstract</a>
+							{% else %}
+							Submission is currently not available.
+							{% endif %}
+						</li>
+					</ul>
+				</center>
+			</article>
+
 			<article class="box post">
 
 				{% include dates.html %}
 
-				<h6 id="augmented">Submission instructions</h6>
+				<h6>Call for Abstracts</h6>
+
 				<p>
-					Submissions are in the form of anonymous extended abstracts in PDF format, formatted according to the official
-					<a href="files/ic2s2_2025_latex_template.zip"><strong>LaTeX</strong></a> or <a
-						href="files/ic2s2_2025_word_template.docx"><strong>MS Word</strong></a> templates that can be downloaded
-					from the submission website. The submission should include a title, a list of 5 keywords, and an extended
-					abstract (serving as the main text of the submission). The abstract should outline the impact of the work,
-					along with (if relevant) the main theoretical contribution, data and methods used, and findings. Authors are
-					strongly encouraged to include figures and/or tables in their submission.
+					The International Conference on Computational Social Science (IC2S2) is the premier conference bringing together researchers from different disciplines interested in using computational and data-intensive methods to address relevant societal problems. IC2S2 hosts academics and practitioners in computational science, social science, complexity, and network science, and provides a platform for new research in the field of computational social science.
 				</p>
 
-				<p> <strong>Submission Length:</strong> We have improved our submission guidelines to constrain the number of
-					figures and tables allowed. Extended abstracts should comprise a maximum length of 2 pages excluding
-					references, figures and tables. The authors can additionally include up to 5 (in total) figures and tables. No
-					appendices are allowed. When submitting, authors will be also asked to provide a short summary paragraph that
-					will be used during the review bidding phase. As the review process is double-blind, please do not include the
-					author(s) names or affiliation(s) in the paper, and do not include funding or other acknowledgments. Papers
-					violating the submission guidelines will be desk rejected, and the decisions made will be final and binding.
+				<h6>Submission instructions</h6>
+
+				<p>
+					Submissions are in the form of extended abstracts (max 2 pages) in PDF format, formatted according to the official
+					<a href="files/ic2s2_2025_latex_template.zip">LaTeX</a>
+					or
+					<a href="files/ic2s2_2025_word_template.docx">MS Word</a>
+					templates that can be downloaded from the submission website.
+					The submission should include a title, a list of 5 keywords, and an extended abstract (serving as the main text of the submission). The abstract should outline the impact of the work, along with (if relevant) the main theoretical contribution, data and methods used, and findings. Authors are strongly encouraged to include figures and/or tables in their submission (note that figures will not count towards the page limit). Submitted abstracts will undergo a double-blind review process. Therefore, abstracts must be anonymized: do not include the author(s) names or affiliation(s) in the paper, and do not include funding or other acknowledgments. When submitting, authors will be also asked to provide a short summary paragraph that will be used during the review bidding phase. Submissions that violate these guidelines will be automatically rejected.
 				</p>
 
 				<p>
-					<strong>Types of contributions:</strong> The accepted contributions will be selected for one of the following
-					presentations:
-				<ol>
-					<li> a lightning talk (~6 mins) in a plenary session </li>
-					<li> an oral presentation in parallel tracks</li>
-					<li> a poster presentation session</li>
-				</ol>
-				Lightning talks will be preferentially assigned to those requesting this form of presentation at submission and
-				to early career researchers. In order to be included in the program, at least one of the authors must register
-				for the conference by the early-bird registration deadline.
-
-
+					Submissions will be non-archival, and thus the presented work can be already published, in preparation for publication elsewhere, or ongoing research. Abstracts will be reviewed by multiple members of a Program Committee composed of experts in computational social science. The accepted contributions will be selected for one of the following presentations: (i) a lightning talk (~6 mins) in a plenary session, (ii) an oral presentation in parallel tracks (~15 mins), or (iii) a poster presentation session. Lightning talks will be preferentially assigned to those requesting this form of presentation at submission and to early career researchers. In order to be included in the program, at least one of the authors must register for the conference by the early-bird registration deadline.
 				</p>
+
+				<h6>Topics</h6>
+
 				<p>
-					<strong>No published proceedings:</strong> Submissions will be non-archival, and thus the presented work can
-					be already published, in preparation for publication elsewhere, or ongoing research. Abstracts will be
-					reviewed by multiple members of a Program Committee composed of experts in computational social science.
-
-
+					We welcome submissions on any topic in the field of computational social science, including (a) work that advances methods and approaches for computational social science, (b) data-driven work that describes and discovers social and cultural phenomena or explains and estimates relations between them and other things, and (c) theoretical work that generates new insights, connections and frameworks for computational social science research. Researchers across disciplines, faculty, graduate students, industry researchers, policy makers, and nonprofit workers are all encouraged to submit computational data-driven research and innovative computational methodological or theoretical contributions on social phenomena for consideration.
+					
+					Topics include but are not limited to:
 				</p>
+
+				<ul></ul>
+          <li>Network analysis of social systems</li>
+          <li>Large-scale social experiments</li>
+          <li>Empirically calibrated simulation models</li>
+          <li>Large language models for social research</li>
+          <li>Text analysis and natural language processing (NLP) of social phenomena</li>
+          <li>Analysis of meaning through computational analysis of text, images, audio, video, etc.</li>
+          <li>Computational methods to map and study cultural patterns and dynamics</li>
+          <li>Agent-based or other simulation of social phenomena</li>
+          <li>Methods and issues of social data collection</li>
+          <li>Images as social data</li>
+          <li>Causal inference and machine learning</li>
+          <li>Methods and analyses of biased, selective, or incomplete observational social data</li>
+          <li>Integration and triangulation of multi-modal social and cultural data</li>
+          <li>Methods and analyses for social information / digital communication dynamics</li>
+          <li>Neural network methods for social analysis and policy exploration</li>
+          <li>Reproducibility in computational social science research</li>
+          <li>Theoretical discussions/concepts in computational social science</li>
+          <li>Ethics of computational research on human behavior</li>
+          <li>Issues of inclusivity in computational social science</li>
+          <li>Methods and analyses of algorithmic accountability and trustworthiness</li>
+          <li>Novel digital data and/or computational analyses for addressing societal challenges</li>
+          <li>Social news curation and collaborative filtering</li>
+          <li>Building and evaluating socio-technical systems</li>
+          <li>Methods and analyses of integrated human-machine decision-making</li>
+          <li>Science and technology studies approaches to computational science work</li>
+          <li>Infrastructure to facilitate industry/academic cooperation in computational social science</li>
+          <li>Computational social science research in industry, government, and philanthropy</li>
+          <li>Practical problems in computational social science</li>
+        </ul>
 
 
 				<h6 id="augmented">Enquiries</h6>
