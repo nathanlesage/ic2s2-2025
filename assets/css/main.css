@@ -2243,6 +2243,7 @@ ul.actions.special {
   height: 24em;
   background: url("../../images/banner.png") center center;
   background-size: cover;
+  overflow: hidden; /* Ensure the background videos don't overflow the page */
   padding: 0;
 }
 
