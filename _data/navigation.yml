@@ -5,10 +5,10 @@
   items:
   - name: Topics
     page: topics
-#   - name: Call for Abstracts
-#     page: submit_abstract
-#   - name: Call for Tutorials
-#     page: submit_tutorial
+  - name: Call for Abstracts
+    page: submit_abstract
+  - name: Call for Tutorials
+    page: submit_tutorial
 # - name: Attend
 #   items:
 #   - name: Register
