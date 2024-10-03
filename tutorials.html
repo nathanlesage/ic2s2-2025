@@ -23,15 +23,20 @@ title: Tutorials
 			<!-- Tutorial list -->
 			<table id="summary" class="tutorials">
 				<tr>
-					<th colspan="4"><b style="color:#ffffff">List of Tutorials</b></th>
+					<th colspan="4"><strong style="color:#ffffff">List of Tutorials</strong></th>
 				</tr>
 
 				<tr>
-					<th><b style="color:#ffffff">ID</b></th>
-					<th><b style="color:#ffffff">Title</b></th>
-					<th><b style="color:#ffffff">Room</b></th>
-					<th><b style="color:#ffffff">Time</b></th>
+					<th><strong style="color:#ffffff">ID</strong></th>
+					<th><strong style="color:#ffffff">Title</strong></th>
+					<th><strong style="color:#ffffff">Room</strong></th>
+					<th><strong style="color:#ffffff">Time</strong></th>
 				</tr>
+				{% unless site.data.tutorials.items %}
+					<tr>
+						<td colspan="4">Currently there are no scheduled tutorials. Please check back later.</td>
+					</tr>
+				{% endunless %}
 				{% for tutorial in site.data.tutorials.items %}
 				<tr>
 					<td>{{ forloop.index }}</td>
@@ -53,6 +58,12 @@ title: Tutorials
 <section id="highlights" class="wrapper style3">
 	<div class="title">Tutorial details</div>
 	<div class="container">
+		{% unless site.data.tutorials.items %}
+			<p>
+				Currently there are no scheduled tutorials. Tutorial details will be
+				displayed here.
+			</p>
+		{% endunless %}
 		{% for tutorial in site.data.tutorials.items %}
 		<div class="row aln-left">
 			<h6 id="{{ tutorial.title | slugify }}">

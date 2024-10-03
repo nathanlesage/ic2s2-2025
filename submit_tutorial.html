@@ -123,97 +123,35 @@ title: Submit Tutorial Proposal
 	</div>
 </section>
 
-<section id="highlights" class="wrapper style1">
+<section id="highlights" class="wrapper style2">
 	<div class="title">
 		<h6 id="augmented">Past Tutorials</h6>
-	</div>
-	<div class="container">
-		<div class="row aln-left">
-			<h5>
-				The Augmented Social Scientist. Using Recent Advances in NLP to Annotate Millions of Texts with a Human-Level
-				Accuracy
-			</h5>
 		</div>
-		<div class="row aln-left">
-			<div class="col-5 col-12-medium">
-				<h3>Teachers</h3>
-				<ul>
-					<li><strong>Étienne Ollion</strong>, Professor in Sociology at l'École Polytechnique, Paris, France</li>
-					<li><strong>Rubing Shen</strong>, PhD Candidate at Sciences Po (Médialab) and at l'Institut polytechnique de
-						Paris, France</li>
-				</ul>
+		<div class="container">
+		{% for tutorial in site.data.tutorials.past_tutorials %}
+			<div class="row aln-left">
+				<h5>{{ tutorial.title }}</h5>
+				<p>&nbsp;</p>
 			</div>
-			<div class="col-7 col-12-medium">
-				<h3>Description</h3>
-				<p>
-					This tutorial aims to introduce its participants to the logic of transfer learning applied to text data,
-					in order to make them able to carry out their own text analysis projects. We show that a social
-					scientist can, in a limited amount of time, train an algorithm that correctly annotates hundreds of
-					thousands of texts. We will also show that when efficiently trained, the algorithm performs this task
-					better than most humans (who can get tired, bored, or inattentive). The second part will be fully
-					hands-on. We will demonstrate how to use a BERT algorithm on text data. We will use an online interface
-					to walk the participants through each step of the analysis. Finally, we will discuss practical questions
-					that emerge while carrying out the training phase, and we will conclude by briefly evoking the downsides
-					of this approach.
-				</p>
+
+			<div class="row aln-left">
+				<div class="col-5 col-12-medium">
+					<h3>Teachers</h3>
+					<ul>
+					{% for tutor in tutorial.tutors %}
+						<li>
+							<strong>{{ tutor.name }}</strong>
+							{% if tutor.affiliation %}, {{ tutor.affiliation }}{%endif %}
+						</li>
+					{% endfor %}
+					</ul>
+				</div>
+				<div class="col-7 col-12-medium">
+					<h3>Description</h3>
+					<p>{{ tutorial.abstract }}</p>
+				</div>
 			</div>
+			<hr>
+		{% endfor %}
 		</div>
-
-		<hr>
-
-		<div class="row aln-left">
-			<h5>Capturing Human Values during Controversies </h5>
-		</div>
-
-		<div class="row aln-left">
-			<div class="col-5 col-12-medium">
-				<h3>Teachers</h3>
-				<ul>
-					<li><strong>Yelena Mejova</strong>, Senior Research Scientist at the ISI Foundation, Turin, Italy</li>
-					<li><strong>Kyriaki Kalimeri</strong>, Researcher at the ISI Foundation, Turin, Italy</li>
-					<li><strong>Giovanni Da San Martino</strong>, Senior Assistant Professor, University of Padova</li>
-					<li><strong>Oscar Araque</strong>, Assistant Professor at Universidad Politécnica de Madrid (UPM)</li>
-				</ul>
-
-			</div>
-			<div class="col-7 col-12-medium">
-				<h3>Description</h3>
-				<p>
-					In this tutorial, we give an overview of how the basic human and moral values are interpreted and
-					quantified according to the psychological literature, how they can be assessed from user generated data,
-					and how they may be employed in persuasion and propaganda identification. We will lead a hands-on
-					demonstration of tools for (1) moral value extraction from text, (2) network analysis for opinion
-					clustering, and (3) persuasion techniques identification in two scenarios: the COVID-19 vaccination
-					debate and the recent Russian invasion of Ukraine.
-				</p>
-			</div>
-		</div>
-
-		<hr>
-		<div class="row aln-left">
-			<h5>Data access for researchers under the Digital Services Act</h5>
-		</div>
-		<div class="row aln-left">
-			<div class="col-5 col-12-medium">
-
-				<h3>Teachers</h3>
-				<ul>
-					<li><strong>Philipp Lorenz-Spreen</strong>, Research Scientist at the Max Planck Institute for Human
-						Development, Berlin, Germany</li>
-					<li><strong>Julian Jaursch</strong>, Project Director at Stiftung Neue Verantwortung, Berlin, Germany</li>
-				</ul>
-
-			</div>
-			<div class="col-7 col-12-medium">
-				<h3>Description</h3>
-				<p>
-					In this tutorial, participants will learn about the DSA’s Article 40 so they have a better understanding
-					of who can request data for what type of research, how this process works and what open questions might
-					be addressed in what way. They will also actively engage with one another to develop exemplary research
-					questions and data access requests. Taken together, the tutorial thus aims to enable the CSS community
-					to understand und utilize their data access rights under the DSA.
-				</p>
-			</div>
-		</div>
-	</div>
 </section>
