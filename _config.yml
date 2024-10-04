@@ -28,6 +28,7 @@ address: # Each list item becomes its own line. Add as many as needed
 - "<a href=\"https://liu.se/en/research/swecss\">Swedish Excellence Center for Computational Social Science</a>"
 - "" # Empty line
 - "<a href=\"https://liu.se/en/organisation/liu/iei/ias\">Institute for Analytical Sociology</a>"
+- "" # Empty line
 - "Linköping University"
 - "Norrköping, Sweden"
 
