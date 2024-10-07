@@ -1,0 +1,28 @@
+<section id="sponsors">
+{% for sponsors in site.data.sponsors %}
+  {% unless sponsors.sponsors %}
+    {% continue %}
+  {% endunless %}
+  <header class="style1">
+    <h6 id="{{ sponsors.title | slugify }}">
+      {{ sponsors.title }}
+    </h6>
+  </header>
+  <div class="container">
+    <div class="row aln-center">
+    {% for sponsor in sponsors.sponsors %}
+      <div class="col-4 col-12-medium">
+        <section class="highlight">
+          <a href="{{ sponsor.url }}">
+            <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" style="max-width: 300px"/>
+          </a>
+        </section>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+  {% if forloop.last == false %}
+    <hr />
+  {% endif %}
+{% endfor %}
+</section>
