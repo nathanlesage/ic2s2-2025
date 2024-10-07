@@ -1,4 +1,14 @@
 # Keynote Information
+# name: The speaker's name
+# affiliation: The speaker's affiliation
+# field: The speaker's primary field
+# title: The keynote's title
+# chair_name: Who will chair the keynote? (Usually PC)
+# date: When will the keynote happen? (Add a time, too)
+# abstract: When you have it, add the abstract here.
+# bio: A short bio of the keynote speaker
+# image: A picture of the person
+# url: A link to the speaker's institutional or personal page.
 - name: Brandon Stewart
   affiliation: Princeton University
   field: Sociology
