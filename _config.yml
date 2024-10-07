@@ -32,6 +32,28 @@ address: # Each list item becomes its own line. Add as many as needed
 - "Linköping University"
 - "Norrköping, Sweden"
 
+# Any line here is a page that will NOT be included in the final output. Comment
+# out a line by prepending it with a pound-symbol (#) once you have adapted the
+# page so that it will be included in the outout.
+exclude:
+#- about.html
+- keynotes.html
+#- organization.html
+- program.html
+- register.html
+#- sponsors.html
+#- submit_abstract.html
+#- submit_tutorial.html
+#- topics.html
+- tutorials.html
+- venue.html
+################################################################################
+# Do not touch the following two entries: Commenting them out means that the
+# manual or readme will be accessible via, e.g., ic2s2-2025.org/MANUAL.md. We
+# don't want that.
+- MANUAL.md
+- README.md
+
 # Set Front matter default variables,
 # which can be overridden on a case-by-case basis.
 defaults:
