@@ -43,10 +43,10 @@
   items:
   - name: Organizers
     page: organization
-# - name: About
-#   items:
-#   - name: Sponsors
-#     page: sponsors
+- name: About
+  items:
+  - name: Sponsors
+    page: sponsors
 #   - name: Previous Editions
 #     page: about
 #   - name: Impartiality Statement
