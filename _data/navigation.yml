@@ -47,8 +47,8 @@
   items:
   - name: Sponsors
     page: sponsors
-#   - name: Previous Editions
-#     page: about
+  - name: Previous Editions
+    page: about
 #   - name: Impartiality Statement
 #     page: impartiality
 #   - name: Sponsor our Conference
