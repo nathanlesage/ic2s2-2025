@@ -3162,3 +3162,11 @@ footer .feature-list h3:before {
   opacity: 0.8;
   font-style: italic;
 }
+
+#footer-address {
+  line-height: 120%;
+}
+
+#footer-address a {
+  text-decoration: none;
+}
