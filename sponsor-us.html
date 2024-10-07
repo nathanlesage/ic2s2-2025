@@ -1,0 +1,25 @@
+---
+title: Sponsor Us
+---
+<!-- Sponsor us -->
+<section id="main" class="wrapper style3">
+	<div class="title">Sponsor our Conference</div>
+	<div class="container">
+    <article class="box post">
+      <header class="style1">
+        <h2>Sponsorship Levels</h2>
+      </header>
+
+      {% for level in site.data.sponsors.levels %}
+        <h6 id="augmented">{{ level.title }} &#8212; {{ level.price }}</h6>
+
+        <h4>Benefits:</h4>
+        <ul>
+          {% for benefit in level.benefits %}
+            <li>{{ benefit }}</li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    </article>
+	</div>
+</section>

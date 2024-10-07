@@ -41,6 +41,7 @@ exclude:
 #- organization.html
 - program.html
 - register.html
+#- sponsor-us.html
 #- sponsors.html
 #- submit_abstract.html
 #- submit_tutorial.html

@@ -4,13 +4,41 @@
 # not signed a deal yet, leave the "sponsors" list of
 # the various groups empty. The framework won't generate it then.
 #
-# DATA FORMAT
+# LEVELS DATA FORMAT
+# title: The title of the level (should be the same as the corresponding
+#        sponsors group title)
+# price: The price (full string incl. thousands delimiters and currency)
+# benefits: A list of benefits for the sponsor when becoming one
+#
+# SPONSORS DATA FORMAT
 # name: The name of the sponsor
 # url: A Link to the sponsor's website
 # image: A link to the sponsor logo in the images folder
+levels:
+- title: Gold Sponsors
+  price: 60,000 Swedish Kronor (SEK)
+  benefits:
+  - Logo and link on webpage
+  - Logo prominently displayed on conference banner
+  - Access to resumes of conference participants who are seeking employment
+  - Complimentary registration and social event for 3 of your representatives
+- title: Silver Sponsors
+  price: 40,000 SEK
+  benefits:
+  - Logo and link on webpage 
+  - Logo displayed on conference banner
+  - Access to resumes of conference participants who are seeking employment
+- title: Bronze Sponsors
+  price: 20,000 SEK
+  benefits:
+  - Logo and link on webpage
+  - Logo displayed on conference banner
+sponsors:
 - title: Academic Sponsors
   sponsors:
 - title: Gold Sponsors
+  sponsors:
+- title: Silver Sponsors
   sponsors:
 - title: Bronze Sponsors
   sponsors:

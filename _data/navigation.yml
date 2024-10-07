@@ -51,5 +51,5 @@
     page: about
 #   - name: Impartiality Statement
 #     page: impartiality
-#   - name: Sponsor our Conference
-#     page: sponsors
+  - name: Sponsor our Conference
+    page: sponsor-us
