@@ -6,9 +6,9 @@
   - name: Topics
     page: topics
   - name: Call for Abstracts
-    page: submit_abstract
+    page: submit-abstract
   - name: Call for Tutorials
-    page: submit_tutorial
+    page: submit-tutorial
 # - name: Attend
 #   items:
 #   - name: Register
