@@ -23,12 +23,12 @@
     affiliation: Department of Space, Earth and Environment, Chalmers University of Technology
     field: Transport and Energy Systems
     image: images/people/yeh_sonia.jpg
-    url: # TODO
+    url: https://www.chalmers.se/en/persons/soniay/
   - name: Nina Tahmasebi
     affiliation: Department of Philosophy, Linguistics and Theory of Science, Gothenburg University
     field: NLP and Linguistics
     image: images/people/tahmasebi_nina.jpg
-    url: # TODO
+    url: https://tahmasebi.se/
   - name: Marc Keuschnigg
     affiliation: Institute for Analytical Sociology, Linköping University<br>Institute of Sociology, Leipzig University
     field: Social Sciences
@@ -42,42 +42,42 @@
     affiliation: Aalto University, Finland
     field: Network Science
     image: images/people/holme_petter.jpg
-    url: # TODO
+    url: https://www.aalto.fi/en/people/petter-holme
   - name: Denise Pumain
     affiliation: Université Paris | Panthéon Sorbonne, France
     field: Urban Science
     image: images/people/pumain_denise.png
-    url: # TODO
+    url: https://geographie-cites.cnrs.fr/en/members/denise-pumain/
   - name: Yang Yue
     affiliation: Shenzhen University, China
     field: Urban Informatics
     image: images/people/yue_yang.png
-    url: # TODO
+    url: https://scholar.google.com/citations?user=Or3pqN8AAAAJ&hl=en
   - name: David Garcia
     affiliation: Konstanz University, Germany
     field: Computer Science and Complexity
     image: images/people/garcia_david.jpg
-    url: # TODO
+    url: https://www.polver.uni-konstanz.de/en/cdm/people/faculty/david-garcia/
   - name: Mirta Galesic
     affiliation: Santa Fe Institute
     field: Psychology, Cognitive Science
     image: images/people/galesic_mirta.jpg
-    url: # TODO
+    url: https://www.santafe.edu/people/profile/mirta-galesic
   - name: Elliot Ash
     affiliation: ETH Zurich, Switzerland
     field: Economics
     image: images/people/ash_elliot.jpg
-    url: # TODO
+    url: https://elliottash.com/
   - name: Andreas Jungherr
     affiliation: Bamberg University, Germany
     field: Political Science and Communication
     image: images/people/jungherr_andreas.png
-    url: # TODO
+    url: https://andreasjungherr.net/
   - name: Giulia Andrighetto
     affiliation: Institute of Cognitive Sciences and Technologies, Rome, Italy
     field: Social Experiments
     image: images/people/andrighetto_giulia.jpg
-    url: # TODO
+    url: https://www.giuliandrighetto.com/
   - name: Jacob Habinek
     affiliation: Linköping University, Sweden
     field: Science of Science
@@ -87,7 +87,7 @@
     affiliation: Aalto University, Finland
     field: Algorithmic Bias, Transparency, and Ethics
     image: images/people/kulshrestha_juhi.png
-    url: # TODO
+    url: https://www.juhikulshrestha.com/
 
 # TUTORIAL CHAIRS
 - title: Tutorial Chairs
@@ -96,7 +96,7 @@
     affiliation: Institute for Analytical Sociology, Linköping University
     field: Social Sciences
     image: images/people/arvidsson_martin.jpg
-    url: # TODO
+    url: https://martin-arvidsson.github.io/
   - name: Yuan Liao
     affiliation: Department of Space, Earth and Environment, Chalmers
     field: Transport and Urban Sciences
