@@ -45,9 +45,9 @@
   items:
   - name: Sponsors
     page: sponsors
-  - name: Previous Editions
-    page: about
-#   - name: Impartiality Statement
-#     page: impartiality
   - name: Sponsor our Conference
     page: sponsor-us
+  - name: Previous Editions
+    page: about
+  - name: ISCSS
+    page: "https://iscss.org/"
