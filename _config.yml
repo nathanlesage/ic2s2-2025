@@ -31,6 +31,8 @@ address: # Each list item becomes its own line. Add as many as needed
 - "" # Empty line
 - "Linköping University"
 - "Norrköping, Sweden"
+# The label to show on the "Sponsor us" button
+sponsor_button_label: "Become a sponsor of IC²S² in Sweden"
 
 # Any line here is a page that will NOT be included in the final output. Comment
 # out a line by prepending it with a pound-symbol (#) once you have adapted the
