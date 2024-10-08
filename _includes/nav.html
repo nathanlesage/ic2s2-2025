@@ -4,6 +4,7 @@
     <li {% if page.url == '/' %}class="current"{% endif %}><a href="/">Home</a></li>
     {% for group in site.data.navigation %}
     <li>
+      {% if group.items %}
       <a href="#">{{ group.name }}</a>
       <ul>
         {% for item in group.items %}
@@ -15,6 +16,9 @@
         </li>
         {% endfor %}
       </ul>
+      {% else %}
+        <a href="{{ group.page }}">{{ group.name }}</a>
+      {% endif %}
     </li>
     {% endfor %}
   </ul>
