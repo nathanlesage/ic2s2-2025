@@ -20,18 +20,11 @@ levels:
   benefits:
   - Logo and link on webpage
   - Logo prominently displayed on conference banner
-  - Access to resumes of conference participants who are seeking employment
   - Complimentary registration and social event for 3 of your representatives
 - title: Silver Sponsors
   price: 40,000 SEK
   benefits:
   - Logo and link on webpage 
-  - Logo displayed on conference banner
-  - Access to resumes of conference participants who are seeking employment
-- title: Bronze Sponsors
-  price: 20,000 SEK
-  benefits:
-  - Logo and link on webpage
   - Logo displayed on conference banner
 sponsors:
 - title: Academic Sponsors
@@ -42,6 +35,4 @@ sponsors:
     image: images/sponsors/norrkopings-kommun.svg
     url: https://www.norrkoping.se/
 - title: Silver Sponsors
-  sponsors:
-- title: Bronze Sponsors
   sponsors:
