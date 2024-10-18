@@ -5,6 +5,5 @@
 # is true. Use this to steer when people can submit.
 call4abstracts_link: https://openreview.net/group?id=IC2S2.org/2025/Conference
 call4abstracts_open: false
-# NOTE: The Tutorial Abstracts link will likely change (should be: Tutorials)
-call4tutorials_link: https://openreview.net/group?id=IC2S2.org/2025/Tutorial_Abstracts
+call4tutorials_link: https://openreview.net/group?id=IC2S2.org/2025/Tutorials
 call4tutorials_open: false
