@@ -17,12 +17,12 @@
 #     page: childcare
 #   - name: Venue
 #     page: venue
-#   - name: Train to Airport
-#     page: train
+#   - name: Getting there
+#     page: getting-there
 #   - name: Accommodation
 #     page: accommodation
 #   - name: Travel Grants
-#     page: travelgrant
+#     page: travel-grants
 #   - name: Conduct
 #     page: conduct
 # - name: Program

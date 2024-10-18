@@ -3170,3 +3170,11 @@ footer .feature-list h3:before {
 #footer-address a {
   text-decoration: none;
 }
+
+details {
+  margin-bottom: 40px;
+}
+
+details summary {
+  cursor: pointer;
+}
