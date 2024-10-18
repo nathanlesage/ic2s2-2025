@@ -53,7 +53,7 @@ exclude:
 #- submit_tutorial.html
 #- topics.html
 - tutorials.html
-- venue.html
+#- venue.html
 ################################################################################
 # Do not touch the following two entries: Commenting them out means that the
 # manual or readme will be accessible via, e.g., ic2s2-2025.org/MANUAL.md. We
