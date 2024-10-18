@@ -1589,6 +1589,10 @@ table {
   width: 100%;
 }
 
+table th {
+  font-weight: bold;
+}
+
 table.tutorials {
   width: 100%;
   text-align: left;
@@ -1612,7 +1616,6 @@ table.tutorials td {
 table.tutorials th {
   background: #292c32;
   color: #dddddd;
-  font-weight: 400;
   padding: 0.5em 1em 0.5em 1em;
 }
 
@@ -1641,7 +1644,6 @@ table.prices td {
 table.prices th {
   background: #df6b66;
   color: #dddddd;
-  font-weight: 400;
   padding: 0.5em 1em 0.5em 1em;
 }
 
@@ -1668,7 +1670,6 @@ table.default td {
 
 table.default th {
   text-align: left;
-  font-weight: 400;
   padding: 0.5em 1em 0.5em 1em;
 }
 

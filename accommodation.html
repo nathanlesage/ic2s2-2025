@@ -1,0 +1,32 @@
+---
+title: Accommodation
+---
+<section id="main" class="wrapper style3">
+  <div class="title">Accommodation</div>
+  <div class="container">
+    <p>
+      Norrköping offers a wide range of accommodation types. Below, we list
+      an assortment of hotels where you can book accommodation for your stay at
+      IC2S2.
+    </p>
+
+    <h2>Hotel accommodations</h2>
+
+    <table class="prices" style="text-align: left !important;">
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Address</th>
+        <th>Rate per night</th>
+      </tr>
+      {% for hotel in site.data.accommodation %}
+        <tr>
+          <td>{{ hotel.name }}</td>
+          <td>{{ hotel.type }}</td>
+          <td>{{ hotel.address }}</td>
+          <td>{{ hotel.rate }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+  </div>
+</section>
