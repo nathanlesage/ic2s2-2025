@@ -21,7 +21,13 @@ title: Accommodation
       </tr>
       {% for hotel in site.data.accommodation %}
         <tr>
-          <td>{{ hotel.name }}</td>
+          <td>
+            {% if hotel.link %}
+              <a href="{{ hotel.link }}">{{ hotel.name }}</a>
+            {% else %}
+            {{ hotel.name }}
+            {% endif %}
+          </td>
           <td>{{ hotel.type }}</td>
           <td>{{ hotel.address }}</td>
           <td>{{ hotel.rate }}</td>
