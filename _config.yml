@@ -40,10 +40,10 @@ sponsor_button_label: "Become a sponsor of IC²S² in Sweden"
 exclude:
 #- about.html
 - keynotes.html
-#- childcare.html
-#- accommodation.html
-#- conduct.html
-#- travel-grants.html
+- childcare.html
+- accommodation.html
+- conduct.html
+- travel-grants.html
 #- organization.html
 - program.html
 - register.html
