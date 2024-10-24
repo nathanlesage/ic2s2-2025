@@ -41,7 +41,7 @@ sponsor_button_label: "Become a sponsor of IC²S² in Sweden"
 # page so that it will be included in the outout.
 exclude:
 #- about.html
-- keynotes.html
+#- keynotes.html
 #- childcare.html
 #- accommodation.html
 #- conduct.html
