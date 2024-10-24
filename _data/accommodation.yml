@@ -3,42 +3,37 @@
   link:
   type: Hotel
   address: "Skomakaregatan 8, 602 32 Norrköping"
-  rate: "ca. 1,500SEK"
+  rate: "from 1,650 SEK"
 - name: Elite Grand Hotel
   link:
   type: Hotel
   address: "Tyska Torget 2, 600 41 Norrköping"
-  rate: "ca. 1,800 SEK"
+  rate: "from 1,890 SEK"
 - name: Comfort Hotel Norrköping
   link:
   type: Hotel
   address: "Saltängsgatan 29, 602 22 Norrköping"
-  rate: "ca. 1,450 SEK"
+  rate: "from 1,495 SEK"
 - name: ProfilHotels President
   link:
   type: Hotel
   address: "Vattengränden 11, 602 22 Norrköping"
-  rate: "ca. 950 SEK"
+  rate: "from 955 SEK"
 - name: Scandic Strömmen
   link:
   type: Hotel
   address: "Slottsgatan 99, 602 22 Norrköping"
-  rate: "ca. 1,600 SEK"
-- name: Scandic Nord
-  link:
-  type: Hotel
-  address: "Järngatan 17, 602 23 Norrköping"
-  rate: "ca. 1,750 SEK"
+  rate: "from 1,690 SEK"
 - name: Södra Hotellet
   link:
   type: Hotel
   address: "Södra Promenaden 142, 602 31 Norrköping"
-  rate: "ca. 950 SEK"
+  rate: "from 1,006 SEK"
 - name: Pronova Hotel and Hostel
   link:
   type: Hostel
   address: "Korsgatan 2, 602 33 Norrköping"
-  rate: "ca. 550 SEK"
+  rate: "from 569 SEK"
 - name: AirBnB
   link:
   type: Private
