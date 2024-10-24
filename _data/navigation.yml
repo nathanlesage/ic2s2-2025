@@ -25,16 +25,16 @@
 #     page: travel-grants
 #   - name: Conduct
 #     page: conduct
-# - name: Program
-#   items:
+- name: Program
+  items:
 #   - name: Program
 #     page: program
 #   - name: Poster Details
 #     page: poster
 #   - name: Instructions
 #     page: instructions
-#   - name: Keynotes
-#     page: keynotes
+  - name: Keynotes
+    page: keynotes
 #   - name: Awards
 #     page: awards
 #   - name: Tutorials
