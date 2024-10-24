@@ -24,6 +24,11 @@
   type: Hotel
   address: "Slottsgatan 99, 602 22 Norrköping"
   rate: "from 1,690 SEK"
+- name: First Hotel Central
+  link:
+  type: Hotel
+  address: "Nya Rådstugugatan 16, 602 42 Norrköping"
+  rate: "from 1,095 SEK"
 - name: Södra Hotellet
   link:
   type: Hotel
