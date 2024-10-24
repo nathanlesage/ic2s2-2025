@@ -69,3 +69,39 @@
     TBA
   image: images/keynotes/nelson_laura.jpg
   url: https://www.lauraknelson.com/
+- name: Sarah Williams
+  affiliation: MIT
+  field: Technology and Urban Planning
+  title: TBA
+  chair_name: TBA
+  date: TBA
+  abstract: |
+    TBA
+  bio: |
+    TBA
+  image: images/keynotes/williams_sarah.jpg
+  url: https://dusp.mit.edu/people/sarah-williams
+- name: Dean Eckles
+  affiliation: MIT
+  field: Management and Marketing
+  title: TBA
+  chair_name: TBA
+  date: TBA
+  abstract: |
+    TBA
+  bio: |
+    TBA
+  image: images/keynotes/eckles_dean.jpg
+  url: https://mitsloan.mit.edu/faculty/directory/dean-eckles
+- name: Lisa Argyle
+  affiliation: Brigham Young University
+  field: Political Science
+  title: TBA
+  chair_name: TBA
+  date: TBA
+  abstract: |
+    TBA
+  bio: |
+    TBA
+  image: images/keynotes/argyle_lisa.jpg
+  url: https://www.lpargyle.com/
