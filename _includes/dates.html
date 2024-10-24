@@ -1,5 +1,7 @@
 <div class="text-center">
+  {% unless include.heading == 'false' %}
   <h6 id="augmented">Important dates</h6>
+  {% endunless %}
   <ul style="list-style: none; font-weight: bold;">
     {% for date in site.data.dates %}
     {% comment  %} Filter out dates if requested {% endcomment %}
