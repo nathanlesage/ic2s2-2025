@@ -1,36 +1,36 @@
 # Accommodation sites (hotels, hostels, etc.)
 - name: Best Western Princess
-  link:
+  link: https://www.bestwestern.com/en_US/book/hotels-in-norrkoping/best-western-princess-hotel/propertyCode.88133.html
   type: Hotel
   address: "Skomakaregatan 8, 602 32 Norrköping"
   rate: "from 1,650 SEK"
 - name: Elite Grand Hotel
-  link:
+  link: https://www.elite.se/en/hotels/norrkoping/elite-grand-hotel-norrkoping/
   type: Hotel
   address: "Tyska Torget 2, 600 41 Norrköping"
   rate: "from 1,890 SEK"
 - name: Comfort Hotel Norrköping
-  link:
+  link: https://www.strawberryhotels.com/hotels/sweden/norrkoping/comfort-hotel-norrkoping/
   type: Hotel
   address: "Saltängsgatan 29, 602 22 Norrköping"
   rate: "from 1,495 SEK"
 - name: ProfilHotels President
-  link:
+  link: https://ligula.se/en/profilhotels/hotel-president/
   type: Hotel
   address: "Vattengränden 11, 602 22 Norrköping"
   rate: "from 955 SEK"
 - name: Scandic Strömmen
-  link:
+  link: https://www.scandichotels.com/hotels/sweden/norrkoping/scandic-strommen
   type: Hotel
   address: "Slottsgatan 99, 602 22 Norrköping"
   rate: "from 1,690 SEK"
 - name: First Hotel Central
-  link:
+  link: https://www.firsthotels.com/hotels/sweden/norrkoping/first-hotel-central/
   type: Hotel
   address: "Nya Rådstugugatan 16, 602 42 Norrköping"
   rate: "from 1,095 SEK"
 - name: Södra Hotellet
-  link:
+  link: https://www.sodrahotellet.se/
   type: Hotel
   address: "Södra Promenaden 142, 602 31 Norrköping"
   rate: "from 1,006 SEK"
