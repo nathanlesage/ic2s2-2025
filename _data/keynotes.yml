@@ -33,7 +33,7 @@ speakers:
   image: images/keynotes/argyle_lisa.jpg
   url: https://www.lpargyle.com/
 - name: Jennie E. Brand
-  affiliation: University of California, Los Angeles (UCLA)
+  affiliation: University of California, Los Angeles
   # field: Sociology
   title: TBA
   chair_name: TBA
@@ -45,7 +45,7 @@ speakers:
   image: images/keynotes/brand_jennie.jpg
   url: https://www.profjenniebrand.com/
 - name: Dean Eckles
-  affiliation: MIT
+  affiliation: Massachusetts Institute of Technology
   # field: Management and Marketing
   title: TBA
   chair_name: TBA
@@ -105,7 +105,7 @@ speakers:
   image: images/keynotes/vanderijt_arnout.jpg
   url: https://arnoutvanderijt.com/
 - name: Sarah Williams
-  affiliation: MIT
+  affiliation: Massachusetts Institute of Technology
   # field: Technology and Urban Planning
   title: TBA
   chair_name: TBA
