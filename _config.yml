@@ -49,11 +49,11 @@ exclude:
 #- travel-grants.html
 #- organization.html
 - program.html
-# - register.html
+- register.html
 #- sponsor-us.html
 #- sponsors.html
-#- submit_abstract.html
-#- submit_tutorial.html
+#- submit-abstract.html
+#- submit-tutorial.html
 #- topics.html
 - tutorials.html
 #- venue.html
