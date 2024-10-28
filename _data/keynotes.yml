@@ -44,6 +44,17 @@ speakers:
     TBA
   image: images/keynotes/brand_jennie.jpg
   url: https://www.profjenniebrand.com/
+- name: Kathleen M. Carley
+  affiliation: Carnegie Mellon University
+  title: "Understanding Influence - a Network Science + AI approach"
+  chair_name: TBA
+  date: TBA
+  abstract: |
+    The US National Academy in its decadal survey of the Social Sciences argued that today we are in an era of Networks+.  In other words, rarely do people use social network or network science techniques in isolation; rather, these are augmented with other computationally based techniques such as computational linguistics and machine learning.  In the area of social-cybersecurity, a field concerned with identifying, characterizing and mitigating online harms such as undue influence, disinformation, hate-speech and extremism, network science is frequently combined with various AI techniques to build more effective tools to support interventions, to improve imperial analysis, and to simulate behavior. A particular area of concern is influence, that is "who is influencing whom on line, how and to what effect?".  The BEND framework has been proposed as a way of systematically characterising such information operations, and it has been operationalized using network science + AI techniques in a way that enables the analyst in detecting, characterizing, mitigating, and assessing the impact of influence activities, those being influenced, and the influencer.  In this presentation the BEND framework and its operationalization using network science+AI  will be described.  Then the insights that can be drawn using this approach will be illustrated using data from various events around the world. The presentation with a call for future research and an itemization of limitations and gaps where new techniques and additional research are needed.
+  bio: |
+    Dr. Kathleen M. Carley is a Professor of Computer Science in the Software and Societal Systems Department in the School of Computer Science at Carnegie Mellon University, IEEE Fellow, and Director of the Center for Computational Analysis of Social and Organizational Systems (CASOS) and Director of the center for Informed DEmocracy And Social‐cybersecurity (IDeaS) both at Carnegie Mellon University. She joined Carnegie Mellon in 1984 as Assistant Professor Sociology and Information Systems. In 1990 she became Associate Professor of Sociology and Organizations, in 1998 Professor of Sociology, Organizations, and Information Technology, and in 2002, attained her current role as Professor of Computation, Organization, and Society. She is also the CEO of Carley Technologies Inc. aka Netanomics.
+  image: images/keynotes/carley_kathleen.jpg
+  url: https://s3d.cmu.edu/people/core-faculty/carley-kathleen.html
 - name: Dean Eckles
   affiliation: Massachusetts Institute of Technology
   # field: Management and Marketing
