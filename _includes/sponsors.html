@@ -11,7 +11,7 @@
   <div class="container">
     <div class="row aln-center">
     {% for sponsor in sponsors.sponsors %}
-      <div class="col-4 col-12-medium">
+      <div class="col-{{ sponsor.width }} col-12-small">
         <section class="highlight">
           <a href="{{ sponsor.url }}">
             <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" style="max-width: 100%"/>
