@@ -9,22 +9,22 @@
     page: submit-abstract
   - name: Call for Tutorials
     page: submit-tutorial
-# - name: Attend
-#   items:
+- name: Attend
+  items:
 #   - name: Register
 #     page: register
-#   - name: Childcare
-#     page: childcare
-#   - name: Venue
-#     page: venue
-#   - name: Getting there
-#     page: getting-there
-#   - name: Accommodation
-#     page: accommodation
-#   - name: Travel Grants
-#     page: travel-grants
-#   - name: Conduct
-#     page: conduct
+  - name: Venue
+    page: venue
+  - name: Getting there
+    page: getting-there
+  - name: Accommodation
+    page: accommodation
+  - name: Childcare
+    page: childcare
+  - name: Travel Grants
+    page: travel-grants
+  - name: Conduct
+    page: conduct
 - name: Program
   items:
 #   - name: Program
