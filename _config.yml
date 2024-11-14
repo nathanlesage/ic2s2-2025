@@ -54,6 +54,7 @@ exclude:
 #- sponsors.html
 #- submit-abstract.html
 #- submit-tutorial.html
+#- getting-there.html
 #- topics.html
 - tutorials.html
 #- venue.html
