@@ -70,7 +70,7 @@ speakers:
 - name: Amir Goldberg
   affiliation: Stanford University
   # field: Behavioral Science
-  title: TBA
+  title: "The Sociology of Interpretation: A Computational Approach"
   chair_name: TBA
   date: TBA
   abstract: |
@@ -94,7 +94,7 @@ speakers:
 - name: Brandon Stewart
   affiliation: Princeton University
   # field: Sociology
-  title: TBA
+  title: "Design-Based Supervised Learning: A General Framework for Using LLM Annotations and Other Predicted Variables in Downstream Analyses"
   chair_name: TBA
   date: TBA
   abstract: |
