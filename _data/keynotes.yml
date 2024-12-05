@@ -23,7 +23,7 @@ speakers:
 - name: Lisa Argyle
   affiliation: Brigham Young University
   # field: Political Science
-  title: TBA
+  title: Artificial Insights? The Promise and Pitfalls of AI in Social Science
   chair_name: TBA
   date: TBA
   abstract: |
@@ -35,7 +35,7 @@ speakers:
 - name: Jennie E. Brand
   affiliation: University of California, Los Angeles
   # field: Sociology
-  title: TBA
+  title: "Causal Inference and Machine Learning for Social Science: Uncovering Effect Heterogeneity"
   chair_name: TBA
   date: TBA
   abstract: |
@@ -58,7 +58,7 @@ speakers:
 - name: Dean Eckles
   affiliation: Massachusetts Institute of Technology
   # field: Management and Marketing
-  title: TBA
+  title: Effect sizes and decisions
   chair_name: TBA
   date: TBA
   abstract: |
@@ -82,7 +82,7 @@ speakers:
 - name: Laura Nelson
   affiliation: University of British Columbia
   # field: Sociology
-  title: TBA
+  title: Why Qualitative Research Needs Computational Social Science
   chair_name: TBA
   date: TBA
   abstract: |
@@ -106,7 +106,7 @@ speakers:
 - name: Arnout van de Rijt
   affiliation: European University Institute
   # field: Sociology
-  title: TBA
+  title: The long-term effects of good and bad luck on life course achievement
   chair_name: TBA
   date: TBA
   abstract: |
