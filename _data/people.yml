@@ -103,6 +103,11 @@
     field: Human mobility and complex networks
     image: images/people/lotero_laura.jpg
     url: https://scholar.google.com/citations?user=64kg8DwAAAAJ&hl=en&oi=sra
+  - name: May Lim
+    affiliation: University of the Philippines Diliman, Philippines
+    field: Complex systems
+    image: images/people/lim_may.jpg
+    url: https://cxteam.liknayan.com/
 
 # TUTORIAL CHAIRS
 - title: Tutorial Chairs
