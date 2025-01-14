@@ -38,11 +38,66 @@
 # PROGRAM CHAIRS
 - title: Program Chairs
   people:
+  - name: Giulia Andrighetto
+    affiliation: Institute of Cognitive Sciences and Technologies, Rome, Italy
+    field: Social Experiments
+    image: images/people/andrighetto_giulia.jpg
+    url: https://www.giuliandrighetto.com/
+  - name: Elliot Ash
+    affiliation: ETH Zurich, Switzerland
+    field: Economics
+    image: images/people/ash_elliot.jpg
+    url: https://elliottash.com/
+  - name: Mirta Galesic
+    affiliation: Complexity Science Hub Vienna, Austria<br>Santa Fe Institute, USA
+    field: Psychology, Cognitive Science
+    image: images/people/galesic_mirta.jpg
+    url: https://sites.google.com/site/mirtagalesic/
+  - name: David Garcia
+    affiliation: Konstanz University, Germany
+    field: Computer Science and Complexity
+    image: images/people/garcia_david.jpg
+    url: https://www.polver.uni-konstanz.de/en/cdm/people/faculty/david-garcia/
+  - name: Jacob Habinek
+    affiliation: Linköping University, Sweden
+    field: Science of Science
+    image: images/people/habinek_jacob.jpg
+    url: https://www.jacobhabinek.net/
   - name: Petter Holme
     affiliation: Aalto University, Finland
     field: Network Science
     image: images/people/holme_petter.jpg
     url: https://petterhol.me/
+  - name: Andreas Jungherr
+    affiliation: Bamberg University, Germany
+    field: Political Science and Communication
+    image: images/people/jungherr_andreas.png
+    url: https://andreasjungherr.net/
+  - name: Juhi Kulshrestha
+    affiliation: Aalto University, Finland
+    field: Algorithmic Bias, Transparency, and Ethics
+    image: images/people/kulshrestha_juhi.png
+    url: https://css.aalto.fi/
+  - name: May Lim
+    affiliation: University of the Philippines Diliman, Philippines
+    field: Complex systems
+    image: images/people/lim_may.jpg
+    url: https://cxteam.liknayan.com/
+  - name: Laura Lotero
+    affiliation: National University of Colombia, Colombia
+    field: Human mobility and complex networks
+    image: images/people/lotero_laura.jpg
+    url: https://scholar.google.com/citations?user=64kg8DwAAAAJ&hl=en&oi=sra
+  - name: Angélica Sousa da Mata
+    affiliation: Federal University of Lavras, Minas Gerais, Brazil
+    field: Dynamic processes on complex networks
+    image: images/people/da_mata_angelica.jpg
+    url: https://orcid.org/0000-0002-3892-5274
+  - name: Kwabena Afriyie Owusu
+    affiliation: University of Waterloo, Canada
+    field: Agent-based modeling
+    image: images/people/owusu_kwabena.jpeg
+    url: https://uwaterloo.ca/planning/profiles/kwabena-owusu
   - name: Denise Pumain
     affiliation: Université Paris | Panthéon Sorbonne, France
     field: Urban Science
@@ -53,61 +108,6 @@
     field: Urban Informatics
     image: images/people/yue_yang.jpg
     url: https://scholar.google.com/citations?user=Or3pqN8AAAAJ&hl=en
-  - name: David Garcia
-    affiliation: Konstanz University, Germany
-    field: Computer Science and Complexity
-    image: images/people/garcia_david.jpg
-    url: https://www.polver.uni-konstanz.de/en/cdm/people/faculty/david-garcia/
-  - name: Mirta Galesic
-    affiliation: Complexity Science Hub Vienna, Austria<br>Santa Fe Institute, USA
-    field: Psychology, Cognitive Science
-    image: images/people/galesic_mirta.jpg
-    url: https://sites.google.com/site/mirtagalesic/
-  - name: Elliot Ash
-    affiliation: ETH Zurich, Switzerland
-    field: Economics
-    image: images/people/ash_elliot.jpg
-    url: https://elliottash.com/
-  - name: Andreas Jungherr
-    affiliation: Bamberg University, Germany
-    field: Political Science and Communication
-    image: images/people/jungherr_andreas.png
-    url: https://andreasjungherr.net/
-  - name: Giulia Andrighetto
-    affiliation: Institute of Cognitive Sciences and Technologies, Rome, Italy
-    field: Social Experiments
-    image: images/people/andrighetto_giulia.jpg
-    url: https://www.giuliandrighetto.com/
-  - name: Jacob Habinek
-    affiliation: Linköping University, Sweden
-    field: Science of Science
-    image: images/people/habinek_jacob.jpg
-    url: https://www.jacobhabinek.net/
-  - name: Juhi Kulshrestha
-    affiliation: Aalto University, Finland
-    field: Algorithmic Bias, Transparency, and Ethics
-    image: images/people/kulshrestha_juhi.png
-    url: https://css.aalto.fi/
-  - name: Kwabena Afriyie Owusu
-    affiliation: University of Waterloo, Canada
-    field: Agent-based modeling
-    image: images/people/owusu_kwabena.jpeg
-    url: https://uwaterloo.ca/planning/profiles/kwabena-owusu
-  - name: Angélica Sousa da Mata  
-    affiliation: Federal University of Lavras, Minas Gerais, Brazil
-    field: Dynamic processes on complex networks
-    image: images/people/da_mata_angelica.jpg
-    url: https://orcid.org/0000-0002-3892-5274
-  - name: Laura Lotero
-    affiliation: National University of Colombia, Colombia
-    field: Human mobility and complex networks
-    image: images/people/lotero_laura.jpg
-    url: https://scholar.google.com/citations?user=64kg8DwAAAAJ&hl=en&oi=sra
-  - name: May Lim
-    affiliation: University of the Philippines Diliman, Philippines
-    field: Complex systems
-    image: images/people/lim_may.jpg
-    url: https://cxteam.liknayan.com/
 
 # TUTORIAL CHAIRS
 - title: Tutorial Chairs
