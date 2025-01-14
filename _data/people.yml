@@ -93,6 +93,11 @@
     field: Agent-based modeling
     image: images/people/owusu_kwabena.jpeg
     url: https://uwaterloo.ca/planning/profiles/kwabena-owusu
+  - name: Angélica Sousa da Mata  
+    affiliation: Federal University of Lavras, Minas Gerais, Brazil
+    field: Dynamic processes on complex networks
+    image: images/people/da_mata_angelica.jpg
+    url: https://orcid.org/0000-0002-3892-5274
 
 # TUTORIAL CHAIRS
 - title: Tutorial Chairs
