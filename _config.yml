@@ -10,6 +10,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+permalink: pretty # Turn /subpage.html into /subpage/
+
 # Global variables, can be accessed using the `site` variable.
 
 # Set this to the Domain that the website will be served on
