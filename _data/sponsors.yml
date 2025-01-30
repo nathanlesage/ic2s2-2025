@@ -33,12 +33,12 @@ sponsors:
 - title: Gold Sponsors
   sponsors:
   - name: Norrköpings Kommun
-    image: images/sponsors/norrkopings-kommun.svg
+    image: /images/sponsors/norrkopings-kommun.svg
     width: 2 # A number between 1 and 12; square logos should get smaller values
     url: https://www.norrkoping.se/
 - title: Silver Sponsors
   sponsors:
   - name: Metrika
-    image: images/sponsors/metrika.png
+    image: /images/sponsors/metrika.png
     width: 4
     url: https://www.statanordic.com/

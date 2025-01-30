@@ -30,7 +30,7 @@ speakers:
     TBA
   bio: |
     TBA
-  image: images/keynotes/argyle_lisa.jpg
+  image: /images/keynotes/argyle_lisa.jpg
   url: https://www.lpargyle.com/
 - name: Jennie E. Brand
   affiliation: University of California, Los Angeles
@@ -42,7 +42,7 @@ speakers:
     TBA
   bio: |
     TBA
-  image: images/keynotes/brand_jennie.jpg
+  image: /images/keynotes/brand_jennie.jpg
   url: https://www.profjenniebrand.com/
 - name: Kathleen M. Carley
   affiliation: Carnegie Mellon University
@@ -53,7 +53,7 @@ speakers:
     The US National Academy in its decadal survey of the Social Sciences argued that today we are in an era of Networks+.  In other words, rarely do people use social network or network science techniques in isolation; rather, these are augmented with other computationally based techniques such as computational linguistics and machine learning.  In the area of social-cybersecurity, a field concerned with identifying, characterizing and mitigating online harms such as undue influence, disinformation, hate-speech and extremism, network science is frequently combined with various AI techniques to build more effective tools to support interventions, to improve imperial analysis, and to simulate behavior. A particular area of concern is influence, that is "who is influencing whom on line, how and to what effect?".  The BEND framework has been proposed as a way of systematically characterising such information operations, and it has been operationalized using network science + AI techniques in a way that enables the analyst in detecting, characterizing, mitigating, and assessing the impact of influence activities, those being influenced, and the influencer.  In this presentation the BEND framework and its operationalization using network science+AI  will be described.  Then the insights that can be drawn using this approach will be illustrated using data from various events around the world. The presentation with a call for future research and an itemization of limitations and gaps where new techniques and additional research are needed.
   bio: |
     Dr. Kathleen M. Carley is a Professor of Computer Science in the Software and Societal Systems Department in the School of Computer Science at Carnegie Mellon University, IEEE Fellow, and Director of the Center for Computational Analysis of Social and Organizational Systems (CASOS) and Director of the center for Informed DEmocracy And Social‐cybersecurity (IDeaS) both at Carnegie Mellon University. She joined Carnegie Mellon in 1984 as Assistant Professor Sociology and Information Systems. In 1990 she became Associate Professor of Sociology and Organizations, in 1998 Professor of Sociology, Organizations, and Information Technology, and in 2002, attained her current role as Professor of Computation, Organization, and Society. She is also the CEO of Carley Technologies Inc. aka Netanomics.
-  image: images/keynotes/carley_kathleen.jpg
+  image: /images/keynotes/carley_kathleen.jpg
   url: https://s3d.cmu.edu/people/core-faculty/carley-kathleen.html
 - name: Dean Eckles
   affiliation: Massachusetts Institute of Technology
@@ -65,7 +65,7 @@ speakers:
     TBA
   bio: |
     TBA
-  image: images/keynotes/eckles_dean.jpg
+  image: /images/keynotes/eckles_dean.jpg
   url: https://mitsloan.mit.edu/faculty/directory/dean-eckles
 - name: Amir Goldberg
   affiliation: Stanford University
@@ -77,7 +77,7 @@ speakers:
     TBA
   bio: |
     TBA
-  image: images/keynotes/goldberg_amir.jpg
+  image: /images/keynotes/goldberg_amir.jpg
   url: https://www.gsb.stanford.edu/faculty-research/faculty/amir-goldberg
 - name: Laura Nelson
   affiliation: University of British Columbia
@@ -89,7 +89,7 @@ speakers:
     TBA
   bio: |
     TBA
-  image: images/keynotes/nelson_laura.jpg
+  image: /images/keynotes/nelson_laura.jpg
   url: https://www.lauraknelson.com/
 - name: Brandon Stewart
   affiliation: Princeton University
@@ -101,7 +101,7 @@ speakers:
     TBA
   bio: |
     TBA
-  image: images/keynotes/stewart_brandon.jpg
+  image: /images/keynotes/stewart_brandon.jpg
   url: https://bstewart.scholar.princeton.edu/
 - name: Arnout van de Rijt
   affiliation: European University Institute
@@ -113,7 +113,7 @@ speakers:
     TBA
   bio: |
     TBA
-  image: images/keynotes/vanderijt_arnout.jpg
+  image: /images/keynotes/vanderijt_arnout.jpg
   url: https://arnoutvanderijt.com/
 - name: Sarah Williams
   affiliation: Massachusetts Institute of Technology
@@ -125,5 +125,5 @@ speakers:
     Williams will explain how we can use data as a tool for empowerment rather than oppression, something Williams calls "Data Action," which is also the title of her recent book. Data Action seeks to provide guidance for using data toward the benefit of society, learning from the ways we have used data unethically in the past and illustrating ways we can use it more ethically and creatively in the future. Williams will illustrate the seven Data Action principles through her diverse research projects spanning topics of Central American migration, popular transit in Africa, ghost cities in China, and translating New York City’s zoning text. Williams will also show her most recent work on People Powered AI: How to use Gen AI for Civic Engagement. 
   bio: |
     TBA
-  image: images/keynotes/williams_sarah.jpg
+  image: /images/keynotes/williams_sarah.jpg
   url: https://dusp.mit.edu/people/sarah-williams

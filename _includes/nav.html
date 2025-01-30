@@ -12,12 +12,12 @@
         <li
           {% if page.name == item.page %}class="current"{% endif %}
         >
-          <a href="{{ item.page }}">{{ item.name }}</a>
+          <a href="{{ item.page | absolute_url }}">{{ item.name }}</a>
         </li>
         {% endfor %}
       </ul>
       {% else %}
-        <a href="{{ group.page }}">{{ group.name }}</a>
+        <a href="{{ group.page | absolute_url }}">{{ group.name }}</a>
       {% endif %}
     </li>
     {% endfor %}

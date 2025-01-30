@@ -17,22 +17,22 @@
   - name: Peter Hedström
     affiliation: Institute for Analytical Sociology, Linköping University
     field: Social Sciences
-    image: images/people/hedstrom_peter.jpg
+    image: /images/people/hedstrom_peter.jpg
     url: https://liu.se/en/employee/pethe05
   - name: Sonia Yeh
     affiliation: Department of Space, Earth and Environment, Chalmers University of Technology
     field: Transport and Energy Systems
-    image: images/people/yeh_sonia.jpg
+    image: /images/people/yeh_sonia.jpg
     url: https://www.chalmers.se/en/persons/soniay/
   - name: Nina Tahmasebi
     affiliation: Department of Philosophy, Linguistics and Theory of Science, Gothenburg University
     field: NLP and Linguistics
-    image: images/people/tahmasebi_nina.jpg
+    image: /images/people/tahmasebi_nina.jpg
     url: https://tahmasebi.se/
   - name: Marc Keuschnigg
     affiliation: Institute for Analytical Sociology, Linköping University<br>Institute of Sociology, Leipzig University
     field: Social Sciences
-    image: images/people/keuschnigg_marc.jpg
+    image: /images/people/keuschnigg_marc.jpg
     url: https://keuschnigg.org/
 
 # PROGRAM CHAIRS
@@ -41,72 +41,72 @@
   - name: Giulia Andrighetto
     affiliation: Institute of Cognitive Sciences and Technologies, Rome, Italy
     field: Social Experiments
-    image: images/people/andrighetto_giulia.jpg
+    image: /images/people/andrighetto_giulia.jpg
     url: https://www.giuliandrighetto.com/
   - name: Elliot Ash
     affiliation: ETH Zurich, Switzerland
     field: Economics
-    image: images/people/ash_elliot.jpg
+    image: /images/people/ash_elliot.jpg
     url: https://elliottash.com/
   - name: Mirta Galesic
     affiliation: Complexity Science Hub Vienna, Austria<br>Santa Fe Institute, USA
     field: Psychology, Cognitive Science
-    image: images/people/galesic_mirta.jpg
+    image: /images/people/galesic_mirta.jpg
     url: https://sites.google.com/site/mirtagalesic/
   - name: David Garcia
     affiliation: Konstanz University, Germany
     field: Computer Science and Complexity
-    image: images/people/garcia_david.jpg
+    image: /images/people/garcia_david.jpg
     url: https://www.polver.uni-konstanz.de/en/cdm/people/faculty/david-garcia/
   - name: Jacob Habinek
     affiliation: Linköping University, Sweden
     field: Science of Science
-    image: images/people/habinek_jacob.jpg
+    image: /images/people/habinek_jacob.jpg
     url: https://www.jacobhabinek.net/
   - name: Petter Holme
     affiliation: Aalto University, Finland
     field: Network Science
-    image: images/people/holme_petter.jpg
+    image: /images/people/holme_petter.jpg
     url: https://petterhol.me/
   - name: Andreas Jungherr
     affiliation: Bamberg University, Germany
     field: Political Science and Communication
-    image: images/people/jungherr_andreas.png
+    image: /images/people/jungherr_andreas.png
     url: https://andreasjungherr.net/
   - name: Juhi Kulshrestha
     affiliation: Aalto University, Finland
     field: Algorithmic Bias, Transparency, and Ethics
-    image: images/people/kulshrestha_juhi.png
+    image: /images/people/kulshrestha_juhi.png
     url: https://css.aalto.fi/
   - name: May Lim
     affiliation: University of the Philippines Diliman, Philippines
     field: Complex Systems
-    image: images/people/lim_may.jpg
+    image: /images/people/lim_may.jpg
     url: https://cxteam.liknayan.com/
   - name: Laura Lotero
     affiliation: National University of Colombia, Colombia
     field: Human Mobility and Complex Networks
-    image: images/people/lotero_laura.jpg
+    image: /images/people/lotero_laura.jpg
     url: https://scholar.google.com/citations?user=64kg8DwAAAAJ&hl=en&oi=sra
   - name: Angélica Sousa da Mata
     affiliation: Federal University of Lavras, Minas Gerais, Brazil
     field: Dynamic Processes on Complex Networks
-    image: images/people/da_mata_angelica.jpg
+    image: /images/people/da_mata_angelica.jpg
     url: https://orcid.org/0000-0002-3892-5274
   - name: Kwabena Afriyie Owusu
     affiliation: University of Waterloo, Canada
     field: Agent-Based Modeling and Common-Pool Resource Systems
-    image: images/people/owusu_kwabena.jpeg
+    image: /images/people/owusu_kwabena.jpeg
     url: https://uwaterloo.ca/planning/profiles/kwabena-owusu
   - name: Denise Pumain
     affiliation: Université Paris | Panthéon Sorbonne, France
     field: Urban Science
-    image: images/people/pumain_denise.png
+    image: /images/people/pumain_denise.png
     url: https://geographie-cites.cnrs.fr/en/members/denise-pumain/
   - name: Yang Yue
     affiliation: Shenzhen University, China
     field: Urban Informatics
-    image: images/people/yue_yang.jpg
+    image: /images/people/yue_yang.jpg
     url: https://scholar.google.com/citations?user=Or3pqN8AAAAJ&hl=en
 
 # TUTORIAL CHAIRS
@@ -115,12 +115,12 @@
   - name: Martin Arvidsson
     affiliation: Institute for Analytical Sociology, Linköping University
     field: Social Sciences
-    image: images/people/arvidsson_martin.jpg
+    image: /images/people/arvidsson_martin.jpg
     url: https://martin-arvidsson.github.io/
   - name: Yuan Liao
     affiliation: Department of Space, Earth and Environment, Chalmers
     field: Transport and Urban Sciences
-    image: images/people/liao_yuan.jpg
+    image: /images/people/liao_yuan.jpg
     url: https://www.chalmers.se/en/persons/yuanlia/
 
 # POSTER SESSION CHAIRS
@@ -133,15 +133,15 @@
   - name: Hendrik Erz
     affiliation: Institute for Analytical Sociology, Linköping University
     field: Political and Economic Sociology
-    image: images/people/erz_hendrik.jpg
+    image: /images/people/erz_hendrik.jpg
     url: https://www.hendrik-erz.de/
   - name: Yuan Liao
     affiliation: Department of Space, Earth and Environment, Chalmers
     field: Transport and Urban Sciences
-    image: images/people/liao_yuan.jpg
+    image: /images/people/liao_yuan.jpg
     url: https://www.chalmers.se/en/persons/yuanlia/
   - name: Felix Lennert
     affiliation: "CREST, Ecole Polytechnique, Institut Polytechnique de Paris<br>Leipzig University"
     field: Sociology
-    image: images/people/lennert_felix.jpg
+    image: /images/people/lennert_felix.jpg
     url: https://felix-lennert.netlify.app/
