@@ -52,6 +52,7 @@ exclude:
 #- organization.html
 - program.html
 - register.html
+# - visa.html
 #- sponsor-us.html
 #- sponsors.html
 #- submit-abstract.html

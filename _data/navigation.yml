@@ -13,6 +13,8 @@
   items:
 #   - name: Register
 #     page: register
+  - name: Visa
+    page: visa
   - name: Venue
     page: venue
   - name: Getting there
