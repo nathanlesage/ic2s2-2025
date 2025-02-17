@@ -39,8 +39,8 @@
     page: keynotes
 #   - name: Awards
 #     page: awards
-#   - name: Tutorials
-#     page: tutorials
+  - name: Tutorials
+    page: tutorials
 - name: Organizers
   page: organization # Top-level navigation only has "page", not "items" prop
 - name: About
