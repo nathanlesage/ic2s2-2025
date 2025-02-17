@@ -58,6 +58,11 @@
     field: Computer Science and Complexity
     image: /images/people/garcia_david.jpg
     url: https://www.polver.uni-konstanz.de/en/cdm/people/faculty/david-garcia/
+  - name: Josef Ginnerskov
+    affiliation: 
+    field:
+    image: /images/people/ginnerskov_josef.jpg
+    url: https://liu.se/en/employee/josgi08
   - name: Jacob Habinek
     affiliation: Linköping University, Sweden
     field: Science of Science
