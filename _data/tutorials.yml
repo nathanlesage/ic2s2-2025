@@ -87,7 +87,7 @@ items:
     affiliation: M.Sc. Computational Social Science, RWTH Aachen
   - name: Duncan Watts
     image: /images/tutorials/watts_duncan.jpg
-    affilation: Stevens University Professor at University of Pennsylvania
+    affiliation: Stevens University Professor at University of Pennsylvania
 ################################################################################
 - title: "RL and EGT are two sides of the same coin"
   abstract: |
