@@ -5,12 +5,12 @@
 # the correct dates (e.g. only the tutorial deadlines on the tutorial submission
 # page). It can be "tutorial" or "conference".
 - text: "Tutorial proposal submission deadline: January 17, 2025"
-  done: false
+  done: true
   category: tutorial
 - text: "Notification of tutorial acceptance: January 31, 2025"
-  done: false
+  done: true
   category: tutorial
-- text: "Abstract submission deadline: February 24, 2025 (AoE)"
+- text: "Abstract submission deadline: <s>February 24, 2025 (AoE)</s> (<strong>extended until February 26, 2025 (AoE)!</strong>)"
   done: false
   category: conference
 - text: "Notification of abstract acceptance: April 18, 2025"
