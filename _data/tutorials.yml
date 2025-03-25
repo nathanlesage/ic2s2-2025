@@ -22,7 +22,7 @@ schedule:
     description: "Coffee break"
 # Here follow the actual tutorials (note the difference in data structures between `items` and `past_tutorials`)
 items:
-- title: "Analyzing the relationship between human mobility and access to opportunities using R and big open data"
+- title: "Mobility Flows and Accessibility Using R and Big Open Data"
   abstract: |
     Large-scale human mobility datasets provide unprecedented opportunities to analyze movement patterns, generating critical insights for many fields of research. Until recently, access to human mobility data was a privilege of a few researchers. Thanks to countries like Spain that pioneered to make high resolution aggregated human mobility data open, such data is becoming increasingly accessible, and similar mobility data may soon be widely available as part of official statistics across the European Union. However, the complexity and sheer volume of this data present practical challenges related to data acquisition, efficient processing, geographic disaggregation, network representation, and interactive visualization.
 
