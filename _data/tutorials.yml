@@ -87,7 +87,7 @@ schedule:
   afternoon_tutorials: [2, 4, 6, 8, 10]
 # Here follow the actual tutorials (note the difference in data structures between `items` and `past_tutorials`)
 items:
-- title: "LLM Power To The People ✊"
+- title: "LLM Power to the People ✊"
   id: 1
   capacity: 100
   abstract: |
@@ -150,7 +150,7 @@ items:
     image: /images/tutorials/horvat_agnes.jpg
     affiliation: Associate Professor of Communication and Computer Science, Northwestern University
 ################################################################################
-- title: "FAIR theory: Applying Open Science Principles to the Construction and Iterative Improvement of Theories"
+- title: "FAIR Theory: Applying Open Science Principles to the Construction and Iterative Improvement of Theories"
   id: 5
   capacity: 15-30
   abstract: |
@@ -187,7 +187,7 @@ items:
     image: /images/tutorials/watts_duncan.jpg
     affiliation: Stevens University Professor at University of Pennsylvania
 ################################################################################
-- title: "Scalable analysis of GPS human mobility data with applications to socio-spatial inequality"
+- title: "Scalable Analysis of GPS Human Mobility Data with Applications to Socio-Spatial Inequality"
   id: 7
   capacity: 20-50
   abstract: |
@@ -232,7 +232,7 @@ items:
     image: /images/tutorials/mast_johannes.jpg
     affiliation: PhD Student, German Aerospace Center (Deutsches Zentrum für Luft- und Raumfahrt, DLR)
 ################################################################################
-- title: "RL and EGT are two sides of the same coin"
+- title: "RL and EGT are Two Sides of the Same Coin"
   id: 9
   capacity: 20-50
   abstract: |
