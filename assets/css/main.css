@@ -1630,7 +1630,7 @@ table.tutorials tfoot {
 
 table.prices {
   width: 100%;
-  text-align: center;
+  text-align: right;
 }
 
 table.prices tbody tr:nth-child(2n + 2) {
