@@ -7,49 +7,132 @@ title: Tutorials
 	<div class="row aln-center">
 		<div class="col-7 col-12-medium">
 
-			<table id="summary" class="tutorials" style="width: 50%; margin-left: auto; margin-right: auto;">
+			<!-- First, print out some general information in a list -->
+			<h2>Tutorial Day Overview</h2>
+			{% assign schedule = site.data.tutorials.schedule %}
+			<ul>
+				<li>
+					<strong>{{ schedule.venue_opens }}</strong>: Venue opens
+				</li>
+				<li>
+					<strong>{{ schedule.morning_time }}</strong>: Morning session
+				</li>
+				<li>
+					<strong>{{ schedule.coffee_break_one }}</strong>: Coffee break
+				</li>
+				<li>
+					<strong>{{ schedule.afternoon_time }}</strong>: Afternoon session
+				</li>
+				<li>
+					<strong>{{ schedule.coffee_break_two }}</strong>: Coffee break
+				</li>
+			</ul>
+
+			<!-- Then the actual table (if the keys are present) -->
+
+			{% if schedule.morning_tutorials and schedule.afternoon_tutorials %}
+			<table id="schedule" class="tutorials">
+				<!-- Detect how many rows we need -->
+				{% assign morning_count = schedule.morning_tutorials | size %}
+				{% assign afternoon_count = schedule.afternoon_tutorials | size %}
+				{% if morning_count > afternoon_count %}
+					{% assign rows = morning_count %}
+				{% else %}
+					{% assign rows = afternoon_count %}
+				{% endif %}
+
+				<!-- Header -->
 				<tr>
-					<th colspan="2"><b style="color:#ffffff">Tutorial Day Schedule ({{ site.data.tutorials.schedule.day }})</b>
-					</th>
+					<th colspan="2"><strong style="color:#ffffff">Tutorial Schedule</strong></th>
 				</tr>
-				{% for item in site.data.tutorials.schedule.items %}
 				<tr>
-					<td><b style="color: black;">{{ item.time }}</b></td>
-					<td>{{ item.description }}</b></td>
+					<th>Morning Session: {{ schedule.morning_time }}</th>
+					<th>Afternoon Session: {{ schedule.afternoon_time }}</th>
 				</tr>
+				{% assign tutorial_data = site.data.tutorials.items %}
+				{% for r in (1..rows) %}
+					{% assign i = r | minus: 1 %}
+					{% assign morning_id = schedule.morning_tutorials[i] %}
+					{% assign morning_tutorial = tutorial_data | where: "id", morning_id %}
+					{% assign morning_tutorial = morning_tutorial[0] %}
+					{% assign afternoon_id = schedule.afternoon_tutorials[i] %}
+					{% assign afternoon_tutorial = tutorial_data | where: "id", afternoon_id %}
+					{% assign afternoon_tutorial = afternoon_tutorial[0] %}
+					<tr>
+						<td>
+							{% if morning_tutorial %}
+							<strong style="color: #000000;">#{{ morning_tutorial.id }}</strong>
+							<a href="#{{ morning_tutorial.title | slugify }}" style="color:#000000">
+								{{ morning_tutorial.title }}
+							</a>
+							{% endif %}
+						</td>
+						<td>
+							{% if afternoon_tutorial %}
+							<strong style="color: #000000;">#{{ afternoon_tutorial.id }}</strong>
+							<a href="#{{ afternoon_tutorial.title | slugify }}" style="color:#000000">
+								{{ afternoon_tutorial.title }}
+							</a>
+							{% endif %}
+						</td>
+					</tr>
 				{% endfor %}
 			</table>
+		{% endif %}
 
 			<!-- Tutorial list -->
 			<table id="summary" class="tutorials">
 				<tr>
-					<th colspan="4"><strong style="color:#ffffff">List of Tutorials</strong></th>
+					<th colspan="5"><strong style="color:#ffffff">List of Tutorials</strong></th>
 				</tr>
 
 				<tr>
 					<th><strong style="color:#ffffff">ID</strong></th>
 					<th><strong style="color:#ffffff">Title</strong></th>
+					<th><strong style="color:#ffffff">Capacity</strong></th>
 					<th><strong style="color:#ffffff">Room</strong></th>
 					<th><strong style="color:#ffffff">Time</strong></th>
 				</tr>
 				{% unless site.data.tutorials.items %}
 					<tr>
-						<td colspan="4">Currently there are no scheduled tutorials. Please check back later.</td>
+						<td colspan="5">Currently there are no scheduled tutorials. Please check back later.</td>
 					</tr>
 				{% endunless %}
 				{% for tutorial in site.data.tutorials.items %}
 				<tr>
-					<td>{{ forloop.index }}</td>
+					<td>{{ tutorial.id }}</td>
 					<td><strong><a href="#{{ tutorial.title | slugify }}" style="color:#000000">{{ tutorial.title }}</a></strong></td>
+					<td>{{ tutorial.capacity }}</td>
 					<td>{{ tutorial.room }}</td>
-					<td>{{ tutorial.time }}</td>
+					<!-- Infer the tutorial time(s) -->
+					{% assign is_morning = false %}
+					{% assign is_afternoon = false %}
+					{% for id in schedule.morning_tutorials %}
+						{% if id == tutorial.id %}
+							{% assign is_morning = true %}
+							{% break %}
+						{% endif %}
+					{% endfor %}
+					{% for id in schedule.afternoon_tutorials %}
+						{% if id == tutorial.id %}
+							{% assign is_afternoon = true %}
+							{% break %}
+						{% endif %}
+					{% endfor %}
+					<td>
+						{% if is_morning == false and is_afternoon == false %}
+						TBA
+						{% elsif is_morning == true and is_afternoon == false %}
+						{{ schedule.morning_time }}
+						{% elsif is_morning == false and is_afternoon == true %}
+						{{ schedule.afternoon_time }}
+						{% elsif is_morning == true and is_afternoon == true %}
+						{{ schedule.morning_time }}, {{ schedule.afternoon_time }}
+						{% endif %}
+					</td>
 				</tr>
 				{% endfor %}
 			</table>
-
-
-
-
 		</div>
 	</div>
 </section>
