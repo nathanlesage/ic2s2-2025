@@ -44,6 +44,17 @@ title: Register
 									{{ site.data.registration.tutorials }} {{ site.data.registration.currency }}
 								</td>
 							</tr>
+							{% if site.data.registration.conference_dinner %}
+							<tr>
+								<td><strong>Conference Dinner</strong></td>
+								<td>
+									{{ site.data.registration.conference_dinner }} {{ site.data.registration.currency }}
+								</td>
+								<td>
+									{{ site.data.registration.conference_dinner }} {{ site.data.registration.currency }}
+								</td>
+							</tr>
+							{% endif %}
 						</table>
 
 						{% if site.data.registration.registration_open and site.data.registration.registration_link %}
@@ -59,7 +70,11 @@ title: Register
 						{% else %}
 						<center>
 							<strong>
+								{% if site.data.registration.registration_closed_reason %}
+									{{ site.data.registration.registration_closed_reason }}
+								{% else %}
 								Registration is currently not possible.
+								{% endif %}
 							</strong>
 						</center>
 						{% endif %}
@@ -71,7 +86,21 @@ title: Register
 					<div class="col-8">
 						<h2>Visa Information</h2>
 						<p>
-							For visa requirements, please see the <a href="/visa">Visa information page</a>.
+							Citizens of non-Schengen countries may need to apply for a visa to
+							participate in IC2S2 2025. Please
+							<a href="https://www.migrationsverket.se/English/Private-individuals/Visiting-Sweden/Visit-Sweden-up-to-90-days---apply-for-a-visa.html">
+								consult Migrationsverket's website
+							</a> to identify whether you need a visa to enter Sweden, and, if
+							so, how to apply.
+						</p>
+
+						<p>
+							You will automatically receive a letter of invitation upon
+							successful registration which you can provide when applying for a
+							visa. Should you require additional documents or details from the
+							conference organizers in order to apply for a visa, please send an
+							email to
+							<a href="mailto:{{ site.emails.visa }}">{{ site.emails.visa }}</a>
 						</p>
 					</div>
 				</div>

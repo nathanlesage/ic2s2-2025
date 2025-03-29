@@ -1,14 +1,21 @@
 currency: SEK # Three-letter currency code or currency symbol (UTF-8)
 # Early Bird registration
-registration_open: true # Is registration possible right now?
+registration_open: false # Is registration possible right now?
+# The following is a message that will be displayed if registration_open is
+# false. Use this to, e.g., announce to participants when registration will
+# open. If this is not present, the system will just indicate that registrations
+# aren't possible.
+registration_closed_reason: "Registration will open in mid-April."
 registration_link: # Link to registration form
 early_bird:
   deadline: "May 9, 2025" # Until when is early bird possible?
-  student: "1,700"
-  regular: "2,900"
+  student: "2,000"
+  regular: "4,500"
 # Regular registration costs
 regular:
-  student: "2,300"
-  regular: "3,500"
+  student: "2,800"
+  regular: "5,000"
 # Tutorials-only attendance
-tutorials: "800"
+tutorials: "750"
+# Optional conference dinner (comment out if there is no dinner)
+conference_dinner: "100"

@@ -50,9 +50,8 @@ exclude:
 #- conduct.html
 #- travel-grants.html
 #- organization.html
-- program.html
-- register.html
-# - visa.html
+# - program.html
+#- register.html
 #- sponsor-us.html
 #- sponsors.html
 #- submit-abstract.html

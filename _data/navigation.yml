@@ -11,10 +11,8 @@
     page: submit-tutorial
 - name: Attend
   items:
-#   - name: Register
-#     page: register
-  - name: Visa
-    page: visa
+  - name: Register
+    page: register
   - name: Venue
     page: venue
   - name: Getting there
@@ -29,8 +27,8 @@
     page: conduct
 - name: Program
   items:
-#   - name: Program
-#     page: program
+  - name: Program
+    page: program
 #   - name: Poster Details
 #     page: poster
 #   - name: Instructions
