@@ -39,9 +39,9 @@ speakers:
   chair_name: TBA
   date: TBA
   abstract: |
-    TBA
+    This talk reviews recent advances in causal inference relevant to sociology, focusing on uncovering treatment effect heterogeneity. Uncovering sources of effect heterogeneity is key for understanding the implications of the distribution of scarce resources, effectively assigning treatments to maximize average outcomes, and generalizing to populations beyond those under study. I describe propensity and covariate-based partitioning strategies and tree-based methods for assessing effect heterogeneity. To demonstrate methods for assessing effect heterogeneity, I draw on an empirical application of estimating the heterogeneous effects of completing a four-year college degree in the U.S. on reducing socioeconomic disadvantage over the career. 
   bio: |
-    TBA
+    Jennie E. Brand is Professor of Sociology at the University of California, Los Angeles (UCLA), and Professor of Statistics and Data Science (by courtesy). She is Co-Director of the Center for Social Statistics (CSS) at UCLA. Brand serves on the Board of Directors for the Population Association of America (PAA), and is Vice-President (and incoming President) of the International Sociological Association (ISA) Research Committee on Social Stratification and Mobility (RC28). She is a member of the Technical Review Committee for the National Longitudinal Surveys Program at the Bureau of Labor Statistics. Brand studies social stratification and inequality, mobility, social demography, education, and methods for causal inference. Brand was elected to the Sociological Research Association (SRA), an honor society for excellence in research, in 2019, received the ASA Methodology Leo Goodman Mid-Career Award in 2016, and received an honorable mention for the ASA Inequality, Poverty, and Mobility William Julius Wilson Mid-Career Award in 2014. She was previously President of the Association of Population Centers (APC), Chair of the Methodology Section of the American Sociological Association (ASA), and Chair of the Inequality, Poverty, and Mobility Section of ASA.
   image: /images/keynotes/brand_jennie.jpg
   url: https://www.profjenniebrand.com/
 - name: Kathleen M. Carley
