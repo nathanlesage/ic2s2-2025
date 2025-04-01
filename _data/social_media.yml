@@ -3,8 +3,8 @@ show: true
 links:
 - title: Bluesky
   link: https://bsky.app/profile/ic2s2.bsky.social
-- title: Twitter
-  link: https://twitter.com/ic2s2
+# - title: Twitter
+#   link: https://twitter.com/ic2s2
 #- title: Mastodon
 #  link: https://mathstodon.xyz/@IC2S2
 #- title: LinkedIn
