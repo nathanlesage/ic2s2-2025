@@ -8,7 +8,7 @@ registration_open: false # Is registration possible right now?
 registration_closed_reason: "Registration will open in mid-April."
 registration_link: # Link to registration form
 early_bird:
-  deadline: "May 9, 2025" # Until when is early bird possible?
+  deadline: "May 9" # Until when is early bird possible?
   student: "2,000"
   regular: "4,500"
 # Regular registration costs
