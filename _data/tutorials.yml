@@ -150,6 +150,23 @@ items:
     image: /images/tutorials/horvat_agnes.jpg
     affiliation: Associate Professor of Communication and Computer Science, Northwestern University
 ################################################################################
+- title: "Planetary Causal Inference: an R tutorial on how to conduct causal inference with satellite images data"
+  id: 4
+  capacity: 20-80
+  abstract: |
+    This R tutorial is based on our book-in-progress, Planetary Causal Inference (PCI), which proposes using Earth observation (EO) data to enhance social science research by expanding both the scope and resolution of data analysis. Traditional data sources like surveys and national statistics are often expensive, limited in coverage, and rarely provide real-time insights—challenges that hinder comprehensive planetary-scale studies. In contrast, satellite-based EO data offer fine-grained, global perspectives on phenomena such as urban growth, poverty, deforestation, and conflict, capturing information across diverse spatial and temporal scales.
+    This tutorial introduces the emerging practice of EO-based machine learning (EO-ML), where advanced models transform satellite-derived spatial data into proxies for social science metrics and feed these into causal inference pipelines. By integrating knowledge from geography, history, and multi-level frameworks, PCI fosters a broader understanding of human–environment interactions, helping researchers address questions that span household, neighborhood, regional, and global contexts.
+    Through its cookbook-style presentation of “ingredients” (data, methods) and “recipes” (analysis steps), PCI equips social scientists to confidently adopt and adapt EO-ML tools. This approach helps generate highly detailed insights and enables researchers to explore pressing global issues—ranging from armed conflict to sustainable development—with new analytical power and precision.
+  room: TBA
+  website: https://planetarycausalinference.org/
+  tutors:
+  - name: Adel Daoud
+    image: /images/tutorials/daoud_adel.jpg
+    affiliation: Associate Professor at Institute for Analytical Sociology, Linköping University, and Affiliated Associate Professor in Data Science and Artificial Intelligence for the Social Sciences, Department of Computer Science and Engineering, Chalmers University of Technology, Gothenburg, Sweden
+  - name: Connor Jerzak
+    image: /images/tutorials/jerzak_connor.jpg
+    affiliation: Assistant Professor in Government, UT Austin
+################################################################################
 - title: "FAIR Theory: Applying Open Science Principles to the Construction and Iterative Improvement of Theories"
   id: 5
   capacity: 15-30
