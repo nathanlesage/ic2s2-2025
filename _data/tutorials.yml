@@ -249,7 +249,7 @@ items:
     image: /images/tutorials/mast_johannes.jpg
     affiliation: PhD Student, German Aerospace Center (Deutsches Zentrum für Luft- und Raumfahrt, DLR)
 ################################################################################
-- title: "RL and EGT are Two Sides of the Same Coin"
+- title: "Reinforcement Learning and Evolutionary Game Theory are Two Sides of the Same Coin"
   id: 9
   capacity: 20-50
   abstract: |
