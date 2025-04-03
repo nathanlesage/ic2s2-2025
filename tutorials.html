@@ -81,6 +81,7 @@ title: Tutorials
 		{% endif %}
 
 			<!-- Tutorial list -->
+			<!--
 			<table id="summary" class="tutorials">
 				<tr>
 					<th colspan="5"><strong style="color:#ffffff">List of Tutorials</strong></th>
@@ -104,7 +105,7 @@ title: Tutorials
 					<td><strong><a href="#{{ tutorial.title | slugify }}" style="color:#000000">{{ tutorial.title }}</a></strong></td>
 					<td>{{ tutorial.capacity }}</td>
 					<td>{{ tutorial.room }}</td>
-					<!-- Infer the tutorial time(s) -->
+					<!-- Infer the tutorial time(s) --
 					{% assign is_morning = false %}
 					{% assign is_afternoon = false %}
 					{% for id in schedule.morning_tutorials %}
@@ -133,6 +134,7 @@ title: Tutorials
 				</tr>
 				{% endfor %}
 			</table>
+			-->
 		</div>
 	</div>
 </section>
