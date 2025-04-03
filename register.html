@@ -22,40 +22,49 @@ title: Register
 							<tr>
 								<td><strong>Student</strong></td>
 								<td>
-									{{ site.data.registration.early_bird.student }} {{ site.data.registration.currency }}
+									{{ site.data.registration.early_bird.student }} {{ site.data.registration.currency_code }}
 								</td>
-								<td>{{ site.data.registration.regular.student }} {{ site.data.registration.currency }}</td>
+								<td>{{ site.data.registration.regular.student }} {{ site.data.registration.currency_code }}</td>
 							</tr>
 							<tr>
 								<td><strong>Regular</strong></td>
 								<td>
-									{{ site.data.registration.early_bird.regular }} {{ site.data.registration.currency }}
+									{{ site.data.registration.early_bird.regular }} {{ site.data.registration.currency_code }}
 								</td>
 								<td>
-									{{ site.data.registration.regular.regular }} {{ site.data.registration.currency }}
+									{{ site.data.registration.regular.regular }} {{ site.data.registration.currency_code }}
 								</td>
 							</tr>
 							<tr>
 								<td><strong>Tutorials</strong></td>
 								<td>
-									{{ site.data.registration.tutorials }} {{ site.data.registration.currency }}
+									{{ site.data.registration.tutorials }} {{ site.data.registration.currency_code }}
 								</td>
 								<td>
-									{{ site.data.registration.tutorials }} {{ site.data.registration.currency }}
+									{{ site.data.registration.tutorials }} {{ site.data.registration.currency_code }}
 								</td>
 							</tr>
 							{% if site.data.registration.conference_dinner %}
 							<tr>
 								<td><strong>Conference&nbsp;Dinner</strong></td>
 								<td>
-									{{ site.data.registration.conference_dinner }} {{ site.data.registration.currency }}
+									{{ site.data.registration.conference_dinner }} {{ site.data.registration.currency_code }}
 								</td>
 								<td>
-									{{ site.data.registration.conference_dinner }} {{ site.data.registration.currency }}
+									{{ site.data.registration.conference_dinner }} {{ site.data.registration.currency_code }}
 								</td>
 							</tr>
 							{% endif %}
 						</table>
+
+						<p>
+							<em>
+								All prices shown in {{ site.data.registration.currency_name }} ({{ site.data.registration.currency_code }}).
+								{% if site.data.registration.table_note %}
+									{{ site.data.registration.table_note }}
+								{% endif %}
+							</em>
+						</p>
 
 						{% if site.data.registration.registration_open and site.data.registration.registration_link %}
 						<ul class="actions special">
