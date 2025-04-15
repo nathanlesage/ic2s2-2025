@@ -7,7 +7,7 @@ registration_open: false # Is registration possible right now?
 # open. If this is not present, the system will just indicate that registrations
 # aren't possible.
 registration_closed_reason: "Registration will open in mid-April."
-registration_link: # Link to registration form
+registration_link: https://www.trippus.net/delegate_registration_ic2s2 # Link to registration form
 # A custom note to add below the table. This will be shown after the "All Prices
 # shown in currency_name (currency_code)."
 table_note: "Prices include 25 % VAT. The conference dinner includes 12 % VAT."
