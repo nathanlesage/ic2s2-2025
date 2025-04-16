@@ -86,9 +86,9 @@ speakers:
   chair_name: TBA
   date: TBA
   abstract: |
-    TBA
+    Computational methods are playing a larger role in qualitative social science, but often with the goal of scaling or automating qualitative inquiry. Scaling and automating approaches are rooted in quantitative traditions, which are focused on measurement, generalizability, and evaluation against fixed benchmarks. But qualitative research is grounded in a different logic. It aims to understand meaning, context, and how people experience the world differently depending on their social position. This talk argues that if we want to use computational methods for qualitative research, we need to develop them differently than the current approach. For example, while machine learning is often framed as a tool for classification, its strength in identifying emergent patterns in large amounts of qualitative data aligns with inductive and abductive reasoning long used in qualitative research. Evaluating classification algorithms against a pre-determined "ground truth" stunts their development for inductive/abductive exploration and qualitative logics. In this talk I will share examples of how computational tools can support qualitative goals—not by making qualitative work more quantitative, but by shifting how we build, evaluate, and use these tools. This includes recognizing multiple perspectives in the data, treating researchers as active interpreters, and developing criteria that reflect qualitative rather than quantitative values.
   bio: |
-    TBA
+    Laura K. Nelson is an associate professor of sociology at the University of British Columbia, where she also directs the Centre for Computational Social Science. She uses computational methods to study social movements, gender, culture, and institutions, and to advance qualitative computational text analysis methods. She has published in outlets such as American Journal of Sociology, American Sociological Review, and Sociological Methods & Research, among others. 
   image: /images/keynotes/nelson_laura.jpg
   url: https://www.lauraknelson.com/
 - name: Brandon Stewart
