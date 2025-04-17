@@ -1,7 +1,7 @@
 currency_code: SEK # Three-letter currency code or currency symbol (UTF-8)
 currency_name: "Swedish Kronor"
 # Early Bird registration
-registration_open: false # Is registration possible right now?
+registration_open: true # Is registration possible right now?
 # The following is a message that will be displayed if registration_open is
 # false. Use this to, e.g., announce to participants when registration will
 # open. If this is not present, the system will just indicate that registrations
