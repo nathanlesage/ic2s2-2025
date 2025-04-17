@@ -22,6 +22,7 @@ title: Accommodation
         <th>Type</th>
         <th>Address</th>
         <th>Rate per night</th>
+        <th>Booking</th>
       </tr>
       {% for hotel in site.data.accommodation %}
         <tr>
@@ -35,6 +36,13 @@ title: Accommodation
           <td>{{ hotel.type }}</td>
           <td>{{ hotel.address }}</td>
           <td>{{ hotel.rate }}</td>
+          <td>
+            {% if hotel.booking %}
+            {{ hotel.booking }}
+            {% else %}
+            <em>no specific booking instructions</em>
+            {% endif %}
+          </td>
         </tr>
       {% endfor %}
     </table>
