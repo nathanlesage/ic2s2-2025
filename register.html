@@ -67,17 +67,13 @@ title: Register
 						</p>
 
 						{% if site.data.registration.registration_open and site.data.registration.registration_link %}
-						<ul class="actions special">
-							<li>
-								<strong>
-									<a href="{{ site.data.registration.registration_link }}">
-										Click here to register
-									</a>
-								</strong>
-							</li>
-						</ul>
+						<p style="text-align: center;">
+							<a class="button style1 large" href="{{ site.data.registration.registration_link }}">
+								Click here to register
+							</a>
+						</p>
 						{% else %}
-						<center>
+						<p style="text-align: center;">
 							<strong>
 								{% if site.data.registration.registration_closed_reason %}
 									{{ site.data.registration.registration_closed_reason }}
@@ -85,7 +81,7 @@ title: Register
 								Registration is currently not possible.
 								{% endif %}
 							</strong>
-						</center>
+						</p>
 						{% endif %}
 					</div>
 				</div>
