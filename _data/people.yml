@@ -142,7 +142,7 @@
   people:
   - name: Hendrik Erz
     affiliation: Institute for Analytical Sociology, Linköping University
-    field: Political and Economic Sociology
+    field: Political Sociology, Computational Social Science
     image: /images/people/erz_hendrik.jpg
     url: https://www.hendrik-erz.de/
   - name: Yuan Liao
@@ -155,3 +155,8 @@
     field: Sociology
     image: /images/people/lennert_felix.jpg
     url: https://felix-lennert.netlify.app/
+  - name: Anastasia Menshikova
+    affiliation: Institute for Analytical Sociology, Linköping University
+    field: Computational Social Science
+    image: /images/people/menshikova_anastasia.jpg
+    url: https://anastasia-menshikova.github.io/
