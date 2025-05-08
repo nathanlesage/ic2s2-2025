@@ -10,7 +10,8 @@ registration_closed_reason: "Registration will open in mid-April."
 registration_link: https://www.trippus.net/delegate_registration_ic2s2 # Link to registration form
 # A custom note to add below the table. This will be shown after the "All Prices
 # shown in currency_name (currency_code)."
-table_note: "Prices include 25 % VAT. The conference dinner includes 12 % VAT."
+table_note: |
+  Prices include 25 % VAT. The conference dinner includes 12 % VAT. Under certain circumstances, a foreign company with VATable business can apply for a refund of the Swedish VAT (if the company is not VAT registered or should be VAT registered in Sweden). For foreign EU entities an application should be done via the EU VAT refund application system (via the Tax Authority in the country of establishment). For foreign companies established outside of the EU an application of VAT refund should be done via an application form (which can be obtained via the Swedish Tax Agency). For further information please see <a href="https://www.skatteverket.se/foretagochorganisationer/sjalvservice/blanketterbroschyrer/blanketter/info/5801.4.39f16f103821c58f680007004.html?q=5801" target="_blank">this link</a>.
 table_data:
   - column_name: Early Bird
     column_data:
