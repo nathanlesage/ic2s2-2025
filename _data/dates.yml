@@ -17,7 +17,7 @@
   done: true
   category: conference
 - text: "Early-bird registration deadline: May 9, 2025"
-  done: false
+  done: true
   category: conference
 - text: "Tutorial day: July 21, 2025"
   done: false
