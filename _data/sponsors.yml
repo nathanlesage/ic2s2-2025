@@ -40,9 +40,9 @@ sponsors:
     image: /images/sponsors/vitterhetsakademien_logo.svg
     width: 6
     url: https://www.vitterhetsakademien.se/
-- title: Silver Sponsors
-  sponsors:
   - name: Metrika
     image: /images/sponsors/metrika.png
     width: 4
     url: https://www.statanordic.com/
+- title: Silver Sponsors
+  sponsors:
