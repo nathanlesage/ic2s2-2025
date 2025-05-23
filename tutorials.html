@@ -172,7 +172,14 @@ title: Tutorials
 				<h5>Teachers</h5>
 				<ul>
 					{% for tutor in tutorial.tutors %}
-					<li><strong><a href="{{ tutor.url }}">{{ tutor.name }}</a></strong>, {{ tutor.affiliation }}</li>
+					<li>
+						<strong>
+						{% if tutor.website %}
+						<a href="{{ tutor.website }}">{{ tutor.name }}</a>
+						{% else %}
+						{{ tutor.name }}
+						{% endif %}
+						</strong>, {{ tutor.affiliation }}</li>
 					{% endfor %}
 				</ul>
 

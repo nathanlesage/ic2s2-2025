@@ -103,9 +103,11 @@ items:
   tutors:
   - name: Étienne Ollion
     image: /images/tutorials/ollion_etienne.jpg
+    website: https://ollion.cnrs.fr/english/
     affiliation: Professor of Sociology, Ecole Polytechnique, Paris, France
   - name: Émilien Schultz
     image: /images/tutorials/schultz_emilien.jpg
+    website: https://emilienschultz.github.io/
     affiliation: Senior Data Scientist, CREST-Institut Polytechnique de Paris, France
 ################################################################################
 - title: "Bridging Human and LLM Annotations for Statistically Valid Computational Social Science"
@@ -118,12 +120,15 @@ items:
   tutors:
   - name: Kristina Gligorić
     image: /images/tutorials/gligoric_kristina.jpg
+    website: https://kristinagligoric.com/
     affiliation: Postdoctoral Scholar, Computer Science, Stanford University
   - name: Cinoo Lee
     image: /images/tutorials/lee_cinoo.jpg
+    website: https://profiles.stanford.edu/cinoo-lee
     affiliation: Postdoctoral Scholar, Psychology, Stanford University
   - name: Tijana Zrnic
     image: /images/tutorials/zrnic_tijana.jpg
+    website: https://tijana-zrnic.github.io/
     affiliation: Ram and Vijay Shriram Postdoctoral Fellow, Stanford Data Science, Stanford University
 ################################################################################
 - title: "The Role of AI in Misinformation: Current Trends, Detection, and Mitigation"
@@ -136,18 +141,23 @@ items:
   tutors:
   - name: Miriam Schirmer
     image: /images/tutorials/schirmer_miriam.jpg
+    website: https://miriamschirmer.github.io/
     affiliation: Postdoctoral Scholar, Northwestern University
   - name: Julia Mendelsohn
     image: /images/tutorials/mendelsohn_julia.jpg
+    website: https://juliamendelsohn.github.io/
     affiliation: Postdoctoral Scholar, University of Chicago
   - name: Dustin Wright
     image: /images/tutorials/wright_dustin.jpg
+    website: https://dustinbwright.com/
     affiliation: Postdoctoral Fellow, University of Copenhagen
   - name: Dietram A. Scheufele
     image: /images/tutorials/scheufele_dietram.jpg
+    website: https://lsc.wisc.edu/facstaff/scheufele-dietram/
     affiliation: Taylor-Bascom Chair and Vilas Distinguished Achievement Professor, University of Wisconsin-Madison
   - name: Ágnes Horvát
     image: /images/tutorials/horvat_agnes.jpg
+    website: https://agneshorvat.soc.northwestern.edu/
     affiliation: Associate Professor of Communication and Computer Science, Northwestern University
 ################################################################################
 - title: "Planetary Causal Inference: an R tutorial on how to conduct causal inference with satellite images data"
@@ -162,9 +172,11 @@ items:
   tutors:
   - name: Adel Daoud
     image: /images/tutorials/daoud_adel.jpg
+    website: https://liu.se/en/employee/adeda07
     affiliation: Associate Professor at Institute for Analytical Sociology, Linköping University, and Affiliated Associate Professor in Data Science and Artificial Intelligence for the Social Sciences, Department of Computer Science and Engineering, Chalmers University of Technology, Gothenburg, Sweden
   - name: Connor Jerzak
     image: /images/tutorials/jerzak_connor.jpg
+    website: https://connorjerzak.com/
     affiliation: Assistant Professor in Government, UT Austin
 ################################################################################
 - title: "FAIR Theory: Applying Open Science Principles to the Construction and Iterative Improvement of Theories"
@@ -177,6 +189,7 @@ items:
   tutors:
   - name: Caspar van Lissa
     image: /images/tutorials/van_lissa_caspar.jpg
+    website: https://cjvanlissa.github.io/resume/
     affiliation: Associate Professor, Tilburg University, Tilburg, Netherlands
 ################################################################################
 - title: "Research Cartography with Atlas"
@@ -193,15 +206,18 @@ items:
   tutors:
   - name: Mark Whiting
     image: /images/tutorials/whiting_mark.jpg
-    affiliation: Chief Technolgoy Officer of Pareto Inc and visiting scientist at University of Pennsylvania
+    website: https://whiting.me/
+    affiliation: CTO, Pareto Inc. and visiting scientist at University of Pennsylvania
   - name: Linnea Gandhi
     image: /images/tutorials/gandhi_linnea.jpg
+    website: https://oid.wharton.upenn.edu/profile/lgandhi/#research
     affiliation: Lecturer and PhD candidate at Wharton at University of Pennsylvania
   - name: Amirhossein Nakhaei
     image: /images/tutorials/nakhaei_amirhossein.jpg
     affiliation: M.Sc. Computational Social Science, RWTH Aachen
   - name: Duncan Watts
     image: /images/tutorials/watts_duncan.jpg
+    website: https://duncanjwatts.com/
     affiliation: Stevens University Professor at University of Pennsylvania
 ################################################################################
 - title: "Scalable Analysis of GPS Human Mobility Data with Applications to Socio-Spatial Inequality"
@@ -216,18 +232,23 @@ items:
   tutors:
   - name: Jorge Barreras
     image: /images/tutorials/barreras_jorge.jpg
+    website: https://css.seas.upenn.edu/people/jorge-barreras-cortes/
     affiliation: Postdoc, University of Pennsylvania; Computational Social Science Lab (CSSLab), Wharton School
   - name: Thomas Li
     image: /images/tutorials/li_thomas.jpg
+    website: https://thomashli.com/
     affiliation: M.Sc. Student, School of Engineering, University of Pennsylvania
   - name: Chen Zhong
     image: /images/tutorials/zhong_chen.jpg
+    website: https://profiles.ucl.ac.uk/46973
     affiliation: Associate Professor in Urban Analytics, Centre for Advanced Spatial Analysis (CASA), UCL
   - name: Cate Heine
     image: /images/tutorials/heine_cate.jpg
+    website: https://scholar.google.com/citations?user=rWS08wIAAAAJ&hl=en
     affiliation: Research Fellow in Urban mobility and inequality, CASA UCL
   - name: "Adam (Zhengzi) Zhou"
     image: /images/tutorials/zhou_adam.jpg
+    website: https://scholar.google.com/citations?user=6LwvM_8AAAAJ&hl=en
     affiliation: PhD student at CASA UCL
 ################################################################################
 - title: "Mobility Flows and Accessibility Using R and Big Open Data"
@@ -244,9 +265,11 @@ items:
   tutors:
   - name: Egor Kotov
     image: /images/tutorials/kotov_egor.jpg
+    website: https://www.ekotov.pro/
     affiliation: PhD Student, Max Planck Institute for Demographic Research, Rostock, Germany
   - name: Johannes Mast
     image: /images/tutorials/mast_johannes.jpg
+    website: https://www.researchgate.net/profile/Johannes-Mast
     affiliation: PhD Student, German Aerospace Center (Deutsches Zentrum für Luft- und Raumfahrt, DLR)
 ################################################################################
 - title: "Reinforcement Learning and Evolutionary Game Theory are Two Sides of the Same Coin"
@@ -261,9 +284,11 @@ items:
   tutors:
   - name: Paolo Turrini
     image: /images/tutorials/turrini_paolo.jpg
+    website: https://www.dcs.warwick.ac.uk/~pturrini/
     affiliation: Associate Professor, Department of Computer Science, University of Warwick, UK
   - name: Elias Fernández Domingos
     image: /images/tutorials/domingos_elias.jpg
+    website: https://ai.vub.ac.be/team/elias-fernandez/
     affiliation: Postdoctoral Researcher at the AI Lab, Vrije Universiteit Brussel, Belgium
 ################################################################################
 - title: "Computational Social Science for Sustainability"
@@ -276,9 +301,11 @@ items:
   tutors:
   - name: Matthew A. Turner
     image: /images/tutorials/turner_matthew.jpg
+    website: https://mt.digital/
     affiliation: Lecturer in Environmental Social Sciences at the Stanford Doerr School of Sustainability, Stanford University
   - name: James Holland Jones
     image: /images/tutorials/jones_james.jpg
+    website: https://sustainability.stanford.edu/people/james-jones
     affiliation: Professor, Environmental Social Sciences, Stanford Doerr School of Sustainability, Stanford University
 ################################################################################
 # Here follow past tutorials (note the difference in data structures between `items` and `past_tutorials`)
