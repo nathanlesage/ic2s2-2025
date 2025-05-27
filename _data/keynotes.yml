@@ -74,9 +74,9 @@ speakers:
   chair_name: TBA
   date: TBA
   abstract: |
-    TBA
+    Culture shapes how we make sense of the world. People occupying different cultural positions often interpret the same realities in different ways. Recent advances in computational linguistics now make it possible to systematically measure these divergent interpretations at scale. In this talk, I introduce the Categorization-Association model of interpretation—a framework for capturing shared interpretation as well as processes of interpretive coordination and divergence. Drawing on computational analyses across multiple cultural domains—from American politics to popular understandings of leisure, work, and artificial intelligence—I show how culture reveals a fractured or "broken" geometry of meaning. This work illustrates how computational methods can help deepen our sociological understanding of culture, while underscoring the importance of grounding computational social science in robust theory.
   bio: |
-    TBA
+    Amir Goldberg is a Professor of Organizational Behavior and (by courtesy) Sociology at the Stanford Graduate School of Business, where he is the founding co-director of the Computational Culture Lab. His work draws on computational methods to measure and model culture, and its evolution, in organizations, markets, and beyond. He is currently serving as the Organizations Department Editor at Management Science.
   image: /images/keynotes/goldberg_amir.jpg
   url: https://www.gsb.stanford.edu/faculty-research/faculty/amir-goldberg
 - name: Laura Nelson
