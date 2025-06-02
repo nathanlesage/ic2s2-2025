@@ -44,5 +44,17 @@ sponsors:
     image: /images/sponsors/metrika.png
     width: 4
     url: https://www.statanordic.com/
+  - name: YouTube
+    image: /images/sponsors/youtube.png
+    width: 4
+    url: https://www.youtube.com/
+  - name: Springer Nature
+    image: /images/sponsors/springernature.png
+    width: 6
+    url: https://springernature.com/
+  - name: Google
+    image: /images/sponsors/google.png
+    width: 4
+    url: https://www.google.com/
 - title: Silver Sponsors
   sponsors:

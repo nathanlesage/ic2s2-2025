@@ -1,13 +1,18 @@
 <section id="sponsors">
+  <header class="style1">
+    <h6>
+      Sponsors
+    </h6>
+  </header>
 {% for sponsors in site.data.sponsors.sponsors %}
   {% unless sponsors.sponsors %}
     {% continue %}
   {% endunless %}
-  <header class="style1">
+  {% comment %} <header class="style1">
     <h6 id="{{ sponsors.title | slugify }}">
       {{ sponsors.title }}
     </h6>
-  </header>
+  </header> {% endcomment %}
   <div class="container">
     <div class="row aln-center">
     {% for sponsor in sponsors.sponsors %}
