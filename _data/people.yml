@@ -142,7 +142,7 @@
   people:
   - name: Hendrik Erz
     affiliation: Institute for Analytical Sociology, Linköping University
-    field: Political Sociology, Computational Social Science
+    field: Political Sociology
     image: /images/people/erz_hendrik.jpg
     url: https://www.hendrik-erz.de/
   - name: Yuan Liao
@@ -150,11 +150,11 @@
     field: Transport and Urban Sciences
     image: /images/people/liao_yuan.jpg
     url: https://www.chalmers.se/en/persons/yuanlia/
-  - name: Felix Lennert
-    affiliation: "CREST, Ecole Polytechnique, Institut Polytechnique de Paris<br>Leipzig University"
-    field: Sociology
-    image: /images/people/lennert_felix.jpg
-    url: https://felix-lennert.netlify.app/
+  # - name: Felix Lennert
+  #   affiliation: "CREST, Ecole Polytechnique, Institut Polytechnique de Paris<br>Leipzig University"
+  #   field: Sociology
+  #   image: /images/people/lennert_felix.jpg
+  #   url: https://felix-lennert.netlify.app/
   - name: Anastasia Menshikova
     affiliation: Institute for Analytical Sociology, Linköping University
     field: Computational Social Science
