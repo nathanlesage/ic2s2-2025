@@ -14,7 +14,7 @@
 # * image: A picture of the person
 # * url: A link to the speaker's institutional or personal page.
 
-show_details: false # Whether to show the keynote details below the summary
+show_details: true # Whether to show the keynote details below the summary
 # Useful to collect data (such as titles, short bios, and abstract) before
 # displaying it at all
 
