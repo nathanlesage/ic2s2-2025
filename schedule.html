@@ -1,17 +1,14 @@
 ---
-title: Schedule
+title: IC2S2 2025 Schedule
+layout: schedule
 ---
-
-<section id="main" class="wrapper style3">
-  <div class="container">
-    <div id="conferia"></div>
-  </div>
-</section>
+<div id="conferia"></div>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const conf = new Conferia({
     parent: document.getElementById('conferia'),
+    title: 'IC2S2 2025 Schedule',
     src: 'http://www.ic2s2-2025.org/ic2s2_2025_schedule.csv',
     groupByLocation: true,
     timeZone: 'Europe/Stockholm',
