@@ -32,18 +32,18 @@ speakers:
     Dr. Lisa P. Argyle is currently an Assistant Professor of Political Science at Brigham Young University. Starting in Fall 2025, she will begin at Purdue University as an Associate Professor of Political Science. She earned a Ph.D. from the University of California, Santa Barbara, after which she was a postdoc at Princeton University.  Dr. Argyle blends political psychology with computational social science to study political attitudes and participation in the United States. Since the release of GPT-3 in 2020, a primary focus of her research has been generative AI, exploring how we can use Large Language Models as a tool to improve social science research and democratic societies. Her goal is to use surveys, experiments, and artificial intelligence tools to better understand how people talk about politics in their everyday lives, and how to improve those conversations.
   image: /images/keynotes/argyle_lisa.jpg
   url: https://www.lpargyle.com/
-- name: Jennie E. Brand
-  affiliation: University of California, Los Angeles
-  # field: Sociology
-  title: "Causal Inference and Machine Learning for Social Science: Uncovering Effect Heterogeneity"
-  chair_name: TBA
-  date: TBA
-  abstract: |
-    This talk reviews recent advances in causal inference relevant to sociology, focusing on uncovering treatment effect heterogeneity. Uncovering sources of effect heterogeneity is key for understanding the implications of the distribution of scarce resources, effectively assigning treatments to maximize average outcomes, and generalizing to populations beyond those under study. I describe propensity and covariate-based partitioning strategies and tree-based methods for assessing effect heterogeneity. To demonstrate methods for assessing effect heterogeneity, I draw on an empirical application of estimating the heterogeneous effects of completing a four-year college degree in the U.S. on reducing socioeconomic disadvantage over the career. 
-  bio: |
-    Jennie E. Brand is Professor of Sociology at the University of California, Los Angeles (UCLA), and Professor of Statistics and Data Science (by courtesy). She is Co-Director of the Center for Social Statistics (CSS) at UCLA. Brand serves on the Board of Directors for the Population Association of America (PAA), and is Vice-President (and incoming President) of the International Sociological Association (ISA) Research Committee on Social Stratification and Mobility (RC28). She is a member of the Technical Review Committee for the National Longitudinal Surveys Program at the Bureau of Labor Statistics. Brand studies social stratification and inequality, mobility, social demography, education, and methods for causal inference. Brand was elected to the Sociological Research Association (SRA), an honor society for excellence in research, in 2019, received the ASA Methodology Leo Goodman Mid-Career Award in 2016, and received an honorable mention for the ASA Inequality, Poverty, and Mobility William Julius Wilson Mid-Career Award in 2014. She was previously President of the Association of Population Centers (APC), Chair of the Methodology Section of the American Sociological Association (ASA), and Chair of the Inequality, Poverty, and Mobility Section of ASA.
-  image: /images/keynotes/brand_jennie.jpg
-  url: https://www.profjenniebrand.com/
+# - name: Jennie E. Brand
+#   affiliation: University of California, Los Angeles
+#   # field: Sociology
+#   title: "Causal Inference and Machine Learning for Social Science: Uncovering Effect Heterogeneity"
+#   chair_name: TBA
+#   date: TBA
+#   abstract: |
+#     This talk reviews recent advances in causal inference relevant to sociology, focusing on uncovering treatment effect heterogeneity. Uncovering sources of effect heterogeneity is key for understanding the implications of the distribution of scarce resources, effectively assigning treatments to maximize average outcomes, and generalizing to populations beyond those under study. I describe propensity and covariate-based partitioning strategies and tree-based methods for assessing effect heterogeneity. To demonstrate methods for assessing effect heterogeneity, I draw on an empirical application of estimating the heterogeneous effects of completing a four-year college degree in the U.S. on reducing socioeconomic disadvantage over the career. 
+#   bio: |
+#     Jennie E. Brand is Professor of Sociology at the University of California, Los Angeles (UCLA), and Professor of Statistics and Data Science (by courtesy). She is Co-Director of the Center for Social Statistics (CSS) at UCLA. Brand serves on the Board of Directors for the Population Association of America (PAA), and is Vice-President (and incoming President) of the International Sociological Association (ISA) Research Committee on Social Stratification and Mobility (RC28). She is a member of the Technical Review Committee for the National Longitudinal Surveys Program at the Bureau of Labor Statistics. Brand studies social stratification and inequality, mobility, social demography, education, and methods for causal inference. Brand was elected to the Sociological Research Association (SRA), an honor society for excellence in research, in 2019, received the ASA Methodology Leo Goodman Mid-Career Award in 2016, and received an honorable mention for the ASA Inequality, Poverty, and Mobility William Julius Wilson Mid-Career Award in 2014. She was previously President of the Association of Population Centers (APC), Chair of the Methodology Section of the American Sociological Association (ASA), and Chair of the Inequality, Poverty, and Mobility Section of ASA.
+#   image: /images/keynotes/brand_jennie.jpg
+#   url: https://www.profjenniebrand.com/
 - name: Kathleen M. Carley
   affiliation: Carnegie Mellon University
   title: "Computational analysis of social and organizational systems"
