@@ -1,0 +1,19 @@
+---
+title: Schedule
+---
+
+<section id="main" class="wrapper style3">
+  <div class="container">
+    <div id="conferia"></div>
+  </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const conf = new Conferia({
+    parent: document.getElementById('conferia'),
+    src: 'http://www.ic2s2-2025.org/ic2s2_2025_schedule.csv',
+    groupByLocation: true
+  })
+})
+</script>
