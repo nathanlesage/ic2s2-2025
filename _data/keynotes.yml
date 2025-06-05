@@ -62,9 +62,9 @@ speakers:
   chair_name: TBA
   date: TBA
   abstract: |
-    TBA
+    Social scientists often aim to not only determine whether some effect exists, but to quantify it. This often requires much larger or otherwise much more informative studies. It also requires choices of how to quantify effects. What relationship do various such quantifications have to scientific knowledge and, of particular relevance in applied work, to decisions? Using some examples from our recent experiments and other prominent, recent studies, I highlight how some effect size measures are typically decision-irrelevant and do not facilitate gaining generalizable knowledge. I also examine how we can use relevance to decisions to help select quantities of interest in the context of interventions in networks.
   bio: |
-    TBA
+    Dean Eckles is a social scientist and statistician. At the Massachusetts Institute of Technology, Dean is the William F. Pounds Professor in the MIT Sloan School of Management and associate director of the Institute for Data, Systems & Society in the Schwarzman College of Computing. Much of his research examines how interactive technologies affect human behavior, especially by mediating social influence. Dean also works on methods for inferring cause–effect relationships and on applied statistics more generally. He is a co-organizer of the Conference on Digital Experimentation (CODE@MIT). He was previously a scientist at Facebook and Nokia. Dean completed five degrees, including his PhD, at Stanford University.
   image: /images/keynotes/eckles_dean.jpg
   url: https://mitsloan.mit.edu/faculty/directory/dean-eckles
 - name: Amir Goldberg
