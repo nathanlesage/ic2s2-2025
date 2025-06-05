@@ -13,7 +13,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const conf = new Conferia({
     parent: document.getElementById('conferia'),
     src: 'http://www.ic2s2-2025.org/ic2s2_2025_schedule.csv',
-    groupByLocation: true
+    groupByLocation: true,
+    timeZone: 'Europe/Stockholm',
+    dateParser (dateString, luxon) {
+      // Our specific IC2S2 sheet does not contain the necessary "T" and
+      // instead comes with a space (thanks Google)
+      return dateString.split(' ').join('T')
+    }
   })
 })
 </script>
