@@ -48,8 +48,8 @@ sponsors:
     image: /images/sponsors/youtube.png
     width: 4
     url: https://www.youtube.com/
-  - name: Springer Nature
-    image: /images/sponsors/springernature.png
+  - name: EPJ Data Science
+    image: /images/sponsors/epj_data_science.png
     width: 4
     url: https://springernature.com/
   - name: Google
