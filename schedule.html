@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     src: 'http://www.ic2s2-2025.org/ic2s2_2025_schedule.csv',
     groupByLocation: true,
     timeZone: 'Europe/Stockholm',
+    padding: 10,
     dateParser (dateString, luxon) {
       // Our specific IC2S2 sheet does not contain the necessary "T" and
       // instead comes with a space (thanks Google)
