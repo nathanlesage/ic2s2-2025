@@ -3179,3 +3179,7 @@ details {
 details summary {
   cursor: pointer;
 }
+
+h3.cf-event-title {
+  line-height: 120%; /* Reset conferia title line height */
+}
