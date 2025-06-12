@@ -3179,12 +3179,3 @@ details {
 details summary {
   cursor: pointer;
 }
-
-/* IC2S2 2025: Overwrites to not mess with the embedded Conferia.js schedule. */
-.wrapper .conferia-schedule-wrapper {
-  .title {
-    all: initial;
-    &:before { all: initial; }
-    &:after { all: initial; }
-  }
-}
