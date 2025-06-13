@@ -1,14 +1,27 @@
 ---
 title: IC2S2 2025 Schedule
-#layout: schedule
 layout: default
 ---
 
 <section id="main" class="wrapper style3">
-  <div class="title">IC2S2 Program Schedule</div>
+  <div class="title">Tentative, Early Draft</div>
   <article class="box post">
     <div class="row aln-center">
-      <div class="col-8 col-12-medium">
+      <div class="col-6">
+        <p><strong>
+          This is a tentative early draft of the IC2S2 2025 program schedule.
+        </strong></p>
+        <p>
+          Currently, we only show talks with a straightforward match to a registered
+          participant. If your talk is currently missing: No problem, just write an
+          email citing your talk's submission ID and the name of the registered
+          presenter (<a href="mailto:ic2s2-2025@liu.se">ic2s2-2025@liu.se</a>)
+        </p>
+      </div>
+    </div>
+
+    <div class="row aln-center">
+      <div class="col-12">
         <div id="conferia"></div>
       </div>
     </div>
@@ -20,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const conf = new Conferia({
     parent: document.getElementById('conferia'),
     title: 'IC2S2 2025 Schedule',
-    src: 'https://www.ic2s2-2025.org/ic2s2_2025_schedule.csv',
+    src: '/ic2s2_2025_schedule_v1.csv',
     groupByLocation: true,
     timeZone: 'Europe/Stockholm',
     padding: 10,
@@ -28,6 +41,22 @@ document.addEventListener('DOMContentLoaded', () => {
       // Our specific IC2S2 sheet does not contain the necessary "T" and
       // instead comes with a space (thanks Google)
       return dateString.split(' ').join('T')
+    },
+    rowParser (row, header, record) {
+      // Attach the OpenReview IDs to the presentation titles
+      if (record.type !== 'session_presentation') {
+        return record
+      }
+      const openReviewIdx = header.indexOf('openreview_id')
+      if (openReviewIdx < 0) {
+        console.warn('`openreview_id` Column not found in CSV')
+        return record
+      }
+
+      return {
+        ...record,
+        title: record.title + ` (#${row[openReviewIdx]})`
+      }
     }
   })
 
