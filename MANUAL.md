@@ -26,9 +26,9 @@ your computer. To do so, please
 [head over to their manual](https://jekyllrb.com/docs/) which outlines the steps
 necessary to set everything up.
 
-After you are done, you should be able to preview the website. There are two
-important commands that you can run inside this folder (both require a command
-line):
+Once you are done, you should be able to preview the website on your computer.
+There are two important commands that you can run inside this folder (both
+require a command line/terminal):
 
 ```bash
 $ bundle exec jekyll serve
@@ -371,3 +371,106 @@ Adding sponsors works analogous to adding chairs: They are grouped in different
 groups (e.g., Academic, Gold, or Bronze), and contain a name, an image, and a
 URL to their website. The sponsors will show up in both the landing page and the
 sponsors subpage. Edit the `sponsors.yml` file to add them.
+
+### Adding New Pages
+
+Should the need occur to add entirely new pages, here's how you should do it.
+First, create a new HTML-file in the main folder and give it a readable name
+that should only include letters and dashes. This name will also become the URL.
+So, if you want a new page titled "My New Awesome Page!" you should name it
+"my-new-awesome-page.html" — it will then be reachable at
+www.example.com/my-new-awesome-page.
+
+At the top, add a frontmatter, e.g.,
+
+```yaml
+---
+title: My New Awesome Page!
+layout: default
+---
+```
+
+Then, proceed to add the HTML code. Most pages use one of two or three different
+structures, but it doesn't follow a specific structure. My tip: Copy any
+existing HTML page that you like, and simply adapt it.
+
+Next, you should add a navigation entry to `_data/navigation.yml` at the
+appropriate place. Simply copy an existing entry to the correct location, and
+adapt it.
+
+Lastly, you should add that new page to the "exclude" section in the
+`_config.yml`, but prepended with a pound-sign (`#`) so that Jekyll actually
+includes it. This way, upcoming IC2S2 organizers can quickly remove the file if
+they don't need it by uncommenting it here.
+
+### Creating a schedule
+
+The last important part of organizing an IC2S2 instance concerns setting up the
+schedule. One big issue with IC2S2 is that it is very large, and as such a
+proper interactive agenda is needed. IC2S2 2023 in Copenhagen featured a custom-
+built solution by Laura Allessandretti that managed to visualize the huge agenda
+in an efficient way. IC2S2 2024 in Philadelphia used Excel spreadsheets to
+display the agenda.
+
+IC2S2 2025 in Norrköping wanted to have a custom solution like Copenhagen, but
+without Excel spreadsheets, so I, Hendrik, decided to write an entirely new
+framework called [Conferia.js](https://github.com/nathanlesage/conferia). This
+framework aims to make creation of interactive agendas for IC2S2 as simple as
+possible, and we invite all future IC2S2 to use it as well. The benefits are:
+
+* No custom apps that people must download
+* Works across browsers and devices
+* Has some nice quality of life features for the conference
+* Is very easy for the Conference Chairs to handle
+
+To adopt Conferia.js yourself, its manual is a good place to start. In terms of
+integrating it into the website, here's what you need to do.
+
+First, create the agenda and export a CSV file as outlined in the Conferia
+manual. If you prepared the schedule accordingly, it should already be in the
+correct format after the schedule has been created. Save this file into the
+`files` folder, and give it the name `ic2s2_<year>_schedule.csv`. So for IC2S2
+use `ic2s2_2026.schedule.csv`.
+
+Next, open the file `_includes/head.html`. At the bottom, you can see the
+Conferia scripts. Exchange the version number with the newest one available.
+At the time of writing, the version is `conferia@0.8.0`. You can find the most
+up-to-date version [here](https://github.com/nathanlesage/conferia/tags). Simply
+use the newest version number, but without the `v` at the front, e.g.,
+`conferia@1.2.0`. Doing so ensures that each conference iteration uses the most
+up-to-date version of Conferia, which means more features, less bugs, and that
+it works as easy as possible.
+
+Finally, open the file `schedule.html`. At the top, you can adapt the intro as
+you like (e.g., indicate if it is only a tentative schedule). The important bit
+is the `<div id="conferia"></div>`, which is the place where the schedule will
+appear.
+
+At the bottom of the file you can see the initialization script for Conferia. In
+it, you probably want to adapt the `src` to have it point to your new schedule,
+edit the `timeZone` according to where your conference is happening, and adapt
+any other configuration values as they are outlined in the Conferia.js manual.
+
+Then, whenever something in the schedule changes, simply export it to CSV once
+more, and replace the file.
+
+> [!TIP]
+> If you discover a bug, or have a good idea of how to improve Conferia.js, I am
+> [very happy about your feedback](https://github.com/nathanlesage/conferia/issues)!
+
+## Final Thoughts
+
+I hope this manual helps you organize the best possible IC2S2 experience. I know
+that it is a lot of work, and this is why I hope that my additions and changes
+to the structure may help you to reduce the amount of work you have to spend
+figuring out the website, and that you can instead use this time to do great
+research.
+
+If you have any additional questions, or want to just get in touch, I'd love to
+hear from you! My email is <hendrik.erz@liu.se>, but in case I switch
+affiliations, head over to my website, <https://www.hendrik-erz.de/> to see all
+ways to get in touch.
+
+Happy organizing!
+
+— Hendrik
