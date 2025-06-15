@@ -37,6 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
     groupByLocation: true,
     timeZone: 'Europe/Stockholm',
     padding: 10,
+    // Make the time grid show 15-minute intervals
+    timeGridSeconds: 900,
     dateParser (dateString, luxon) {
       // Our specific IC2S2 sheet does not contain the necessary "T" and
       // instead comes with a space (thanks Google)
