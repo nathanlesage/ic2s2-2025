@@ -29,8 +29,6 @@
   items:
   - name: Program
     page: program
-  - name: Schedule
-    page: schedule
 #   - name: Poster Details
 #     page: poster
 #   - name: Instructions
