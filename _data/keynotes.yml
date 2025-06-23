@@ -110,9 +110,9 @@ speakers:
   chair_name: TBA
   date: July 24, 9:00am–10:30am
   abstract: |
-    TBA
+    Computational social science is more than just large repositories of digital data and the computational methods needed to construct and analyze them. It also represents a convergence of different fields with different ways of thinking about and doing science. In this talk, I discuss how these approaches differ from one another and propose how they might be more productively integrated. First, I propose a schema for thinking about research activities along two dimensions—the extent to which work is explanatory, focusing on identifying and estimating causal effects, and the degree of consideration given to testing predictions of outcomes—and how these two priorities can complement, rather than compete with, one another. Second, I advocate that computational social scientists devote more attention to combining prediction and explanation, which I call “integrative modelling,” and outline some practical suggestions for realizing this goal.
   bio: |
-    TBA
+    Duncan Watts is the Stevens University Professor and 23rd Penn Integrates Knowledge (PIK) Professor at the University of Pennsylvania, where he holds faculty appointments in the Department of Computer and Information Science, The Annenberg School of Communications, and the Operations, Information, and Decisions Department in the Wharton School. He holds a BSc in physics from the University of New South Wales and a PhD in theoretical and applied mechanics from Cornell University. Prior to joining Penn in 2019, Watts was Professor of Sociology at Columbia University, from 2000-2007, a principal research scientist at Yahoo! Research, from 2007-2012, and a principal researcher at Microsoft Research, from 2012-2019. He is a member of the National Academy of Science, and a fellow of the American Association for the Advancement of Science and the Network Science Society He is currently serving as the founding president of the International Society for Computational Social Science.
   image: /images/keynotes/watts_duncan.jpg
   url: https://duncanjwatts.com/
 - name: Sarah Williams
