@@ -165,6 +165,26 @@ title: Program
   </article>
 </section>
 
+<section id="main" class="wrapper style2">
+  <div class="title"><a name="interactive-schedule"></a>List of Sessions and Posters</div>
+  <article class="box post container">
+    <div class="row aln-center">
+      <div class="col-6">
+        <p><strong>
+          This list provides the sessions and posters from the interactive
+					agenda above as a list.
+        </strong></p>
+      </div>
+    </div>
+
+    <div class="row aln-center">
+      <div class="col-6 col-12-medium">
+        <div id="schedule-list"></div>
+      </div>
+    </div>
+  </article>
+</section>
+
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const conf = new Conferia({
@@ -200,5 +220,51 @@ document.addEventListener('DOMContentLoaded', () => {
   })
 
   window.conferia = conf
+
+	conf.awaitBoot().then(() => {
+		// Next, build the list agenda below that based on the parsed records.
+
+		// IF YOU SEE THIS CODE AND WANT TO USE IT, BE AWARE THAT THE FOLLOWING
+		// HEAVILY DEPENDS ON YOUR PERSONAL USE-CASE. DO NOT MINDLESSLY COPY THIS
+		// CODE! INSTEAD, UNDERSTAND WHAT YOU NEED TO BUILD A LIST FROM THE RECORDS!
+
+		const targetElem = document.getElementById('schedule-list')
+
+		// Extract the parsed records from Conferia
+		const records = conf.getRecords()
+
+		// Now sort according to what we personally do. NOTE that we do not list
+		// keynotes or tutorials here, since we have dedicated pages for those.
+		const sessions = records.filter(x => x.type === 'session') // TODO: Posters should be separate once we have them!
+
+		for (const session of sessions) {
+			const h2 = document.createElement('h2')
+			h2.textContent = session.title + ' — ' + session.dateStart.toLocaleString({ dateStyle: 'medium', timeStyle: 'short' }) + ', ' + session.location
+			h2.appendChild(document.createElement('br'))
+			const em = document.createElement('em')
+			em.textContent = 'Chair: ' + (session.chair !== '' ? session.chair : 'TBA')
+			h2.appendChild(em)
+
+			targetElem.appendChild(h2)
+
+			const ul = document.createElement('ul')
+			ul.classList.add('nav_list')
+
+			for (const presentation of session.presentations) {
+				const li = document.createElement('li')
+				const strong = document.createElement('strong')
+				strong.textContent = presentation.title
+				li.appendChild(strong)
+				li.appendChild(document.createElement('br'))
+				const em = document.createElement('em')
+				em.textContent = presentation.author
+				li.appendChild(em)
+				ul.appendChild(li)
+			}
+
+			targetElem.appendChild(ul)
+		}
+	})
+
 })
 </script>
