@@ -2,16 +2,20 @@
 title: Program
 ---
 <section id="highlights" class="wrapper style1">
-	<div class="title">Overview</div>
+	<div class="title"><a name="overview"></a>Overview</div>
 
 	<div class="row aln-center">
 
 		<div class="col-10 col-12-medium">
 			<p>
 				<strong>
-					Here you can see a simplified overview over the conference structure.
-					<a href="#interactive-schedule">Click here or scroll to view an interactive agenda with all events, presentations, and posters</a>.
+					Jump directly to:
 				</strong>
+				<ul class="nav_list">
+					<li><a href="#overview">Program Overview</a></li>
+					<li><a href="#interactive-schedule">Interactive Agenda</a></li>
+					<li><a href="#sessions-list">Session and Poster List</a></li>
+				</ul>
 			</p>
 			<table id="summary" class="tutorials">
 				<tr>
@@ -139,21 +143,17 @@ title: Program
 </section>
 
 <section id="main" class="wrapper style3">
-  <div class="title"><a name="interactive-schedule"></a>Tentative, Early Draft</div>
+  <div class="title"><a name="interactive-schedule"></a>Tentative Program</div>
   <article class="box post">
     <div class="row aln-center">
       <div class="col-6">
         <p><strong>
-          This is a tentative early draft of the IC<sup>2</sup>S<sup>2</sup> 2025 program.
+          This is the interactive schedule for the IC<sup>2</sup>S<sup>2</sup> 2025 program.
         </strong></p>
         <p>
-          Currently, we only show talks with a straightforward match to a registered
-          participant. If your talk is missing: write an email citing your
-          talk's submission ID and the name of the registered presenter to
-          <a href="mailto:ic2s2-2025@liu.se">ic2s2-2025@liu.se</a> and we will add it.
+          If you have registered but don't find your contribution, contact
+					<a href="mailto:ic2s2-2025@liu.se">ic2s2-2025@liu.se</a> and we will add it.
         </p>
-
-        <p>Posters will be added shortly.</p>
       </div>
     </div>
 
@@ -166,7 +166,7 @@ title: Program
 </section>
 
 <section id="main" class="wrapper style2">
-  <div class="title"><a name="interactive-schedule"></a>List of Sessions and Posters</div>
+  <div class="title"><a name="sessions-list"></a>List of Sessions and Posters</div>
   <article class="box post container">
     <div class="row aln-center">
       <div class="col-6">
@@ -174,6 +174,9 @@ title: Program
           This list provides the sessions and posters from the interactive
 					agenda above as a list.
         </strong></p>
+				<p>Jump directly to session:</p>
+				<ul class="nav_list" id="session-list-toc"></ul>
+				<hr>
       </div>
     </div>
 
@@ -234,17 +237,54 @@ document.addEventListener('DOMContentLoaded', () => {
 		// CODE! INSTEAD, UNDERSTAND WHAT YOU NEED TO BUILD A LIST FROM THE RECORDS!
 
 		const targetElem = document.getElementById('schedule-list')
+		const tocElem = document.getElementById('session-list-toc')
 
 		// Extract the parsed records from Conferia
 		const records = conf.getRecords()
 
 		// Now sort according to what we personally do. NOTE that we do not list
 		// keynotes or tutorials here, since we have dedicated pages for those.
-		const sessions = records.filter(x => x.type === 'session') // TODO: Posters should be separate once we have them!
+		const sessions = records.filter(x => x.type === 'session' && !x.title.startsWith('Posters'))
+		const posters = records.filter(x => x.type === 'session' && x.title.startsWith('Posters'))
 
-		for (const session of sessions) {
+		let lastSeenSessionName = ''
+
+		function sanitizeSessionName (name) {
+			name = name.toLowerCase()
+			name = name.replace(/[^a-z0-9-]/g, '-')
+			return name
+		}
+
+		// Sort the sessions alphabetically
+		sessions.sort((a, b) => {
+			if (a.title < b.title) {
+				return -1
+			} else if (a.title > b.title) {
+				return 1
+			} else {
+				return 0
+			}
+		})
+
+		// NOTE: Posters on top, since that is likely the list most users need the most.
+		for (const session of posters.concat(sessions)) {
 			const h2 = document.createElement('h2')
 			h2.textContent = session.title + ' — ' + session.dateStart.toLocaleString({ dateStyle: 'medium', timeStyle: 'short' }) + ', ' + session.location
+
+			// For each session, add an anchor element & link that from the ToC list.
+			const targetAnchor = document.createElement('a')
+			const sessionLinkID = `session-${sanitizeSessionName(session.title)}`
+			targetAnchor.setAttribute('name', sessionLinkID)
+			h2.appendChild(targetAnchor)
+
+			const linkAnchor = document.createElement('a')
+			linkAnchor.textContent = session.title
+			linkAnchor.setAttribute('href', '#' + sessionLinkID)
+			const tocLi = document.createElement('li')
+			tocLi.appendChild(linkAnchor)
+			tocElem.appendChild(tocLi)
+			// END session linking
+
 			h2.appendChild(document.createElement('br'))
 			const em = document.createElement('em')
 			em.textContent = 'Chair: ' + (session.chair !== '' ? session.chair : 'TBA')
@@ -252,8 +292,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 			targetElem.appendChild(h2)
 
-			const ul = document.createElement('ul')
-			ul.classList.add('nav_list')
+			const ol = document.createElement('ol')
+			ol.classList.add('nav_list')
 
 			for (const presentation of session.presentations) {
 				const li = document.createElement('li')
@@ -264,10 +304,10 @@ document.addEventListener('DOMContentLoaded', () => {
 				const em = document.createElement('em')
 				em.textContent = presentation.author
 				li.appendChild(em)
-				ul.appendChild(li)
+				ol.appendChild(li)
 			}
 
-			targetElem.appendChild(ul)
+			targetElem.appendChild(ol)
 		}
 	})
 
