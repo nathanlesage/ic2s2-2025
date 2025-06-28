@@ -190,8 +190,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const conf = new Conferia({
     parent: document.getElementById('conferia'),
     // title: 'IC2S2 2025 Schedule',
-    src: '/files/ic2s2_2025_schedule_v3.csv',
-    groupByLocation: true,
+    src: '/files/ic2s2_2025_schedule_v4.csv',
     timeZone: 'Europe/Stockholm',
     padding: 10,
     // Make the time grid show 15-minute intervals
@@ -202,21 +201,27 @@ document.addEventListener('DOMContentLoaded', () => {
       return dateString.split(' ').join('T')
     },
     rowParser (row, header, record) {
-      // Attach the OpenReview IDs to the presentation titles
-      if (record.type !== 'session_presentation') {
-        return record
-      }
-      const openReviewIdx = header.indexOf('openreview_id')
-      if (openReviewIdx < 0) {
-        console.warn('`openreview_id` Column not found in CSV')
-        return record
-      }
+			// Attach the OpenReview IDs to the presentation titles
+			if (record.type !== 'session_presentation') {
+				return record
+			}
+			const openReviewIdx = header.indexOf('openreview_id')
+			if (openReviewIdx < 0) {
+				console.warn('`openreview_id` Column not found in CSV')
+				return record
+			}
 
-      return {
-        ...record,
-        title: record.title + ` (#${row[openReviewIdx]})`
-      }
-    }
+			// Posters additionally get their Poster ID assigned so that it is
+			// clear that the session order number equals the pinboard and what
+			// the participants shall fill in to the Poster Award poll.
+			const isPoster = record.session.startsWith('Poster')
+			const posterSuffix = isPoster ? `; Poster ID: ${record.sessionOrder}` : ''
+
+			return {
+				...record,
+				title: record.title + ` (#${row[openReviewIdx]}${posterSuffix})`
+			}
+		}
   })
 
   window.conferia = conf
