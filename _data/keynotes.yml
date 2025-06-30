@@ -25,7 +25,7 @@ speakers:
   # field: Political Science
   title: "Arti-“fickle” Intelligence: Using LLMs as a Tool for Inference in the Political and Social Sciences"
   chair_name: TBA
-  date: "July 22, 4:30pm–6:00pm"
+  date: "July 22, 5:30pm–6:15pm"
   abstract: |
     Generative large language models (LLMs) are incredibly useful, versatile, and promising tools. However, they will be of most use to political and social science researchers when they are used in a way that advances understanding about real human behaviors and concerns. To promote the scientific use of LLMs, we suggest that researchers in the political and social sciences need to remain focused on the scientific goal of inference. To this end, we discuss the challenges and opportunities related to scientific inference with LLMs, using validation of model output as an illustrative case for discussion. We propose a set of guidelines related to establishing the failure and success of LLMs when completing particular tasks, and discuss how we can make inferences from these observations. We conclude with a discussion of how this refocus will improve the accumulation of shared scientific knowledge about these tools and their uses in the social sciences.
   bio: |
@@ -36,7 +36,7 @@ speakers:
   affiliation: Carnegie Mellon University
   title: "Computational analysis of social and organizational systems"
   chair_name: TBA
-  date: "July 22, 9:00am–10:30am"
+  date: "July 22, 9:45am–10:30am"
   abstract: |
     The US National Academy in its decadal survey of the Social Sciences argued that today we are in an era of Networks+.  In other words, rarely do people use social network or network science techniques in isolation; rather, these are augmented with other computationally based techniques such as computational linguistics and machine learning.  In the area of social-cybersecurity, a field concerned with identifying, characterizing and mitigating online harms such as undue influence, disinformation, hate-speech and extremism, network science is frequently combined with various AI techniques to build more effective tools to support interventions, to improve imperial analysis, and to simulate behavior. A particular area of concern is influence, that is "who is influencing whom on line, how and to what effect?".  The BEND framework has been proposed as a way of systematically characterising such information operations, and it has been operationalized using network science + AI techniques in a way that enables the analyst in detecting, characterizing, mitigating, and assessing the impact of influence activities, those being influenced, and the influencer.  In this presentation the BEND framework and its operationalization using network science+AI  will be described.  Then the insights that can be drawn using this approach will be illustrated using data from various events around the world. The presentation with a call for future research and an itemization of limitations and gaps where new techniques and additional research are needed.
   bio: |
@@ -48,7 +48,7 @@ speakers:
   # field: Management and Marketing
   title: Effect sizes and decisions
   chair_name: TBA
-  date: "July 22, 9:00am–10:30am"
+  date: "July 22, 9:00am–9:45am"
   abstract: |
     Social scientists often aim to not only determine whether some effect exists, but to quantify it. This often requires much larger or otherwise much more informative studies. It also requires choices of how to quantify effects. What relationship do various such quantifications have to scientific knowledge and, of particular relevance in applied work, to decisions? Using some examples from our recent experiments and other prominent, recent studies, I highlight how some effect size measures are typically decision-irrelevant and do not facilitate gaining generalizable knowledge. I also examine how we can use relevance to decisions to help select quantities of interest in the context of interventions in networks.
   bio: |
@@ -60,7 +60,7 @@ speakers:
   # field: Behavioral Science
   title: "The Sociology of Interpretation: A Computational Approach"
   chair_name: TBA
-  date: "July 23, 4:30pm–6:00pm"
+  date: "July 23, 4:45pm–5:30pm"
   abstract: |
     Culture shapes how we make sense of the world. People occupying different cultural positions often interpret the same realities in different ways. Recent advances in computational linguistics now make it possible to systematically measure these divergent interpretations at scale. In this talk, I introduce the Categorization-Association model of interpretation—a framework for capturing shared interpretation as well as processes of interpretive coordination and divergence. Drawing on computational analyses across multiple cultural domains—from American politics to popular understandings of leisure, work, and artificial intelligence—I show how culture reveals a fractured or "broken" geometry of meaning. This work illustrates how computational methods can help deepen our sociological understanding of culture, while underscoring the importance of grounding computational social science in robust theory.
   bio: |
@@ -72,7 +72,7 @@ speakers:
   # field: Sociology
   title: Why Qualitative Research Needs Computational Social Science
   chair_name: TBA
-  date: "July 23, 9:00am–10:30am"
+  date: "July 23, 9:00am–9:45am"
   abstract: |
     Computational methods are playing a larger role in qualitative social science, but often with the goal of scaling or automating qualitative inquiry. Scaling and automating approaches are rooted in quantitative traditions, which are focused on measurement, generalizability, and evaluation against fixed benchmarks. But qualitative research is grounded in a different logic. It aims to understand meaning, context, and how people experience the world differently depending on their social position. This talk argues that if we want to use computational methods for qualitative research, we need to develop them differently than the current approach. For example, while machine learning is often framed as a tool for classification, its strength in identifying emergent patterns in large amounts of qualitative data aligns with inductive and abductive reasoning long used in qualitative research. Evaluating classification algorithms against a pre-determined "ground truth" stunts their development for inductive/abductive exploration and qualitative logics. In this talk I will share examples of how computational tools can support qualitative goals—not by making qualitative work more quantitative, but by shifting how we build, evaluate, and use these tools. This includes recognizing multiple perspectives in the data, treating researchers as active interpreters, and developing criteria that reflect qualitative rather than quantitative values.
   bio: |
@@ -84,7 +84,7 @@ speakers:
   # field: Sociology
   title: "Design-Based Supervised Learning: A General Framework for Using LLM Annotations and Other Predicted Variables in Downstream Analyses"
   chair_name: TBA
-  date: "July 22, 4:30pm–6:00pm"
+  date: "July 22, 4:45pm–5:30pm"
   abstract: |
     TBA
   bio: |
@@ -96,7 +96,7 @@ speakers:
   # field: Sociology
   title: Luck and success in millions of life courses
   chair_name: TBA
-  date: "July 23, 4:30pm–6:00pm"
+  date: "July 23, 5:30pm–6:15pm"
   abstract: |
     This talk probes the role luck and success in the life course. We ask whether when people get lucky the trajectory of their life success increasingly diverges from that of their unlucky counterpart. We study this question theoretically using basic models of positive feedback. Empirically we look at the lives of thousands of Americans tracked in panel survey data and millions of Swedes captured in register data. We focus on income as measure of success and study a host of different ways by which people might be lucky or unlucky at different stages of the life course. We use causal identification strategies to isolate pairs of egos and alteregos who led similarly lives before the event and then compare their life courses afterwards.
   bio: |
@@ -108,7 +108,7 @@ speakers:
   # field: Sociology
   title: "Integrating explanation and prediction in computational social science"
   chair_name: TBA
-  date: July 24, 9:00am–10:30am
+  date: "July 24, 9:00am–9:45am"
   abstract: |
     Computational social science is more than just large repositories of digital data and the computational methods needed to construct and analyze them. It also represents a convergence of different fields with different ways of thinking about and doing science. In this talk, I discuss how these approaches differ from one another and propose how they might be more productively integrated. First, I propose a schema for thinking about research activities along two dimensions—the extent to which work is explanatory, focusing on identifying and estimating causal effects, and the degree of consideration given to testing predictions of outcomes—and how these two priorities can complement, rather than compete with, one another. Second, I advocate that computational social scientists devote more attention to combining prediction and explanation, which I call “integrative modelling,” and outline some practical suggestions for realizing this goal.
   bio: |
@@ -120,7 +120,7 @@ speakers:
   # field: Technology and Urban Planning
   title: "Urban policy and big data for public good"
   chair_name: TBA
-  date: "July 24, 4:30pm–6:00pm"
+  date: "July 24, 4:45pm–5:30pm"
   abstract: |
     Williams will explain how we can use data as a tool for empowerment rather than oppression, something Williams calls "Data Action," which is also the title of her recent book. Data Action seeks to provide guidance for using data toward the benefit of society, learning from the ways we have used data unethically in the past and illustrating ways we can use it more ethically and creatively in the future. Williams will illustrate the seven Data Action principles through her diverse research projects spanning topics of Central American migration, popular transit in Africa, ghost cities in China, and translating New York City’s zoning text. Williams will also show her most recent work on People Powered AI: How to use Gen AI for Civic Engagement. 
   bio: |
