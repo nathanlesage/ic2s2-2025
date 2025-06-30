@@ -98,7 +98,8 @@ items:
     Beyond technical considerations, the tutorial will address the computational and annotation requirements associated with LLMs, as well as the environmental costs of different models. By integrating theoretical insights with practical implementation strategies, the session aims to delineate what is currently achievable with LLMs, what challenges persist, and what remains speculative.
     
     As a follow-up to a previous IC2S2 tutorial (2023), this session has been updated to reflect recent advancements. It will cater to both advanced and less advanced programmers, helping researchers choose the most suitable approach for their work.
-  room: TBA
+  time: "9:00am – 12:30pm"
+  room: "Vingen 1+2"
   website: https://github.com/css-polytechnique
   tutors:
   - name: Étienne Ollion
@@ -115,7 +116,8 @@ items:
   capacity: 50-100
   abstract: |
     The tutorial provides participants with a practical, hands-on experience in integrating Large Language Models (LLMs) and human annotations to streamline annotation workflows, ensuring both efficiency and statistical rigor. As LLMs revolutionize data annotation with their ability to label and analyze complex social phenomena at unprecedented scales, they also pose challenges in ensuring the reliability and validity of results. This tutorial introduces a systematic approach to combining LLM annotations with human input, enabling researchers to optimize annotation processes while maintaining rigorous standards for statistical inference. The session begins by framing the opportunities and challenges of leveraging LLMs for Computational Social Science (CSS). The tutorial demonstrates techniques for combining LLM annotations with human annotations to ensure statistically valid results while minimizing annotation costs. Through hands-on implementation using open-source datasets and code notebooks, participants will apply these methods to popular CSS tasks, such as stance detection, media bias, and online hate and misinformation. Additionally, the session will explore how these approaches can be adapted to other domains, such as psychology, sociology, and political science. By the end of the session, participants will gain actionable skills for reliably leveraging LLMs for data annotation in their own research.
-  room: TBA
+  time: "1:30pm – 5:00pm"
+  room: Hemeryck
   website: https://sites.google.com/view/ic2s2-bridging-human/home
   tutors:
   - name: Kristina Gligorić
@@ -136,7 +138,8 @@ items:
   capacity: 15-50
   abstract: |
     As AI-generated content becomes more prevalent, understanding its role within the broader misinformation landscape is critical. The widespread proliferation of misinformation in combination with the rise of AI technologies poses challenges across domains: Concerns persist that, for example, Large Language Models (LLMs) or deepfake systems have a negative impact on the creation and amplification of false or misleading information. While there are debates within the research community on the extent of AI influence on misinformation development, the challenges posed by misinformation are amplified as social media platforms increasingly dismantle traditional guardrails like fact-checking. These shifts demand interdisciplinary research to explore not only how AI contributes to the spread of misinformation but also how it can serve as a tool to better understand and combat it. Situating AI-generated misinformation within the wider context of existing dynamics highlights the urgency of addressing its impact across domains, both in science and politics, particularly as societal polarization deepens. Participants will gain hands-on experience analyzing misinformation-related datasets using natural language processing and network analysis. The tutorial emphasizes practical applications by providing coding exercises in a Jupyter notebook environment for detecting and simulating the spread of misinformation.
-  room: TBA
+  time: "9:00am – 12:30pm"
+  room: "Vingen 3+4"
   website: https://sites.google.com/view/ic2s2-misinformation-and-ai/startseite
   tutors:
   - name: Miriam Schirmer
@@ -167,7 +170,8 @@ items:
     This R tutorial is based on our book-in-progress, Planetary Causal Inference (PCI), which proposes using Earth observation (EO) data to enhance social science research by expanding both the scope and resolution of data analysis. Traditional data sources like surveys and national statistics are often expensive, limited in coverage, and rarely provide real-time insights—challenges that hinder comprehensive planetary-scale studies. In contrast, satellite-based EO data offer fine-grained, global perspectives on phenomena such as urban growth, poverty, deforestation, and conflict, capturing information across diverse spatial and temporal scales.
     This tutorial introduces the emerging practice of EO-based machine learning (EO-ML), where advanced models transform satellite-derived spatial data into proxies for social science metrics and feed these into causal inference pipelines. By integrating knowledge from geography, history, and multi-level frameworks, PCI fosters a broader understanding of human–environment interactions, helping researchers address questions that span household, neighborhood, regional, and global contexts.
     Through its cookbook-style presentation of “ingredients” (data, methods) and “recipes” (analysis steps), PCI equips social scientists to confidently adopt and adapt EO-ML tools. This approach helps generate highly detailed insights and enables researchers to explore pressing global issues—ranging from armed conflict to sustainable development—with new analytical power and precision.
-  room: TBA
+  time: "1:30pm – 5:00pm"
+  room: "Vingen 8"
   website: https://planetarycausalinference.org/
   tutors:
   - name: Adel Daoud
@@ -184,7 +188,8 @@ items:
   capacity: 15-30
   abstract: |
     Reproducibility is essential for establishing trust and maximizing reusability of empirically calibrated simulations and other computational social science studies. Participants learn to make research projects open and reproducible according to the FAIR principles and TOP-guidelines. The workshop first establishes the fundamental principles of reproducible science, followed by a 10-minute live demonstration of creating a reproducible project using the `worcs` R-package, which streamlines the creation of reproducible projects. WORCS is easy to learn for beginners while also being highly extendable and compliant with most institutional and journal requirements. Next, topics essential for computational social science are addressed: random seeds, parallelization, integration testing to catch errors before running time-consuming analyses, and combining worcs with “targets” to reduce redundant computation, saving time and reducing the computational studies’ climate footprint. Participants are encouraged to bring their own code – e.g., for a simulation study, or to use sample code provided by the organizer. Q&A and Discussion sections ensure that the tutorial’s content aligns with participants’ needs, while guided demonstrations and hands-on exercises allow participants to develop the experience and skills needed to implement open reproducible workflows in their future research. Participants should bring a laptop and complete this setup tutorial before joining the workshop: <https://cjvanlissa.github.io/worcs/articles/setup.html>
-  room: TBA
+  time: "9:00am – 12:30pm"
+  room: "Vingen 7"
   website: http://cjvanlissa.github.io/worcshop/IC2S2.html
   tutors:
   - name: Caspar van Lissa
@@ -201,7 +206,8 @@ items:
     Atlas, an open source platform, tackles this problem by emphasizing commensurability—the practice of describing research findings in ways that enable valid comparisons. Instead of relying solely on persuasive narratives, Atlas systematically codes experimental attributes, from detailed methodology to condition-specific distinctions. This process shifts the focus to what researchers actually do, rather than merely what they claim, making the integration of diverse studies more reliable.
 
     We will demonstrate how Atlas transforms research papers into a series of quantified dimensions, producing what we refer to as research cartography. Through guided exercises, you will learn to apply Atlas to your own projects, analyzing multiple levels of data within a single study. Our goal is to show how this method enhances transparency and reliability in scientific conclusions, ultimately advancing progress by enabling evidence-based insights that are both rigorous and comparable.
-  room: TBA
+  time: "1:30pm – 5:00pm"
+  room: "Vingen 6"
   website: https://atlas.seas.upenn.edu/ic2s2
   tutors:
   - name: Mark Whiting
@@ -227,7 +233,8 @@ items:
     Large-scale human mobility datasets derived from mobile phones have become a valuable resource in the field of human mobility. They have found diverse applications in tasks such as travel demand estimation, urban planning, epidemic modelling, and more. However, these datasets remain largely inaccessible to the broader community due, in part, to the technical difficulties in processing these massive datasets and the comprehensive understanding of data bias and potential.
 
     In this tutorial, we will first introduce an open-source library of code from the NOMAD project (Network for Open Mobility Analysis and Datasets) as a tool to overcome the technical challenges of processing massive data sets. In the second part, we will demonstrate a critical application of human mobility analysis - socio-spatial inequality developed in realTRIPS projects (EvALuating Land Use and TRansport Impacts on Urban Mobility Patterns). The analysis provides an understanding of differences in how social phenomena play out across neighbourhoods, regions, and sociodemographic groups. Overall, we aim to demonstrate reproducible and widely applicable research methods. The library used for part of the analysis, built on Python and Spark, is designed to process this class of data at scale and implements a broad range of processing algorithms which will be employed for this particular application.
-  room: TBA
+  time: "9:00am – 12:30pm"
+  room: "Vingen 8"
   website: https://docs.google.com/document/d/1JGkkauz3PauRbHGfqd_iuajBKjCORE0lt-sSa3_QXys/edit?tab=t.0
   tutors:
   - name: Jorge Barreras
@@ -260,7 +267,8 @@ items:
     The workshop addresses these challenges by showcasing end-to-end workflows that harness state-of-the-art R packages and methods. Participants will learn how to acquire and manage multi-gigabyte mobility datasets on consumer level laptops, combine and compare the actual mobility flows and the access to opportunities, and create informative mobility flows visualizations.
 
     Spanish open mobility data is used as a case study. This data contains anonymized and grouped flows between more than 3500 locations in Spain with hourly intervals across 3 full years. Thanks to the inclusion of several demographic variables, this data presents a universe of opportunities for analysis and research questions to explore.
-  room: TBA
+  time: "1:30pm – 5:00pm"
+  room: "Vingen 7"
   website: https://www.ekotov.pro/spanish-open-mobility-workshop-ic2s2-2025/
   tutors:
   - name: Egor Kotov
@@ -279,7 +287,8 @@ items:
     Assuming that individuals are rational is often unjustified in many social and biological systems, even for simple pairwise interactions. As such, in many real-world multi-agent systems, the goal is shifted towards the understanding of the complex ecologies of behaviours emerging from a given dilemma (or ”game”). This is where evolutionary game theory (EGT) shines as a theoretical and computational framework. Likewise, from the computational perspective, multi-agent reinforcement learning (MARL) models how self-interested agents learn and improve their policies through the accumulation of rewards coming from their past experience. Just like strategies in evolutionary game theory adapting to one another, agents’ actions evolve based on their empirical returns. The similarity is no coincidence. In this tutorial we show how these two frameworks, although applied in different context, are two sides of the same coin, presenting fundamen-tal mathematical results that demonstrate how the equilibria of population dynamics can be encoded by simple RL agents policies and the other way round.
     
     We will provide use-cases in which each modelling framework is useful. This tutorial will help the social science practitioner acquire new tools coming from AI and complex systems, and computer science practitioners to understand their research in terms of economic models. 
-  room: TBA
+  time: "9:00am – 12:30pm"
+  room: "Vingen 6"
   website: https://efernandez.eu/ic2s2_tutorial_2025/
   tutors:
   - name: Paolo Turrini
@@ -296,7 +305,8 @@ items:
   capacity: 20-50
   abstract: |
     Humans face an existential challenge to transition to sustainable practices that do not exhaust available ecological, economic, and social capital. Computational social-cognitive models can be used to deduce the efficacy of potential training or educational interventions to promote sustainable practices. Tutorial attendees will learn to use the socmod library to create their own models of social learning and social influence to predict the relative success of different intervention strategies. Sustainability motivates this work, but the framework could be used to model related social and behavioral contexts.
-  room: TBA
+  time: "1:30pm – 5:00pm"
+  room: "Vingen 1"
   website:  https://css4s.github.io/IC2S2-Tutorial/
   tutors:
   - name: Matthew A. Turner
