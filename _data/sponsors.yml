@@ -56,5 +56,12 @@ sponsors:
     image: /images/sponsors/google.png
     width: 4
     url: https://www.google.com/
+  - name: Pareto
+    image: /images/sponsors/pareto.png
+    width: 4
+    url: https://www.pareto.ai/
+  - name: Meta
+    image: /images/sponsors/meta.png
+    width: 5
 - title: Silver Sponsors
   sponsors:
