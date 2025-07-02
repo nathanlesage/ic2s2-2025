@@ -3172,8 +3172,13 @@ footer .feature-list h3:before {
   text-decoration: none;
 }
 
+/* CONFERIA OVERWRITES */
 details {
   margin-bottom: 40px;
+}
+
+ol.presentation-list {
+  padding-left: 2.25em;
 }
 
 details summary {
