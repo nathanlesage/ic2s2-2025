@@ -235,7 +235,7 @@ items:
     In this tutorial, we will first introduce an open-source library of code from the NOMAD project (Network for Open Mobility Analysis and Datasets) as a tool to overcome the technical challenges of processing massive data sets. In the second part, we will demonstrate a critical application of human mobility analysis - socio-spatial inequality developed in realTRIPS projects (EvALuating Land Use and TRansport Impacts on Urban Mobility Patterns). The analysis provides an understanding of differences in how social phenomena play out across neighbourhoods, regions, and sociodemographic groups. Overall, we aim to demonstrate reproducible and widely applicable research methods. The library used for part of the analysis, built on Python and Spark, is designed to process this class of data at scale and implements a broad range of processing algorithms which will be employed for this particular application.
   time: "9:00am – 12:30pm"
   room: "Vingen 8"
-  website: https://docs.google.com/document/d/1JGkkauz3PauRbHGfqd_iuajBKjCORE0lt-sSa3_QXys/edit?tab=t.0
+  website: https://watts-lab.github.io/nomad-website/tutorials/ic2s2-2025
   tutors:
   - name: Jorge Barreras
     image: /images/tutorials/barreras_jorge.jpg
