@@ -31,7 +31,14 @@ title: Code of Conduct
       It is the responsibility of the community as a whole to promote an
       inclusive and positive environment for our scholarly activities. Anyone
       who experiences harassment or hostile behavior may contact the IC2S2's
-      Climate Liaison. During events sponsored or organized by the conference,
+      Awareness Liaison.
+      {% if site.emails.awareness %}
+        <strong>
+          You can reach the IC2S2 Awareness liaison via <a href="mailto:{{ site.emails.awareness }}">{{ site.emails.awareness }}</a>.
+        </strong>
+      {% endif %}
+      
+      During events sponsored or organized by the conference,
       this email (and an additional phone number distributed before the
       conference) will be continuously monitored for the duration of the event.
       When taking a personal report, our staff will ensure that no one can
