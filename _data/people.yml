@@ -155,6 +155,11 @@
     field: Computational Social Science
     image: /images/people/menshikova_anastasia.jpg
     url: https://anastasia-menshikova.github.io/
+  - name: José Bener
+    affiliation: Media and Information Technology (MIT), Linköping University
+    field: Data Visualization
+    image: /images/people/bener_jose.png
+    url: https://www.benerjose.com
 
 - title: "Conference Volunteers"
   people:
@@ -172,8 +177,6 @@
     image: /images/people/haase_thomas.png
   - name: Xiaojing Jie
     image: /images/people/jie_xiaojing.jpeg
-  - name: José Bener
-    image: /images/people/bener_jose.png
   - name: Kazuki Sakamoto
     image: /images/people/sakamoto_kazuki.jpg
   - name: Marc Sparhuber
