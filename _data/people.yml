@@ -179,6 +179,8 @@
     image: /images/people/jie_xiaojing.jpeg
   - name: Kazuki Sakamoto
     image: /images/people/sakamoto_kazuki.jpg
+  - name: Helpis Saleh
+    image: /images/people/saleh_helpis.jpg
   - name: Marc Sparhuber
     image: /images/person.svg
   - name: Yize Zhang
@@ -186,8 +188,6 @@
   - name: Yue Zheng
     image: /images/person.svg
   - name: Lauren Fahey
-    image: /images/person.svg
-  - name: Helpis Saleh
     image: /images/person.svg
   - name: Noé Vidal-Naquet
     image: /images/person.svg
