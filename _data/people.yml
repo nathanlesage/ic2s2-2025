@@ -38,16 +38,16 @@
 # PROGRAM CHAIRS
 - title: Program Chairs
   people:
-  - name: Giulia Andrighetto
-    affiliation: Institute of Cognitive Sciences and Technologies, Rome, Italy
-    field: Social Experiments
-    image: /images/people/andrighetto_giulia.jpg
-    url: https://www.giuliandrighetto.com/
   - name: Elliot Ash
     affiliation: ETH Zurich, Switzerland
     field: Economics
     image: /images/people/ash_elliot.jpg
     url: https://elliottash.com/
+  - name: Hendrik Erz
+    affiliation: Institute for Analytical Sociology, Linköping University
+    field: Political Sociology
+    image: /images/people/erz_hendrik.jpg
+    url: https://www.hendrik-erz.de/
   - name: Mirta Galesic
     affiliation: Complexity Science Hub Vienna, Austria<br>Santa Fe Institute, USA
     field: Psychology, Cognitive Science
@@ -150,11 +150,6 @@
     field: Transport and Urban Sciences
     image: /images/people/liao_yuan.jpg
     url: https://www.chalmers.se/en/persons/yuanlia/
-  # - name: Felix Lennert
-  #   affiliation: "CREST, Ecole Polytechnique, Institut Polytechnique de Paris<br>Leipzig University"
-  #   field: Sociology
-  #   image: /images/people/lennert_felix.jpg
-  #   url: https://felix-lennert.netlify.app/
   - name: Anastasia Menshikova
     affiliation: Institute for Analytical Sociology, Linköping University
     field: Computational Social Science
