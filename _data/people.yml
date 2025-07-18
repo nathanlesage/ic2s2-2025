@@ -165,26 +165,26 @@
   people:
   - name: Johannes Fagerlind
     image: /images/people/fagerlind_johannes.jpg
+  - name: Lauren Fahey
+    image: /images/people/fahey_lauren.jpg
   - name: Zhao Feng
     image: /images/people/feng_zhao.jpeg
-  - name: Vsevolod Suschevskiy
-    image: /images/people/suschevskiy_vsevolod.jpg
-  - name: Yun-Tsz Tsai (Clara)
-    image: /images/people/tsai_yun-tsz.jpeg
-  - name: Yukun Jiao
-    image: /images/people/jiao_yukun.jpeg
   - name: Thomas Haase
     image: /images/people/haase_thomas.png
+  - name: Yukun Jiao
+    image: /images/people/jiao_yukun.jpeg
   - name: Xiaojing Jie
     image: /images/people/jie_xiaojing.jpeg
   - name: Kazuki Sakamoto
     image: /images/people/sakamoto_kazuki.jpg
   - name: Helpis Saleh
     image: /images/people/saleh_helpis.jpg
-  - name: Lauren Fahey
-    image: /images/people/fahey_lauren.jpg
   - name: Marc Sparhuber
-    image: /images/person.svg
+    image: /images/people/sparhuber_marc.jpg
+  - name: Vsevolod Suschevskiy
+    image: /images/people/suschevskiy_vsevolod.jpg
+  - name: Yun-Tsz Tsai (Clara)
+    image: /images/people/tsai_yun-tsz.jpeg
   - name: Yize Zhang
     image: /images/person.svg
   - name: Yue Zheng
