@@ -100,7 +100,7 @@ items:
     As a follow-up to a previous IC2S2 tutorial (2023), this session has been updated to reflect recent advancements. It will cater to both advanced and less advanced programmers, helping researchers choose the most suitable approach for their work.
   time: "9:00am – 12:30pm"
   room: "Vingen 1+2"
-  website: https://github.com/css-polytechnique
+  website: https://www.css.cnrs.fr/llm-power-to-the-people/
   tutors:
   - name: Étienne Ollion
     image: /images/tutorials/ollion_etienne.jpg
