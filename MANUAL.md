@@ -13,7 +13,11 @@ That being said, in this document, I have collated how I did this and how the
 website is supposed to work so that you know where to start and how to adapt it.
 If you have any questions, please reach out to me!
 
-## Preconditions
+> **Important**: This website is intended to be improved over time! If you find
+> some data or pages that you can make easier to edit for further years, please
+> do so and adapt any sections in this manual as you see fit.
+
+## Getting Started
 
 Before you can start working on the website, a few introductory remarks. This
 site is now running atop of Jekyll, a rock-solid static site generator. What
@@ -21,12 +25,16 @@ Jekyll will do is take the contents of this folder and combine everything and
 compile the various parts into a single, static HTML folder, called `_site`.
 This is what you can then upload to whatever hosting provider you choose.
 
+### Installing Jekyll on your Computer
+
 In order to preview the changes, however, you should have Jekyll installed on
 your computer. To do so, please
 [head over to their manual](https://jekyllrb.com/docs/) which outlines the steps
 necessary to set everything up.
 
-Once you are done, you should be able to preview the website on your computer.
+### Previewing the Page Locally
+
+Once you are set, you should be able to preview the website on your computer.
 There are two important commands that you can run inside this folder (both
 require a command line/terminal):
 
@@ -61,6 +69,71 @@ for example, will run should you decide to host this website there.
 > There are some other commands that may be useful, they can be found
 > [here](https://jekyllrb.com/docs/usage/).
 
+### Using GitHub Actions for Automated Builds
+
+Traditionally, IC2S2 has been using Netlify for deploying its conference
+websites. This works really simple: You register for a free account with Netlify
+and connect it to the repository that contains the IC2S2 website source. Netlify
+will then react to any changes you make to the website and redeploy it
+automatically for you.
+
+While this works well if the websites are small and do not have too many
+visitors, Netlify has a very strict bandwidth limit. This has caused IC2S2 2025
+to very quickly reach the bandwidth limitations of the free plan. After a short
+discussion, it was decided to host the website on a different server for the
+duration of the conference so that we are not affected by these bandwidth
+limitations.
+
+> [!TIP]
+> We recommend you start with Netlify, as this is simple to set up, and only
+> switch to GitHub Actions if Netlify warns you of low bandwidth quota.
+
+For that, we have set up a so-called "GitHub Actions Workflow". In this
+repository you can see a folder `.github`. It includes another folder called
+`workflows` which contains a file `jekyll.yml`. A "GitHub Workflow" is a set of
+instructions that tells GitHub to automatically build and deploy the website
+whenever anything changes. Essentially, it uses the same technology as Netlify,
+but allows you to customize where the website will be uploaded to.
+
+> [!WARNING]
+> If you use Netlify, you need to disable the workflow on the GitHub user
+> interface. Otherwise you will receive hundreds of emails from GitHub that your
+> workflow failed (because you haven't set it up).
+
+Currently, the workflow is set up to always re-build the website on any change
+and immediately deploy this using SSH. This means that, whenever you change
+something in the website source, and commit this to GitHub, GitHub will
+automatically rebuild and redeploy the website, meaning any changes are
+reflected on the actual website within minutes.
+
+It is currently set up to utilize SSH for this. SSH, or "Secure SHell", is a
+small command-line program that logs into a webserver and transfers some data.
+SSH is available on almost all webservers by default. In order to utilize this
+workflow, you need to provide a few repository secrets (please refer to the
+GitHub documentation on how to set these). The following are required:
+
+* `SSH_PRIVATE_KEY`: This needs to be the private key from a public-private SSH
+  key. Please refer to the SSH documentation on how to generate such a key-pair.
+  To set this secret, copy the entire file contents into the web interface
+  (including the "BEGIN" and "END" lines).
+* `REMOTE_HOST`: This is the host/domain where your webserver sits at. Can be
+  something like `https://www.example.com:22`. (The port `:22` should be omitted
+  unless SSH listens at a different port for you.)
+* `REMOTE_USER`: This is the username that GitHub should authenticate as. This
+  must be the user for which SSH accepts the private key above.
+* `TARGET`: This is the target directory of your webserver. Should be an
+  absolute path (e.g., `/var/www/html/ic2s2`).
+
+> [!TIP]
+> Alternatively, you can also use GitHub pages, which makes deployment a bit
+> simpler. We have opted against it, as we were not certain if hosting a large
+> conference website on GitHub pages conforms to their Terms of Service. For
+> more information on using GitHub pages, please refer to the GitHub
+> documentation. An example workflow that you can adapt can be found
+> [here](https://github.com/nathanlesage/openkit/blob/main/.github/workflows/jekyll.yml). Should you adopt GitHub pages, please do not delete the `jekyll.yml`
+> workflow but add a second workflow file instead. This way, future conference
+> organizers have the choice.
+
 ## Overview over the Structure
 
 With the preconditions out of the way, the next two sections will first provide
@@ -74,14 +147,15 @@ time editing the data here. All data files use the YAML format. If this sounds
 unfamiliar,
 [here is a quick introduction into how the format works](https://learnxinyminutes.com/docs/yaml/),
 but fret not: Usually, you can just take whatever you find in the data files and
-re-use this data structure.
+re-use that, with merely exchanging the values.
 
 > [!WARNING]
 > Always pay attention to the indentation of the YAML files. YAML does not like
 > tabulator characters, so use spaces. Also, indentation is important, so make
 > sure that everything is aligned properly. If in doubt, reference the existing
 > data files to see how it works. If you are unsure what is wrong, you can try
-> using a [YAML checker](https://www.yamllint.com/) to test the code.
+> using a [YAML checker](https://www.yamllint.com/) which can help you find
+> errors.
 
 ### `_includes`
 
@@ -91,6 +165,16 @@ it's standard HTML with so-called [Liquid](https://jekyllrb.com/docs/liquid/)
 template syntax. And second, I have tried to keep the naming scheme sensible so
 that you hopefully are able to see where these includes are included. There are
 also comments inside the files to explain what they do.
+
+> [!TIP]
+> If you choose to adopt `Conferia.js` (see below for more info), there is one
+> file you need to adopt: `head.html`. In there, you should set the Conferia
+> scripts and styles to the most recent version of Conferia at the time you host
+> IC2S2. To do so, exchange the version number in the links. For example, if the
+> most recent Conferia version is version 1.43.2, turn
+> `https://cdn.jsdelivr.net/gh/nathanlesage/conferia@0.18.0/dist/conferia.js`
+> into
+> `https://cdn.jsdelivr.net/gh/nathanlesage/conferia@1.43.2/dist/conferia.js`.
 
 ### `_layouts`
 
@@ -112,7 +196,8 @@ faster.
 ### `.vscode`
 
 You can also ignore this (hidden) folder. It contains some settings so that
-working with the files in VS Code is easier.
+working with the files in VS Code is easier. If you use a different code editor,
+this won't be helpful to you.
 
 ### `assets`
 
@@ -140,7 +225,7 @@ tutorial leaders, some of it are pictures by the venue.
 
 Now to the various files in the main folder. There are many HTML files here.
 Each one of this files corresponds to a sub-page, so "venue.html", for example,
-directs to "www.example.com/venue". These files you probably need to edit as
+directs to "www.ic2s2-2025.org/venue". These files you probably need to edit as
 well while you are preparing the conference. They work similarly to the includes
 and layout HTML files above, with one exception: They start with two lines of
 three dashes and this is a requirement that cannot be skipped!
@@ -171,18 +256,23 @@ them only to apply the page's title.
 ### The main folder: The Config
 
 The second important file in the main folder is the config, `_config.yml`. This
-holds the primary configuration. At the top you will see some `plugins` that the
-page uses.
+holds the primary configuration. I have documented all sections in this file for
+you so that you can infer its meaning.
 
-Below that you have a set of global variables. I have tried to come up with an
-exhaustive list of global variables that may need to change between conferences,
-but you can add more if you need to. (Just remember that you'll have to restart
-the Jekyll server if you change this file.) You can access these global
-properties in any HTML file using `site.[property name]`. For example, to insert
-the general inquiries email address anywhere, use `{{ site.emails.general }}`.
+The most important section for you are the global variables. I have tried to
+come up with an exhaustive list of global variables that may need to change
+between conferences, but you can add more if you spot a need. (Just remember
+that you'll have to restart the Jekyll server if you change this file.) You can
+access these global properties in any HTML file using `site.[property name]`.
+For example, to insert the general inquiries email address, use
+`{{ site.emails.general }}`.
 
-The `defaults` property denotes default values for the frontmatters I have
-mentioned above, but which you can overwrite on a per-file basis.
+The second-most important section for you are the `exclude`s. Specifically, this
+property is a list of HTML- and Markdown-files that Jekyll should explicitly
+ignore. We have set this to ignore the README and this MANUAL, but especially if
+the pages aren't ready for publication yet, you should un-comment their lines so
+that Jekyll doesn't include, say, the "Venue" page when it still shows the old
+Norrköping information.
 
 ### The main folder: Other files
 
@@ -194,15 +284,18 @@ Now quickly to the other files in the main folder:
 * `MANUAL.md`: This file
 * `README.md`: The general readme file
 
-## Workflows
+## Workflows / How to Create an IC2S2 Website
 
-Here I outline a set of workflows that I believe are useful to work with.
+Here I outline a set of workflows that I believe are useful to work with. At
+least this is how I got started. I also include "lessons learned" from after the
+conference.
 
 ### To Get Started
 
 Before anything else, fork the IC2S2 repository to some GitHub account. Then,
 clone it to your computer and set up Jekyll, and verify that the website works
-and looks the same as the previous year.
+and looks the same as the previous year by running `bundle exec jekyll serve`
+and navigating to `http://localhost:4000`.
 
 ### First Things First
 
@@ -215,7 +308,9 @@ To begin adapting the website to your likings, first do the following steps:
    This will prevent Jekyll from including the pages in the output, meaning you
    can keep it and adapt it later. Once you are happy with a page, you can then
    un-comment the corresponding navigation entry (see next point) and comment
-   out the page's entry in this exclude-section to have it show up.
+   out the page's entry in this exclude-section to have it show up. Note that
+   the landing page (`index.html`) is not in this list, so it will never be
+   ignored.
 3. Comment out everything in `navigation.yml`. This way, all the subpages will
    still be included in the output, but they are not linked. This way you can
    gradually adapt the pages and "unlock" them by uncommenting the corresponding
@@ -262,7 +357,7 @@ videos):
   recommend the Open Source-software [Handbrake](https://handbrake.fr/) for this
   task.
 * Make a screenshot of the very first frame of the video. The simplest way is to
-  open the video in VLC and make a snapshot.
+  open the video in VLC and take a snapshot.
 * Put the video files and screenshots into the `images` folder, and name it
   properly (something with `ic2s2_year_teaser` for easy identifiability).
 * Adapt the `<source>`-elements within the `<video>` element to point to your
@@ -311,6 +406,7 @@ some or add new ones that you need):
 * Tutorial Chairs
 * Poster Chairs
 * Website & Social Media Chairs
+* (Student) Volunteers
 
 If any of these groups has no `people`, the system will exclude it from
 rendering. This way, you can just remove all people from there, keep the
@@ -430,7 +526,7 @@ First, create the agenda and export a CSV file as outlined in the Conferia
 manual. If you prepared the schedule accordingly, it should already be in the
 correct format after the schedule has been created. Save this file into the
 `files` folder, and give it the name `ic2s2_<year>_schedule.csv`. So for IC2S2
-use `ic2s2_2026.schedule.csv`.
+use `ic2s2_2026_schedule.csv`.
 
 Next, open the file `_includes/head.html`. At the bottom, you can see the
 Conferia scripts. Exchange the version number with the newest one available.

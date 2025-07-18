@@ -1,20 +1,16 @@
 # IC2S2 CONFERENCES JEKYLL MASTER CONFIGURATION
 #
 # This file contains the main configuration to successfully run Jekyll over the
-# source code to generate a website.
-# HOW TO USE
-#
-# You will likely only have to adapt the "global variables" below the plugins.
+# source code to generate a website. We have documented all potential settings
+# of interest for you here, but for a more comprehensive guide on how to use
+# this template, please refer to the file MANUAL.md.
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
-permalink: pretty # Turn /subpage.html into /subpage/
+# Enable pretty links: turns /subpage.html into /subpage/
+permalink: pretty
 
 # Global variables, can be accessed using the `site` variable.
 
-# Set this to the Domain that the website will be served on
+# Set this to the domain that the website will be served on.
 url: https://www.ic2s2-2025.org
 # Primary page title (displayed on the browser tab, not the headers)
 title: "IC2S2'25 Norrköping"
@@ -25,10 +21,11 @@ locale: en-US
 # Support emails
 emails:
   general: "ic2s2-2025@liu.se" # General inquiries email
-  accommodation: "congress@tmevent.se"
-  childcare: "congress@tmevent.se"
-  visa: "congress@tmevent.se"
-  awareness: "awareness-ic2s2@proton.me"
+  accommodation: "congress@tmevent.se" # For hotel bookings etc.
+  childcare: "congress@tmevent.se" # For childcare related questions
+  visa: "congress@tmevent.se" # Visa related questions
+  awareness: "awareness-ic2s2@proton.me" # Awareness contact email during the event
+
 # Post address for the conference
 address: # Each list item becomes its own line. Add as many as needed
 - "<a href=\"https://liu.se/en/research/swecss\">Swedish Excellence Center for Computational Social Science</a>"
@@ -40,9 +37,12 @@ address: # Each list item becomes its own line. Add as many as needed
 # The label to show on the "Sponsor us" button
 sponsor_button_label: "Become a sponsor of IC²S² in Sweden"
 
-# Any line here is a page that will NOT be included in the final output. Comment
-# out a line by prepending it with a pound-symbol (#) once you have adapted the
-# page so that it will be included in the outout.
+# Any line here is a page that will NOT be included in the final output. If a
+# line is commented out (that is, there is a pound-symbol (#) in front of it),
+# this means the page will be included in the output. If there is no #-symbol,
+# the page will be excluded, that is, cannot be found on the website. Once you
+# start working on a new website, most of these lines should be un-commented,
+# and once the conference approaches, all should be commented.
 exclude:
 #- about.html
 #- keynotes.html
@@ -51,7 +51,7 @@ exclude:
 #- conduct.html
 #- travel-grants.html
 #- organization.html
-# - program.html
+#- program.html
 #- register.html
 #- sponsor-us.html
 #- sponsors.html
@@ -64,14 +64,21 @@ exclude:
 ################################################################################
 # Do not touch the following two entries: Commenting them out means that the
 # manual or readme will be accessible via, e.g., ic2s2-2025.org/MANUAL.md. We
-# don't want that.
+# don't want that. NOTE that you should add any other Markdown or HTML files
+# which you create but which you do not want in the output. NOT EXCLUDING
+# INTERNAL FILES MAY INTRODUCE SECURITY RISKS!
 - MANUAL.md
 - README.md
 
-# Set Front matter default variables,
-# which can be overridden on a case-by-case basis.
+# Set Front matter default variables, which can be overridden on a case-by-case
+# basis.
 defaults:
   - scope:
       path: "" # No path scope -> every page
     values:
       layout: default
+
+# Do not change the plugins unless you know you need to.
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
