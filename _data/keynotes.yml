@@ -25,7 +25,7 @@ speakers:
   # field: Political Science
   title: "Arti-“fickle” Intelligence: Using LLMs as a Tool for Inference in the Political and Social Sciences"
   chair_name: TBA
-  date: "July 22, 5:30pm–6:15pm"
+  date: "July 22, 5:15pm–6:00pm"
   abstract: |
     Generative large language models (LLMs) are incredibly useful, versatile, and promising tools. However, they will be of most use to political and social science researchers when they are used in a way that advances understanding about real human behaviors and concerns. To promote the scientific use of LLMs, we suggest that researchers in the political and social sciences need to remain focused on the scientific goal of inference. To this end, we discuss the challenges and opportunities related to scientific inference with LLMs, using validation of model output as an illustrative case for discussion. We propose a set of guidelines related to establishing the failure and success of LLMs when completing particular tasks, and discuss how we can make inferences from these observations. We conclude with a discussion of how this refocus will improve the accumulation of shared scientific knowledge about these tools and their uses in the social sciences.
   bio: |
@@ -60,7 +60,7 @@ speakers:
   # field: Behavioral Science
   title: "The Sociology of Interpretation: A Computational Approach"
   chair_name: TBA
-  date: "July 23, 4:45pm–5:30pm"
+  date: "July 23, 4:30pm–5:15pm"
   abstract: |
     Culture shapes how we make sense of the world. People occupying different cultural positions often interpret the same realities in different ways. Recent advances in computational linguistics now make it possible to systematically measure these divergent interpretations at scale. In this talk, I introduce the Categorization-Association model of interpretation—a framework for capturing shared interpretation as well as processes of interpretive coordination and divergence. Drawing on computational analyses across multiple cultural domains—from American politics to popular understandings of leisure, work, and artificial intelligence—I show how culture reveals a fractured or "broken" geometry of meaning. This work illustrates how computational methods can help deepen our sociological understanding of culture, while underscoring the importance of grounding computational social science in robust theory.
   bio: |
@@ -84,7 +84,7 @@ speakers:
   # field: Sociology
   title: "Design-Based Supervised Learning: A General Framework for Using LLM Annotations and Other Predicted Variables in Downstream Analyses"
   chair_name: TBA
-  date: "July 22, 4:45pm–5:30pm"
+  date: "July 22, 4:30pm–5:15pm"
   abstract: |
     In computational social science (CSS), researchers analyze documents to explain social and political phenomena. In most scenarios, CSS researchers first obtain labels for documents and then explain labels using interpretable regression analyses in the second step. The recent advancements in large language models (LLMs) can lower costs for CSS research by annotating documents cheaply at scale, but such surrogate labels are often imperfect and biased. We present a new algorithm for using outputs from LLMs for downstream statistical analyses while guaranteeing statistical properties—like asymptotic unbiasedness and proper uncertainty quantification—which are fundamental to CSS research. We show that direct use of LLM-predicted surrogate labels in downstream statistical analyses leads to substantial bias and invalid confidence intervals, even with high surrogate accuracy of 80-90%. Our approach guarantees valid inference for downstream statistical analyses, even when surrogates are arbitrarily biased, without requiring stringent assumptions, by controlling the probability of sampling documents for gold-standard labeling. The is talk is based on joint work with Naoki Egami, Musashi Hinck, and Hanying Wei.
   bio: |
@@ -96,7 +96,7 @@ speakers:
   # field: Sociology
   title: Luck and success in millions of life courses
   chair_name: TBA
-  date: "July 23, 5:30pm–6:15pm"
+  date: "July 23, 5:15pm–6:00pm"
   abstract: |
     This talk probes the role luck and success in the life course. We ask whether when people get lucky the trajectory of their life success increasingly diverges from that of their unlucky counterpart. We study this question theoretically using basic models of positive feedback. Empirically we look at the lives of thousands of Americans tracked in panel survey data and millions of Swedes captured in register data. We focus on income as measure of success and study a host of different ways by which people might be lucky or unlucky at different stages of the life course. We use causal identification strategies to isolate pairs of egos and alteregos who led similarly lives before the event and then compare their life courses afterwards.
   bio: |
@@ -120,7 +120,7 @@ speakers:
   # field: Technology and Urban Planning
   title: "Urban policy and big data for public good"
   chair_name: TBA
-  date: "July 24, 4:45pm–5:30pm"
+  date: "July 24, 4:30pm–5:15pm"
   abstract: |
     Williams will explain how we can use data as a tool for empowerment rather than oppression, something Williams calls "Data Action," which is also the title of her recent book. Data Action seeks to provide guidance for using data toward the benefit of society, learning from the ways we have used data unethically in the past and illustrating ways we can use it more ethically and creatively in the future. Williams will illustrate the seven Data Action principles through her diverse research projects spanning topics of Central American migration, popular transit in Africa, ghost cities in China, and translating New York City’s zoning text. Williams will also show her most recent work on People Powered AI: How to use Gen AI for Civic Engagement. 
   bio: |
