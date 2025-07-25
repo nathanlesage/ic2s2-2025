@@ -25,8 +25,12 @@
     page: travel-grants
   - name: Conduct
     page: conduct
+  - name: Next IC2S2
+    page: next-ic2s2
 - name: Program
   items:
+  - name: Awards
+    page: awards
   - name: Program
     page: program
 #   - name: Poster Details
@@ -35,8 +39,6 @@
 #     page: instructions
   - name: Keynotes
     page: keynotes
-#   - name: Awards
-#     page: awards
   - name: Tutorials
     page: tutorials
 - name: Organizers
