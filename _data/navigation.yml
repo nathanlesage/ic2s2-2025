@@ -39,6 +39,8 @@
 #     page: instructions
   - name: Keynotes
     page: keynotes
+  - name: "Keynote Recordings"
+    page: "https://www.youtube.com/playlist?list=PLrDB6riLfdJQaATZksFnXsWflA2cea9We"
   - name: Tutorials
     page: tutorials
 - name: Organizers
