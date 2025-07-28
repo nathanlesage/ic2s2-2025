@@ -20,8 +20,8 @@
   done: true
   category: conference
 - text: "Tutorial day: July 21, 2025"
-  done: false
+  done: true
   category: tutorial
 - text: "Conference days: July 22-24, 2025"
-  done: false
+  done: true
   category: conference
