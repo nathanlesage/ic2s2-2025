@@ -13,17 +13,52 @@ That being said, in this document, I have collated how I did this and how the
 website is supposed to work so that you know where to start and how to adapt it.
 If you have any questions, please reach out to me!
 
-> **Important**: This website is intended to be improved over time! If you find
-> some data or pages that you can make easier to edit for further years, please
-> do so and adapt any sections in this manual as you see fit.
+> [!NOTE]
+> This website is intended as a living document and to be improved over time! If
+> you find some data or pages that you can make easier to edit for further
+> years, please do so and adapt any sections in this manual as you see fit.
 
 ## Getting Started
 
 Before you can start working on the website, a few introductory remarks. This
-site is now running atop of Jekyll, a rock-solid static site generator. What
+website is hosted in a GitHub repository. This means that all changes can be
+retained and your changes go on top of the existing revision history. To get
+started with your iteration of IC2S2, the very first steps are the following:
+
+> [!NOTE]
+> You will need a terminal or command-line to manage the website.
+
+1. First, make sure that you have a GitHub account. This can either be an
+   organization or just a personal account (like with IC2S2 2025).
+2. Then, clone the repository onto your computer
+   (`git clone https://github.com/nathanlesage/ic2s2-2025` for the 2025
+   edition). This will create a folder named after the repository (e.g.,
+   `ic2s2-2025`) on your computer. For a clean slate, remove the hidden `.git`-
+   folder now from the downloaded repository.
+3. Create a new repository in whichever GitHub account you choose, and name it
+   `ic2s2-YYYY`, replacing `YYYY` with the correct year.
+4. Follow GitHub's instructions to add the files you just cloned on your
+   computer (remember to initialize a new, empty git repository since you just
+   removed the `.git`-folder).
+
+From now on, you have all changes on GitHub, and can use this code also to use
+Netlify or whichever provider you want to use to actually host your website.
+
+> [!TIP]
+> The rest of this manual assumes that you have created a repository on GitHub.
+> We highly recommend you do so, because this will make hosting and adapting the
+> website much simpler than if you have a collection of files on some computer
+> and uploading them using, say, FTP. Also, this way, any improvements you make
+> will be passed on to future conference organizers, ensuring that we
+> collectively improve the website experience.
+
+## Using Jekyll
+
+This site is running atop of Jekyll, a rock-solid static site generator. What
 Jekyll will do is take the contents of this folder and combine everything and
 compile the various parts into a single, static HTML folder, called `_site`.
-This is what you can then upload to whatever hosting provider you choose.
+This is what you can then upload to whatever hosting provider you choose. In the
+following, I will run you through the steps to get fully startd.
 
 ### Installing Jekyll on your Computer
 
@@ -86,7 +121,9 @@ limitations.
 
 > [!TIP]
 > We recommend you start with Netlify, as this is simple to set up, and only
-> switch to GitHub Actions if Netlify warns you of low bandwidth quota.
+> switch to GitHub Actions if Netlify warns you of low bandwidth quota. On the
+> first read of this manual, you can skip the rest of this section and return to
+> it if needed.
 
 For that, we have set up a so-called "GitHub Actions Workflow". In this
 repository you can see a folder `.github`. It includes another folder called
@@ -130,9 +167,10 @@ GitHub documentation on how to set these). The following are required:
 > conference website on GitHub pages conforms to their Terms of Service. For
 > more information on using GitHub pages, please refer to the GitHub
 > documentation. An example workflow that you can adapt can be found
-> [here](https://github.com/nathanlesage/openkit/blob/main/.github/workflows/jekyll.yml). Should you adopt GitHub pages, please do not delete the `jekyll.yml`
-> workflow but add a second workflow file instead. This way, future conference
-> organizers have the choice.
+> [here](https://github.com/nathanlesage/openkit/blob/main/.github/workflows/jekyll.yml).
+> Should you adopt GitHub pages, please do not delete the `jekyll.yml` workflow
+> but add a second workflow file instead. This way, future conference organizers
+> have the choice.
 
 ## Overview over the Structure
 
