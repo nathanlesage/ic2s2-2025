@@ -19,7 +19,7 @@
       <div class="col-{{ sponsor.width }} col-12-small">
         <section class="highlight">
           <a href="{{ sponsor.url }}">
-            <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" style="max-width: 100%"/>
+            <img src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }}" style="max-width: 100%"/>
           </a>
         </section>
       </div>
