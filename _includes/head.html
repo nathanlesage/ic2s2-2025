@@ -4,7 +4,7 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="/assets/css/main.css" />
+<link rel="stylesheet" href="{{'/assets/css/main.css' | relative_url }}" />
 
 <!-- Scripts -->
 <!--
@@ -12,12 +12,12 @@
   after the DOM has been loaded, but still keep them in the header (where they
   belong).
 -->
-<script src="/assets/js/jquery.min.js" defer></script>
-<script src="/assets/js/jquery.dropotron.min.js" defer></script>
-<script src="/assets/js/browser.min.js" defer></script>
-<script src="/assets/js/breakpoints.min.js" defer></script>
-<script src="/assets/js/util.js" defer></script>
-<script src="/assets/js/main.js" defer></script>
+<script src="{{ '/assets/js/jquery.min.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/jquery.dropotron.min.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/browser.min.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/breakpoints.min.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/util.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
 
 <!-- Include Conferia scripts -->
 <script defer src="https://cdn.jsdelivr.net/gh/nathanlesage/conferia@0.18.0/dist/conferia.js"></script>
